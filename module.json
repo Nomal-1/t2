@@ -22,7 +22,8 @@
         "compatibility": {}
     ],
     "requires": [
-      "id": "babele",
+      {
+        "id": "babele",
         "type": "module",
         "compatibility": {}
       },
