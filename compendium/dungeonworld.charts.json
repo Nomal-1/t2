@@ -1,0 +1,42 @@
+{
+  "label": "가격표",
+  "mapping": {
+    "description": "content"
+  },
+  "entries": [{
+      "id": "Bribes",
+      "name": "뇌물",
+      "description": "<ul>\n<li>농부의 지참금 &nbsp; 20-매력 닢</li>\n<li>작은 가게의 “보호세” &nbsp; 100-매력 닢</li>\n<li>관리에게 줄 뇌물 &nbsp; 50-매력 닢</li>\n<li>설득력 강한 뇌물 &nbsp; 80-매력 닢</li>\n<li>거절할 수 없는 조건 &nbsp; 500-매력 닢</li>\n</ul>"
+    },
+    {
+      "id": "Gifts and Finery",
+      "name": "선물과 사치품",
+      "description": "<ul>\n<li>농부의 선물 &nbsp; 1 닢</li>\n<li>훌륭한 선물 &nbsp; 55 닢</li>\n<li>귀족들 사이의 선물 &nbsp; 200 닢</li>\n<li>반지나 브로치 &nbsp; 75 닢</li>\n<li>화려한 고급 옷 &nbsp; 105 닢</li>\n<li>고급 벽걸이 &nbsp; 350+ 닢</li>\n<li>보석 박힌 왕관 &nbsp; 5,000 닢</li>\n</ul>"
+    },
+    {
+      "id": "Hoards",
+      "name": "전리품",
+      "description": "<ul>\n<li>고블린의 전재산 &nbsp; 2 닢</li>\n<li>도마뱀인간의 소지품 &nbsp; 5 닢</li>\n<li>“값을 따질 수 없는” 보검 &nbsp; 80 닢</li>\n<li>오크 군장에게 가는 공물 &nbsp; 250 닢</li>\n<li>용의 둥지에 가득한 돈과 보석 &nbsp; 130,000 닢</li>\n</ul>"
+    },
+    {
+      "id": "Land and Buildings",
+      "name": "토지와 건물",
+      "description": "<ul>\n<li>움집 &nbsp; 20 닢</li>\n<li>작은 시골집 &nbsp; 500 닢</li>\n<li>일반 주택 &nbsp; 2,500 닢</li>\n<li>저택 &nbsp; 50,000 닢</li>\n<li>작은 성 &nbsp; 75,000 닢</li>\n<li>큰 성 &nbsp; 250,000 닢</li>\n<li>장대한 성 &nbsp; 1,000,000 닢</li>\n<li>1개월 유지비 &nbsp; 가격의 1%</li>\n</ul>"
+    },
+    {
+      "id": "Meals",
+      "name": "식사",
+      "description": "<ul>\n<li>든든한 식사 1인분 &nbsp; 1 닢</li>\n<li>가난한 가족의 한 끼 &nbsp; 1 닢</li>\n<li>진수성찬 1인분 &nbsp; 15 닢</li>\n</ul>"
+    },
+    {
+      "id": "Services",
+      "name": "서비스",
+      "description": "<ul>\n<li>싸구려 여인숙에 1주일 투숙 &nbsp; 14-매력 닢</li>\n<li>괜찮은 여관에 1주일 투숙 &nbsp; 30-매력 닢</li>\n<li>읍내의 고급 여관에 1주일 투숙 &nbsp; 43-매력 닢</li>\n<li>평범한 비숙련 노동 1주일치 임금 &nbsp; 10 닢</li>\n<li>병사의 1개월 봉급 &nbsp; 30 닢</li>\n<li>대장장이에게 주문 제작한 물건 &nbsp; 기본 물품 가격 + 50 닢</li>\n<li>하룻밤의 “말동무” &nbsp; 20-매력 닢</li>\n<li>하루 저녁의 춤과 노래 &nbsp; 18-매력 닢</li>\n<li>산적이 들끓는 도로를 따라 하루 호위 &nbsp; 20 닢</li>\n<li>괴물이 들끓는 도로를 따라 하루 호위 &nbsp; 54 닢</li>\n<li>평범한 살인 &nbsp; 5 닢</li>\n<li>요인 암살 &nbsp; 120 닢</li>\n<li>의원의 치료 &nbsp; 5 닢</li>\n<li>고인을 위한 기도 1개월치 &nbsp; 1 닢</li>\n<li>평범한 물품의 수리 &nbsp; 가격의 25%</li>\n</ul>"
+    },
+    {
+      "id": "Transport",
+      "name": "운송",
+      "description": "<ul>\n<li>짐수레와 당나귀 &nbsp; 50 닢, 하중 20</li>\n<li>말 &nbsp; 75 닢, 하중 10</li>\n<li>군마 &nbsp; 400 닢, 하중 12</li>\n<li>사륜마차 &nbsp; 150 닢, 하중 40</li>\n<li>바지선 &nbsp; 50 닢, 하중 15</li>\n<li>나룻배 &nbsp; 150 닢, 하중 20</li>\n<li>상선 &nbsp; 5,000 닢, 하중 200</li>\n<li>군함 &nbsp; 20,000 닢, 하중 100</li>\n<li>안전한 항로의 뱃삯 &nbsp; 1 닢</li>\n<li>까다로운 항로의 뱃삯 &nbsp; 10 닢</li>\n<li>위험한 항로의 뱃삯 &nbsp; 100 닢</li>\n</ul>"
+    }
+  ]
+}

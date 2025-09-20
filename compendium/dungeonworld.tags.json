@@ -1,0 +1,297 @@
+{
+	"label": "태그",
+	"mapping": {
+		"description": "system.description"
+	},
+	"entries": [
+		{
+			"id": "-1 forward",
+			"name": "다음 판정에 -1",
+			"description": "다음 판정 결과에 -1을 뺍니다."
+		},
+		{
+			"id": "+1 damage",
+			"name": "피해 +1",
+			"description": "아이템의 피해에 +1을 더합니다."
+		},
+		{
+			"id": "+1 ongoing",
+			"name": "판정에 계속 +1",
+			"description": "모든 판정 결과에 +1을 더합니다."
+		},
+		{
+			"id": "+2 damage",
+			"name": "피해 +2",
+			"description": "아이템의 피해에 +2을 더합니다."
+		},
+		{
+			"id": "+3 damage",
+			"name": "피해 +3",
+			"description": "아이템의 피해에 +3을 더합니다."
+		},
+		{
+			"id": "1 ammo",
+			"name": "발수 1",
+			"description": "무기의 탄약이 1개입니다."
+		},
+		{
+			"id": "1 armor",
+			"name": "장갑 1",
+			"description": "아이템의 기본 장갑 값은 1입니다."
+		},
+		{
+			"id": "1 piercing",
+			"name": "관통 1",
+			"description": "피해를 줄 때 적의 장갑 1점을 무시합니다."
+		},
+		{
+			"id": "2 ammo",
+			"name": "발수 2",
+			"description": "무기의 탄약이 2개입니다."
+		},
+		{
+			"id": "2 armor",
+			"name": "장갑 2",
+			"description": "아이템의 기본 장갑 값은 2입니다."
+		},
+		{
+			"id": "2 piercing",
+			"name": "관통 2",
+			"description": "피해를 줄 때 적의 장갑 2점을 무시합니다."
+		},
+		{
+			"id": "3 ammo",
+			"name": "발수 3",
+			"description": "무기의 탄약이 3개입니다."
+		},
+		{
+			"id": "3 armor",
+			"name": "장갑 3",
+			"description": "아이템의 기본 장갑 값은 3입니다."
+		},
+		{
+			"id": "3 piercing",
+			"name": "관통 3",
+			"description": "피해를 줄 때 적의 장갑 3점을 무시합니다."
+		},
+		{
+			"id": "4 ammo",
+			"name": "발수 4",
+			"description": "무기의 탄약이 4개입니다."
+		},
+		{
+			"id": "Amorphous",
+			"name": "부정형",
+			"description": "명확한 형태가 없으며, 물리적 공격에 대한 내성이 있습니다."
+		},
+		{
+			"id": "Applied",
+			"name": "투여",
+			"description": "투여된 대상에게 효과를 발휘합니다."
+		},
+		{
+			"id": "Awkward",
+			"name": "거추장스러움",
+			"description": "다루기 어렵거나 사용하기 불편합니다."
+		},
+		{
+			"id": "Cautious",
+			"name": "조심스러움",
+			"description": "공격에 신중하고 방어적입니다."
+		},
+		{
+			"id": "Close",
+			"name": "한걸음",
+			"description": "팔이 닿을락 말락 한 거리를 뜻합니다. '한걸음' 태그가 있는 무기로는 근접 전투를 벌일 수 있습니다."
+		},
+		{
+			"id": "Clumsy",
+			"name": "불편",
+			"description": "다루기 어렵습니다."
+		},
+		{
+			"id": "Construct",
+			"name": "인공물",
+			"description": "생명체가 아닌, 마법이나 기술로 만들어진 존재입니다."
+		},
+		{
+			"id": "Dangerous",
+			"name": "위험",
+			"description": "공격 판정에서 10+을 굴려도 7-9 결과가 나옵니다."
+		},
+		{
+			"id": "Devious",
+			"name": "음흉",
+			"description": "속임수에 능하고 교활합니다."
+		},
+		{
+			"id": "Far",
+			"name": "장거리",
+			"description": "화살이나 총알이 닿는 거리를 뜻합니다. '장거리' 태그가 있는 무기로는 원거리 전투를 벌일 수 있습니다."
+		},
+		{
+			"id": "Forceful",
+			"name": "괴력",
+			"description": "적을 넘어뜨리거나 밀쳐낼 수 있을 정도로 강력한 힘이 있습니다."
+		},
+		{
+			"id": "Group",
+			"name": "소집단",
+			"description": "작은 무리를 이루고 있습니다."
+		},
+		{
+			"id": "Hand",
+			"name": "반걸음",
+			"description": "팔이 닿는 거리를 뜻합니다. '반걸음' 태그가 있는 무기로는 근접 전투를 벌일 수 있습니다."
+		},
+		{
+			"id": "Hoarder",
+			"name": "보물지기",
+			"description": "귀중한 물건을 숨기거나 지키고 있습니다."
+		},
+		{
+			"id": "Horde",
+			"name": "대집단",
+			"description": "큰 무리를 이루고 있습니다."
+		},
+		{
+			"id": "Huge",
+			"name": "거대",
+			"description": "보통의 사람보다 훨씬 큰 크기입니다."
+		},
+		{
+			"id": "Ignores Armor",
+			"name": "장갑 무시",
+			"description": "공격 시 적의 장갑을 완전히 무시합니다."
+		},
+		{
+			"id": "Intelligent",
+			"name": "지능적",
+			"description": "매우 영리하고 복잡한 계획을 세울 수 있습니다."
+		},
+		{
+			"id": "Large",
+			"name": "큼",
+			"description": "보통의 사람보다 큰 크기입니다."
+		},
+		{
+			"id": "Magical",
+			"name": "마법적",
+			"description": "마법적인 속성을 가지고 있습니다."
+		},
+		{
+			"id": "Messy",
+			"name": "파괴적",
+			"description": "큰 소동을 일으키거나 광범위한 피해를 줍니다."
+		},
+		{
+			"id": "Near",
+			"name": "중거리",
+			"description": "투척 무기가 닿을 만한 거리를 뜻합니다. '중거리' 태그가 있는 무기로는 원거리 전투를 벌일 수 있습니다."
+		},
+		{
+			"id": "Organized",
+			"name": "조직적",
+			"description": "질서정연하게 행동합니다."
+		},
+		{
+			"id": "Planar",
+			"name": "이계",
+			"description": "다른 차원(plane)에서 왔습니다."
+		},
+		{
+			"id": "Precise",
+			"name": "정밀",
+			"description": "약점을 노려 공격하기 용이합니다."
+		},
+		{
+			"id": "Ration",
+			"name": "식량",
+			"description": "여행자를 위한 식량입니다."
+		},
+		{
+			"id": "Reach",
+			"name": "몇걸음",
+			"description": "창, 긴 칼 또는 폴암 같은 긴 무기가 닿을 거리를 뜻합니다. '몇걸음' 태그가 있는 무기로는 근접 전투를 벌일 수 있습니다."
+		},
+		{
+			"id": "Reload",
+			"name": "재장전",
+			"description": "한 번 사용하고 나면 다시 사용하기 전에 재장전해야 합니다."
+		},
+		{
+			"id": "Requires",
+			"name": "필요",
+			"description": "사용 시 특정 조건을 충족해야 합니다."
+		},
+		{
+			"id": "Requires Dwarf",
+			"name": "필요 (드워프)",
+			"description": "드워프 종족이 사용해야 합니다."
+		},
+		{
+			"id": "Slow",
+			"name": "느림",
+			"description": "이동 속도가 느립니다."
+		},
+		{
+			"id": "Small",
+			"name": "작음",
+			"description": "보통의 사람보다 작은 크기입니다."
+		},
+		{
+			"id": "Solitary",
+			"name": "외톨이",
+			"description": "단독으로 행동합니다."
+		},
+		{
+			"id": "Stealthy",
+			"name": "은밀",
+			"description": "교활하고 몰래 움직이는 데 능합니다."
+		},
+		{
+			"id": "Stun",
+			"name": "충격",
+			"description": "피해를 입은 대상은 다음 판정에서 -1을 받습니다."
+		},
+		{
+			"id": "Terrifying",
+			"name": "끔찍함",
+			"description": "보는 이를 겁에 질리게 합니다."
+		},
+		{
+			"id": "Thrown",
+			"name": "투척",
+			"description": "던져서 공격할 수 있는 무기입니다."
+		},
+		{
+			"id": "Tiny",
+			"name": "매우 작음",
+			"description": "보통의 사람보다 훨씬 작은 크기입니다."
+		},
+		{
+			"id": "Touch",
+			"name": "접촉",
+			"description": "대상을 만지는 것으로 효과를 발휘합니다."
+		},
+		{
+			"id": "Two-handed",
+			"name": "양손",
+			"description": "무기를 휘두르려면 양손이 필요합니다."
+		},
+		{
+			"id": "Worn",
+			"name": "착용",
+			"description": "장갑 보너스를 얻으려면 착용해야 합니다."
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
