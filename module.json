@@ -37,16 +37,16 @@
     ]
   },
   "esmodules": [
-    "script/dungeonworld-ko.js"
+    "dungeonworld-ko.js"
   ],
   "styles": [
-    "styles/dungeonworld.css"
+    "css/dungeonworld.css"
   ],
   "languages": [
     {
       "lang": "ko",
       "name": "Korean",
-      "path": "script/ko.json"
+      "path": "ko.json"
     }
   ],
   "url": "#{URL}#",
