@@ -1,0 +1,21 @@
+{
+  "label": "장비 (독)",
+  "entries": [
+    {
+      "id": "Bloodweed",
+      "name": "박혈초"
+    },
+    {
+      "id": "Goldenroot",
+      "name": "황금근"
+    },
+    {
+      "id": "Oil of Tagit",
+      "name": "타기트 기름"
+    },
+    {
+      "id": "Serpent's Tears",
+      "name": "뱀눈물"
+    }
+  ]
+}

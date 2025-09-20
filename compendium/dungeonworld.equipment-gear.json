@@ -1,0 +1,69 @@
+{
+  "label": "장비 (던전 장비)",
+  "mapping": {
+    "name": "name",
+    "description": "data.description"
+  },
+  "entries": [
+    {
+      "id": "Adventuring Gear",
+      "name": "모험 장비",
+      "description": "<p>모험 장비는 백묵, 장대, 못, 밧줄 같이 평범하지만 유용한 물건들을 한데 모은 추상적인 집합입니다. 모험 장비를 뒤지면 평범하고 유용한 물건이 하나 나오고, 1회분이 소모됩니다.</p>"
+    },
+    {
+      "id": "Anti-Toxin",
+      "name": "해독제",
+      "description": "<p>해독제를 마시면 현재 작용 중인 독 하나가 치료됩니다.</p>"
+    },
+    {
+      "id": "Bag of Books",
+      "name": "책 자루",
+      "description": "<p><a class=\"entity-link\" draggable=\"true\" data-pack=\"dungeonworld.basic-moves\" data-id=\"VGOMbAoUtpR4gGcx\"><i class=\"fas fa-suitcase\"></i> 지식 더듬기</a>를 할 때, 그 주제에 딱 맞는 책이 자루 안에 있으면 1회분을 소비하고 책을 읽어서 판정에 +1을 받을 수 있습니다.</p>"
+    },
+    {
+      "id": "Bandages",
+      "name": "붕대",
+      "description": "<p>몇 분을 들여서 다른 사람의 상처에 붕대를 감으면 4HP가 회복되고 1회분이 소모됩니다.</p>"
+    },
+    {
+      "id": "Dungeon Rations",
+      "name": "던전용 식량",
+      "description": "<p>맛있지는 않지만 나쁘지도 않습니다.</p>"
+    },
+    {
+      "id": "Dwarven Hardtack",
+      "name": "드워프 건빵",
+      "description": "<p>드워프들은 고향의 맛이라고 하고, 다른 사람들은 지옥의 맛이라고 합니다.</p>"
+    },
+    {
+      "id": "Elven Bread",
+      "name": "엘프 빵",
+      "description": "<p>엘프들의 진정한 친구만이 이 빵을 맛볼 기회를 얻습니다.</p>"
+    },
+    {
+      "id": "Halfling Pipeleaf",
+      "name": "하플링 담뱃잎",
+      "description": "<p><a class=\"entity-link\" draggable=\"true\" data-pack=\"dungeonworld.basic-moves\" data-id=\"HcKY3KnfpKi78HtK\"><i class=\"fas fa-suitcase\"></i> 협상</a>하플링 담뱃잎 2회분을 누군가와 함께 나누어 피우면, 상대와의 다음 번 협상 판정에 +1을 받습니다.</p>"
+    },
+    {
+      "id": "Healing Potion",
+      "name": "치료약",
+      "description": "<p>치료약 한 병을 통째로 들이키면 10HP가 회복되거나 약화 효과가 하나 사라집니다. (플레이어가 고릅니다.)</p>"
+    },
+    {
+      "id": "Keg of Dwarven Stout",
+      "name": "드워프 맥주통",
+      "description": "<p>드워프 맥주통을 따고 모두에게 마음껏 마시라고 하면 <a class=\"entity-link\" draggable=\"true\" data-pack=\"dungeonworld.basic-moves\" data-id=\"CPEw8vfEXxyt2WaU\"><i class=\"fas fa-suitcase\"></i> 축하연</a> 판정에 +1을 받습니다. 혼자서 한 통을 다 마시면 매우, 매우 취합니다.</p>"
+    },
+    {
+      "id": "Personal Feast",
+      "name": "고급 도시락",
+      "description": "<p>음식으로 하는 돈 자랑입니다.</p>"
+    },
+    {
+      "id": "Poultices and Herbs",
+      "name": "연고와 약초",
+      "description": "<p>연고와 약초로 누군가의 상처를 조심스럽게 치료하면 7HP가 회복되고 1회분이 소모됩니다.</p>"
+    }
+  ]
+}

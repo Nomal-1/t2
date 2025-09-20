@@ -1,0 +1,123 @@
+{
+  "label": "장비 (무기)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
+  "entries": [
+    {
+      "id": "Axe",
+      "name": "도끼",
+      "description": "<p>나무를 쪼개거나 무기로 사용할 수 있는 도구입니다.</p>"
+    },
+    {
+      "id": "Battle Axe",
+      "name": "전투도끼",
+      "description": "<p>전투를 위해 고안된 양손 도끼입니다.</p>"
+    },
+    {
+      "id": "Bundle of Arrows",
+      "name": "화살 다발",
+      "description": "<p>평범한 화살 다발입니다.</p>"
+    },
+    {
+      "id": "Club",
+      "name": "곤봉",
+      "description": "<p>나무로 만든 둔기입니다.</p>"
+    },
+    {
+      "id": "Crossbow",
+      "name": "쇠뇌",
+      "description": "<p>기계식 활입니다.</p>"
+    },
+    {
+      "id": "Dagger",
+      "name": "단검",
+      "description": "<p>작은 철제 칼입니다.</p>"
+    },
+    {
+      "id": "Dueling Rapier",
+      "name": "결투용 레이피어",
+      "description": "<p>균형이 잘 잡힌 가느다란 양날 한손검입니다.</p>"
+    },
+    {
+      "id": "Elven Arrows",
+      "name": "엘프 화살"
+    },
+    {
+      "id": "Fine Bow",
+      "name": "보통 활",
+      "description": "<p>잘 만들어진 활입니다.</p>"
+    },
+    {
+      "id": "Flail",
+      "name": "도리깨"
+    },
+    {
+      "id": "Halberd",
+      "name": "할버드"
+    },
+    {
+      "id": "Hunter's Bow",
+      "name": "사냥용 활",
+      "description": "<p>속도와 정확성을 위해 정교하게 조정된 활입니다.</p>"
+    },
+    {
+      "id": "Knife",
+      "name": "단도"
+    },
+    {
+      "id": "Long Sword",
+      "name": "장검",
+      "description": "<p>긴 칼날이 달린 양손검입니다.</p>"
+    },
+    {
+      "id": "Mace",
+      "name": "철퇴"
+    },
+    {
+      "id": "Ragged Bow",
+      "name": "낡은 활"
+    },
+    {
+      "id": "Rapier",
+      "name": "레이피어"
+    },
+    {
+      "id": "Shillelagh",
+      "name": "혹몽둥이"
+    },
+    {
+      "id": "Shiv",
+      "name": "비수"
+    },
+    {
+      "id": "Short Sword",
+      "name": "소검",
+      "description": "<p>짧은 한손검입니다.</p>"
+    },
+    {
+      "id": "Spear",
+      "name": "창",
+      "description": "<p>긴 막대에 뾰족한 금속이 달린 무기입니다.</p>"
+    },
+    {
+      "id": "Staff",
+      "name": "지팡이",
+      "description": "<p>타격용 도구로 사용하기 위해 나무를 깎아 만든 지팡이입니다.</p>"
+    },
+    {
+      "id": "Throwing Dagger",
+      "name": "투척용 단검"
+    },
+    {
+      "id": "Two-handed sword",
+      "name": "양손검",
+      "description": ""
+    },
+    {
+      "id": "War hammer",
+      "name": "전투망치"
+    }
+  ]
+}
