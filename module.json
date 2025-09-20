@@ -17,9 +17,11 @@
   ],
   "relationships": {
     "systems": [
-      "id": "dungeonworld",
+      {
+        "id": "dungeonworld",
         "type": "system",
         "compatibility": {}
+      }
     ],
     "requires": [
       {
