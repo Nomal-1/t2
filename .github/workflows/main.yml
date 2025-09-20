@@ -120,6 +120,11 @@ jobs:
             README.md                            \
             LICENSE                              \
             templates                            \
+            ko.json                              \
+            dungeonworld-ko.js                   \
+            compendium/                          \
+            css/                                 \
+            assets/                              \
             scripts/                             \
             styles/                              \
             packs/                               \
