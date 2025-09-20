@@ -1,40 +1,48 @@
 {
-  "id": "module",
-  "title": "New Module",
-  "description": "",
+  "id": "dungeonworld-ko",
+  "title": "Dungeon World Korean Translation",
+  "description": "던월 12.331 한글 번역 테스트용 모듈",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 10,
-    "verified": 10,
-    "maximum": 11
+    "minimum": 12,
+    "verified": 12.331,
+    "maximum": 13
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
-      "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "name": "Nomal"
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "systems": [
+      "id": "dungeonworld",
+        "type": "system",
+        "compatibility": {}
+    ],
+    "requires": [
+      "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+    ]
   },
   "esmodules": [
-    "scripts/module.js"
-  ],
-  "scripts": [
-    "scripts/lib/lib.js"
+    "dungeonworld-ko.js"
   ],
   "styles": [
-    "styles/module.css"
+    "css/dungeonworld.css"
   ],
   "languages": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
+      "lang": "ko",
+      "name": "Korean",
+      "path": "ko.json"
     }
   ],
   "url": "#{URL}#",
