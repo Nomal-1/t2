@@ -1,5 +1,5 @@
 {
-    "label": "Actions du·de la Druide·sse",
+    "label": "드루이드 액션",
     "mapping": {
         "name": "name",
 		"description": "system.description",
@@ -10,133 +10,133 @@
     },
     "entries": [{
             "id": "Balance",
-            "name": "Equilibre",
-            "description": "<p>Quand vous faites des dégâts retenez 1 point d’équilibre. Quand vous touchez quelqu’un et canalisez les esprits de la vie, vous pouvez dépenser des points d’équilibre et soigner 1d4 dégâts par point dépensé.</p>"
+            "name": "조화",
+            "description": "<p>피해를 줄 때마다 예비 1점을 받습니다. 그 후 부상자를 만지고 예비를 써서 생명의 신령을 부를 수 있습니다. 이렇게 소비한 예비 1점당 1d4 HP가 치유됩니다.</p>"
         },
         {
             "id": "Barkskin",
-            "name": "Peau d’écorce",
-            "description": "<p>Tant que vos pieds touchent le sol, vous avez +1 armure.</p>"
+            "name": "나무껍질",
+            "description": "<p>발이 땅에 닿아 있는 동안 장갑에 +1을 받습니다.</p>"
         },
         {
             "id": "Blood and Thunder",
-            "name": "Sang et tonnerre",
-            "description": "<p><em>Remplace : Nature Impitoyable</em></p>\n<p>Quand vous avez une forme animale appropriée (c’est à dire dangereuse), utilisez 1d10 comme dé de dégâts.</p>"
+            "name": "피와 천둥",
+            "description": "<p><em>대체: 피 묻은 이빨과 발톱</em></p><p>위험한 동물로 변신한 상태에서 가하는 피해가 d10이 됩니다.</p>"
         },
         {
             "id": "Born of the Soil",
-            "name": "Enfant du pays",
-            "description": "<p>Vous avez appris votre magie dans un lieu où les esprits sont forts et anciens. Ils vous ont marqué comme l’un·e des leurs. Où que vous alliez, ils vivent en vous et vous permettent de prendre leur forme. Choisissez une région ci-dessous ; c’est celle avec laquelle vous êtes en harmonie. Lorsque vous changez de forme, vous pouvez prendre celle d’un animal qui pourrait vivre dans votre région.</p>\n<ul>\n<li>La Grande Forêt</li>\n<li>Les Plaines Murmurantes</li>\n<li>Le Vaste Désert</li>\n<li>Le Marais Puant</li>\n<li>Le Delta de la Rivière</li>\n<li>Les Profondeurs de la Terre</li>\n<li>Les Iles de Saphir</li>\n<li>La Pleine Mer</li>\n<li>Les Hautes Montagnes</li>\n<li>Le Nord Gelé</li>\n<li>Les Terres Flétries</li></ul>\n<p>Choisissez un aspect - un attribut physique qui vous identifie comme enfant du pays - qui reflète l’esprit de votre région. Ce peut être une caractéristique animale comme des bois ou des taches de léopard ou quelque chose de plus général : une chevelure de feuilles, des yeux de cristal brillant. Votre aspect demeure quelle que soit votre forme.</p>"
+            "name": "대지의 아들/딸",
+            "description": "<p>드루이드는 고대의 신령들이 깃든 곳에서 그 지식과 술법을 배웁니다. 드루이드를 가족으로 받아들인 대지의 신령들은 어디를 가나 드루이드의 마음 속에 함께하며, 자기들의 모습을 취할 수 있도록 허락해 줍니다. 다음 중 자신과 결연된 지형을 고르십시오. 드루이드는 자기의 땅에 서식하는 짐승이라면 어느 것의 모습으로도 변신할 수 있습니다:</p>\n<ul>\n<li>거대한 숲</li>\n<li>속삭이는 평야</li>\n<li>광활한 사막</li>\n<li>악취 나는 늪</li>\n<li>너른 삼각주</li>\n<li>땅 속 깊은 곳</li>\n<li>초록빛 섬들</li>\n<li>솟아오른 산맥</li>\n<li>얼어붙은 북방</li>\n<li>황량한 불모지</li>\n</ul>\n<p>드루이드로서의 증표를 고르십시오. 이것은 대지의 자식임을 뜻하는 신체적 특징이며, 결연된 땅의 신령을 반영합니다. 표범의 무늬나 사슴의 뿔과 같이 동물적인 특징도 가능하고, 나뭇잎 같은 머리카락이나 얼음 같은 눈동자 같은 것도 됩니다. 증표는 어느 모습을 취하건 간에 유지됩니다.</p>"
         },
         {
             "id": "By Nature Sustained",
-            "name": "Nourri par la nature",
-            "description": "<p>Vous n’avez pas besoin de boire ou de manger. Si une action vous demande de consommer une ration, ignorez cette consigne.</p>"
+            "name": "자연의 보살핌",
+            "description": "<p>먹거나 마시지 않아도 살 수 있습니다. 룰에 식량을 소비하라는 말이 나오면 무시하십시오.</p>"
         },
         {
             "id": "Chimera",
-            "name": "Chimère",
-            "description": "<p>Quand vous changez de forme, vous pouvez créer une forme composite de 3 différentes formes maximum. Vous pouvez être un ours avec les ailes d’un aigle et une tête de bélier par exemple. Chaque particularité vous permettra d’effectuer une action. Votre chimère suit les mêmes règles que Changeforme pour le reste.</p>"
+            "name": "합성수",
+            "description": "<p>변신을 할 때, 최대 세 가지 형태를 섞을 수 있습니다. 예를 들어 독수리의 날개와 숫양의 머리를 한 곰 같은 것도 가능합니다. 마스터가 각 형태의 액션을 하나씩 제시할 것입니다. 그 외로는 변신과 같은 룰을 따릅니다.</p>"
         },
         {
             "id": "Communion of Whispers",
-            "name": "Communion des murmures",
-            "description": "<p>Quand vous passez du temps quelque part en observant les esprits qui y demeurent et en faisant appel aux esprits de la région, lancez 2d6+SAG. Vous recevrez une vision significative pour vous, vos alliés et les esprits des alentours.</p>.",
-            "failure": "<p>La vision est bouleversante, effrayante ou traumatisante. Lae MJ la décrira. Vous avez -1 à votre prochaine action.</p>",
-			"partial": "<p>La vision est brouillée et sa signification obscure.<p>",
-			"success": "<p>La vision est claire et utile pour vous.</p>"
+            "name": "신령의 속삭임",
+            "description": "<p>일정한 장소에 머물면서 그곳에 사는 신령들이 누구인지 확인하고 이들과 대화를 하면 +혜 판정을 합니다. 그러면 자기 자신, 동료들, 그리고 주변의 신령들에게 의미가 있는 환영을 보게 됩니다. </p>.",
+            "failure": "<p>끔찍하거나, 충격적이거나, 불안한 광경을 보아 다음 판정에 -1을 받습니다.</p>",
+			"partial": "<p>불확실하고 의미를 알기 힘든 환영을 봅니다.<p>",
+			"success": "<p>뚜렷하고 바로 도움이 되는 환영이 보입니다.</p>"
         },
         {
             "id": "Doppleganger's Dance",
-            "name": "Danse du doppleganger",
-            "description": "<p>Vous pouvez étudier l’essence d’individus pour prendre leur forme exacte, y compris des humains, des elfes ou autres. Vous pouvez supprimer votre aspect, mais alors vous avez -1 continu jusqu’au retour à votre forme normale.</p>"
+            "name": "흉내",
+            "description": "<p>특정 개체의 본질을 연구하여 그 모습을 그대로 취할 수 있게 됩니다. 인간과 엘프와 같은 사람도 가능합니다. 드루이드의 증표를 숨기는 것도 가능하지만, 그럴 경우 원래 모습으로 돌아올 때까지 판정에 계속 -1이 붙습니다.</p>"
         },
         {
             "id": "Elemental Mastery",
-            "name": "Maîtrise élémentaire",
-            "description": "<p>Quand vous faites appel aux esprits primitifs du feu, de l’eau, de l’air et de la terre afin qu’ils exécutent une tâche pour vous, lancez 2d6+SAG.</p>",
-            "failure": "<p>Votre appel entraîne une catastrophe.</p>",
-			"partial": "<p>Choisissez un résultat.<p>",
-			"success": "<p>Choisissez deux résultats.</p>",
-			"choices": "<ul><li>L’effet souhaité survient.</li><li>La nature ne demande pas de contrepartie.</li><li>Vous gardez le contrôle.</li></ul>"
+            "name": "원소의 주인",
+            "description": "<p>불, 물, 흙, 바람의 정령을 불러 일을 시키면 +혜 판정을 합니다.</p>",
+            "failure": "<p>소환의 결과로 마스터가 정하는 재난이 일어납니다.</p>",
+			"partial": "<p>다음 중 하나를 고릅니다.<p>",
+			"success": "<p>다음 중 둘을 고릅니다.</p>",
+			"choices": "<ul><li>원하는 효과가 일어납니다.</li><li>자연이 요구하는 대가를 치르지 않아도 됩니다.</li><li>정령이 자신의 통제를 벗어나지 않습니다.</li></ul>"
         },
         {
             "id": "Embracing No Form",
-            "name": "Informe",
-            "description": "<p>Quand vous changez de forme, ajoutez 1d4 à votre retenue.</p>"
+            "name": "형태의 자유",
+            "description": "<p>변신할 때 1d4를 굴려 예비에 더합니다.</p>"
         },
         {
             "id": "Eyes of the Tiger",
-            "name": "L’œil du tigre",
-            "description": "<p>Quand vous marquez un animal (avec de la boue, de la saleté ou du sang), vous pouvez voir à travers ses yeux comme s’il s’agissait des vôtres, quelle que soit la distance qui vous sépare. Vous ne pouvez marquer qu’un animal à la fois.</p>"
+            "name": "호랑이의 눈",
+            "description": "<p>동물에게 피, 흙, 진흙 등으로 표시를 하면 그 동물의 눈을 통해 볼 수 있습니다. 거리는 관계가 없습니다. 한 번에는 하나의 동물에만 이런 식으로 표시를 할 수 있습니다.</p>"
         },
         {
             "id": "Formcrafter",
-            "name": "Modeleur",
-            "description": "<p>Lorsque vous changez de forme, choisissez une caractéristique. Les jets avec cette caractéristique sont à +1 continu tant que vous êtes sous cette forme. Lae MJ en choisit une autre pour laquelle les jets sont à -1 continu tant que dure la forme.</p>"
+            "name": "변신의 명수",
+            "description": "<p>변신을 할 때 능력수정치를 하나 고릅니다. 변신 상태에서 그 수정치로 판정을 할 때 계속 +1을 받습니다. 마스터도 능력수정치를 하나 고를 것입니다. 변신 상태에서 그 수정치로 판정을 할 때는 계속 -1을 받습니다.</p>"
         },
         {
             "id": "Formshaper",
-            "name": "Sculpteur",
-            "description": "<p><em>Requiert : Modeleur</em></p>\n<p>Vous pouvez augmenter votre armure de 1 ou infliger +1d4 dégâts pendant que vous êtes en forme animale. Choisissez l’un ou l’autre quand vous changez de forme.</p>"
+            "name": "변신의 달인",
+            "description": "<p><em>필요: 변신의 명수</em></p><p>동물 형태일 때 장갑을 1 높이거나 +1d4의 피해를 더 줄 수 있습니다. 어느 쪽인지는 변신을 할 때 선택하십시오.</p>"
         },
         {
             "id": "Hunter's Brother",
-            "name": "Le frère du chasseur",
-            "description": "<p>Choisissez une action de la liste de l’éclaireur"
+            "name": "사냥꾼의 형제",
+            "description": "<p>사냥꾼의 직업 액션 중에서 하나를 선택하십시오.</p>"
         },
         {
             "id": "Red of Tooth and Claw",
-            "name": "Nature impitoyable",
-            "description": "<p>Quand vous avez une forme animale appropriée (c’est à dire dangereuse), utilisez 1d8 comme dé de dégâts.</p>"
+            "name": "피 묻은 이빨과 발톱",
+            "description": "<p>위험한 동물로 변신한 상태에서 가하는 피해가 d8이 됩니다.</p>"
         },
         {
             "id": "Shapeshifter",
-            "name": "Changeforme",
-            "description": "<p>Quand vous faites appel aux esprits pour changer votre forme, lancez 2d6+SAG. </p>\n<p>Vous pouvez prendre la forme de toute espèce dont vous avez contemplé l’essence ou qui vit dans votre région ; vous et vos possessions se fondent en une parfaite copie de la forme de cette espèce. Vous avez toutes les capacités et faiblesses innées de cette forme : griffes, ailes, branchies vous permettant de respirer sous l’eau. Vous utilisez vos caractéristiques normales, mais certaines actions peuvent être plus difficiles à mettre en œuvre (un chat aura plus de mal à se battre contre un ogre). Lae MJ vous indiquera une ou plusieurs actions associées à votre nouvelle forme. Utilisez 1 pour accomplir cette action. Quand vous n’avez plus de retenue, vous revenez à votre forme normale. A tout moment, vous pouvez dépenser toutes vos retenues pour revenir à votre forme normale.</p>\n\n<p><em>Les actions de forme indiquent simplement ce que l’animal fait naturellement, comme « appeler la meute », « piétiner un ennemi » ou « s’envoler dans les airs ». Lorsque vous dépensez votre retenue, votre instinct animal prend le contrôle et cette action se déroule. Si vous dépensez une retenue pour vous échapper dans les airs, ça y est, vous y êtes.</em></p>",
-            "failure": "<p>Retenez 1 en plus de ce que dira lae MJ.</p>",
-			"partial": "<p>Retenez 2.<p>",
-			"success": "<p>Retenez 3.</p>"
+            "name": "변신",
+            "description": "<p>신령들에게 부탁하여 모습을 바꿀 때 +혜 판정을 합니다.</p>\n<p>결연된 땅에 살고 있거나, 자신이 따로 본질을 연구한 동물로만 변신을 할 수 있습니다. 옷과 소지품은 변신할 때 동물의 몸에 흡수됩니다. 변신했을 때의 능력과 약점은 그 형태를 따릅니다. 표범이라면 발톱이 있을 것이고, 독수리라면 날개가 있을 것이며, 송어라면 물 밖에서 숨을 쉬지 못할 것입니다. 능력치는 그대로 사용하지만, 액션이 발동되기 어려운 경우가 있을 것입니다. 예를 들어 고양이 몸으로는 거인과 싸우는 것이 불가능에 가깝습니다. 변신할 때, 마스터가 새 형태로 할 수 있는 액션을 1개 이상 제시할 것입니다. 예비를 1점 쓰면 판정 없이 그 액션을 할 수 있습니다. 예비가 모두 떨어지면 원래 모습으로 돌아옵니다. 원하면 언제든지 남은 예비를 모두 소비해서 사람 모습으로 돌아올 수 있습니다.</p>",
+            "failure": "<p>예비 1점을 받지만 마스터가 지정하는 무슨 일인가가 일어납니다.</p>",
+			"partial": "<p>예비 2점을 받습니다.<p>",
+			"success": "<p>예비 3점을 받습니다.</p>"
         },
         {
             "id": "Shed",
-            "name": "Mue",
-            "description": "<p>Quand vous subissez des dégâts en changeforme,vous pouvez choisir de revenir à votre forme normale pour les annuler.</p>"
+            "name": "허물 벗기",
+            "description": "<p>변신한 상태에서 피해를 입을 경우, 원래 모습으로 돌아오면 그 피해를 면할 수 있습니다.</p>"
         },
         {
             "id": "Spirit Tongue",
-            "name": "Langue des esprits",
-            "description": "<p>Les grognements, aboiements, pépiements et appels des créatures de la nature sont un langage pour vous. Vous pouvez comprendre tout animal de votre région ou apparenté à une espèce dont vous avez contemplé l’essence.</p>"
+            "name": "신령어",
+            "description": "<p>야생 동물들의 짖는 소리나 지저귀는 소리를 사람의 언어처럼 이해할 수 있습니다. 자기가 결연된 땅에 사는 동물, 또는 자신이 본질을 연구한 동물에 대해서만 통합니다.</p>"
         },
         {
             "id": "Stalker's Sister",
-            "name": "La sœur du traqueur",
-            "description": "<p>Choisissez une action de la liste de l’éclaireur.</p>"
+            "name": "숲사람의 자매",
+            "description": "<p>사냥꾼의 직업 액션 중에서 하나를 선택하십시오.</p>"
         },
         {
             "id": "Studied Essence",
-            "name": "Contemplation de l’essence",
-            "description": "<p>Quand vous passez du temps en contemplation d’un esprit animal, vous pouvez en ajouter l’espèce à celles dont vous pouvez prendre la forme.</p>"
+            "name": "본질의 연구",
+            "description": "<p>어느 동물의 신령에 관해 묵상하며 시간을 보내면, 그 종류의 동물로 변신할 수 있게 됩니다.</p>"
         },
         {
             "id": "The Druid Sleep",
-            "name": "Le repos du druide",
-            "description": "<p>Quand vous prenez cette action, vous pouvez entrer en harmonie avec une nouvelle région la prochaine fois que vous pouvez passer du temps en sécurité dans le lieu approprié. Cet effet n’a lieu qu’une fois et lae MJ vous dira combien de temps cela prend et quel en est le coût. A partir de cet instant vous êtes considéré comme l’enfant du pays dans ces deux régions.</p>"
+            "name": "드루이드의 잠",
+            "description": "<p>이 액션을 선택한 다음, 적절한 장소에서 안전하게 시간을 보낼 기회가 있으면 그 곳에 결연될 수 있습니다. 이 효과는 단 한 번만 일어나며, 이에 걸리는 시간, 치러야 하는 대가는 마스터가 정합니다. 이렇게 하고 나면 두 곳 모두에 결연된 것이 됩니다.</p>"
         },
         {
             "id": "Thing-talker",
-            "name": "Métamorphe",
-            "description": "<p>Vous voyez les esprits du sable, de la mer et de la pierre. Vous pouvez dorénavant utiliser Langue des Esprits, Contemplation de l’Essence et Changeforme avec des objets naturels inanimés (plantes et rochers) ou des créatures qui en sont faits, comme vous le feriez avec des animaux. La forme peut en être l’exacte copie ou celles d’entités mobiles d’aspect vaguement humanoïde.</p>"
+            "name": "목석과의 대화",
+            "description": "<p>모래와 바다와 돌에서도 신령을 볼 수 있습니다. 이제&nbsp; 신령어, 변신, 본질의 연구를 동물은 물론 나무나 돌과 같이 움직이지 않는 천연물에 대해서도 쓸 수 있습니다. 이렇게 변신할 때는 천연의 모습을 그대로 취할 수도 있고, 사람 모양의 움직이는 바위나 나무가 될 수도 있습니다.</p>"
         },
         {
             "id": "Weather Weaver",
-            "name": "Tisseur du temps",
-            "description": "<p>Quand vous êtes à l’extérieur au lever du soleil, lae MJ vous demandera le temps qu’il fera ce jour. Dites-lui ce que vous voulez, cela se passera ainsi.</p>"
+            "name": "날씨 짜기",
+            "description": "<p>아침 해가 뜰 때 탁 트인 하늘 아래에 있으면, 오늘의 날씨가 어떻게 될지 마음대로 정할 수 있습니다.</p>"
         },
         {
             "id": "World-talker",
-            "name": "Multimorphe",
-            "description": "<p><em>Requiert : Métamorphe</em></p>\n<p>Vous discernez les motifs dont est fait le tissu du monde. Vous pouvez dorénavant utiliser Langue des Esprits, Contemplation de l’Essence et Changeforme avec les éléments : Feu, Eau, Air et Terre.</p>"
+            "name": "만물과의 대화",
+            "description": "<p><em>필요: 목석과의 대화</em></p><p>세계라는 직물을 이루는 실들의 조화를 볼 수 있게 됩니다. 이제 신령어, 변신, 본질의 연구를 불, 물, 바람, 흙과 같은 순수한 원소에 대해서도 쓸 수 있습니다.</p>"
         }
     ]
 }
