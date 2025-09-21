@@ -1,5 +1,5 @@
 {
-	"label": "Actions du·de la Clerc",
+	"label": "사제 액션",
 	"mapping": {
 		"name": "name",
 		"description": "system.description",
@@ -11,139 +11,139 @@
 	"entries": [
 		{
 			"id": "Anointed",
-			"name": "Onction",
-			"description": "<p><em>Requiert : L&rsquo;&Eacute;lu&middot;e</em></p><p>Choisissez un sort. Vous pouvez recevoir ce sort comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur, en plus de celui d&eacute;j&agrave; choisi pour l&rsquo;&Eacute;lu&middot;e.</p>"
+			"name": "기름으로 바른 자",
+			"description": "<p><em>필요: 선택받은 자</em></p><p>주문을 하나 고르십시오. 그 주문의 레벨이 하나 낮아집니다. 이로써 0레벨이 된 주문은 암송주문으로 간주합니다. 선택 받은 자에서 고른 주문을 또 선택할 수는 없습니다.&nbsp;</p>"
 		},
 		{
 			"id": "Apotheosis",
-			"name": "Apotheosis",
-			"description": "<p>Apr&egrave;s avoir choisi cette action et la premi&egrave;re fois que vous vous retirez en pri&egrave;re (conform&eacute;ment &agrave; votre liturgie), choisissez un attribut associ&eacute; &agrave; votre dieu (des griffes aiguis&eacute;es, des ailes en saphir, un troisi&egrave;me &oelig;il extra-lucide...). Quand vous &eacute;mergez de votre pri&egrave;re, vous &ecirc;tes d&eacute;finitivement dot&eacute;&middot;e de cet attribut.</p>"
+			"name": "신격",
+			"description": "<p>이 액션을 택한 후 처음으로 신에게 격식에 맞는 기도를 올릴 때, 자기의 신과 관련된 신체적 특징을 하나 고릅니다 (갈퀴 손톱, 사파이어 깃털의 날개, 모든 것을 보는 세 번째 눈 등). 기도를 마치면 영구적으로 그 특징이 생깁니다.</p>"
 		},
 		{
 			"id": "Cast A Spell",
-			"name": "Lancer un sort",
-			"description": "<p>Quand vous lancez un sort que votre divinit&eacute; vous a accord&eacute; (pri&egrave;res comprises), lancez <strong>2d6+SAG</strong>.</p><p>&Agrave; noter que maintenir des sorts et leurs effets peut parfois entra&icirc;ner une p&eacute;nalit&eacute; pour lancer un autre sort.</p>",
-			"failure": "<p>Le sort a &eacute;chou&eacute;.</p>",
-			"partial": "<p>Le sort est lanc&eacute; mais choisissez une option :</p><ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous d&eacute;crira comment).</li><li>Vous vous &eacute;loignez de votre divinit&eacute; : vous avez <strong>-1 continu</strong> pour lancer un sort jusqu&rsquo;&agrave; ce que vous communiiez de nouveau.</li><li>Une fois lanc&eacute;, le sort est r&eacute;voqu&eacute; par votre divinit&eacute;. Vous ne pouvez plus le lancer tant que vous n&rsquo;avez pas communi&eacute; et re&ccedil;u ce sort &agrave; nouveau.</li></ul>",
-			"success": "<p>Le sort est lanc&eacute; avec succ&egrave;s et votre divinit&eacute; ne vous le retire pas. Vous pouvez le lancer &agrave; nouveau.</p>"
+			"name": "주문 시전",
+			"description": "<p>신에게 받은 주문을 사용하면 +혜 판정을 합니다.</p>\n<p>지속적인 효과를 가진 주문은 작용하는 동안 주문 시전에 페널티를 주는 일도 있으니 참고하십시오.</p>\n<p>&nbsp;</p>",
+			"failure": "<p>주문 시전에 실패합니다.</p>",
+			"partial": "<p>주문은 시전되지만 다음의 부작용 중 하나가 일어납니다:</p>\n<ul>\n<li>곤란한 상황에 처하거나 원치 않는 주의를 끌게 됩니다. 마스터가 정합니다.</li>\n<li>주문을 약간 잘못 사용하여 신과 멀어집니다. 다시 예배를 올릴 때까지 주문 시전 판정에 계속 -1을 받습니다.</li>\n<li>신이 이 주문을 박탈합니다. 예배를 올려서 주문을 다시 받을 때까지, 이 주문은 사용할 수 없습니다.</li>\n</ul>",
+			"success": "<p>주문이 부작용 없이 성공적으로 시전됩니다. 원하면 다음에 또 걸 수도 있습니다.</p>"
 		},
 		{
 			"id": "Chosen One",
-			"name": "L’élu·e",
-			"description": "<p>Choisissez un sort. Il vous est accord&eacute; comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur.</p>"
+			"name": "선택 받은 자",
+			"description": "<p>주문을 하나 고르십시오. 그 주문의 레벨이 하나 낮아집니다. 이로써 0레벨이 된 주문은 암송주문으로 간주합니다.</p>"
 		},
 		{
 			"id": "Commune",
-			"name": "Communier",
-			"description": "<p>Quand vous consacrez un moment ininterrompu (environ 1 heure) en communion tranquille :</p><ul><li>Vous perdez tous les sorts qu&rsquo;il vous reste,</li><li>Vous recevez de nouveaux sorts de votre choix dont le niveau ne d&eacute;passe pas le v&ocirc;tre et dont les niveaux additionn&eacute;s ne d&eacute;passent pas votre niveau+1,</li><li>Vos pri&egrave;res sont &agrave; nouveau toutes disponibles, elles ne comptent pas dans la limite de niveau.</li></ul>"
+			"name": "예배",
+			"description": "<p>1시간 정도 방해를 받지 않고 신에게 조용히 예배를 올리면 다음과 같은 효과가 일어납니다:</p>\n<ul>\n<li>현재 준비된 주문이 모두 사라집니다.</li>\n<li>자기가 선택하는 주문이 하나 이상 내려집니다. 주문 레벨의 합은 자기 레벨 +1을 넘을 수 없고, 자기 레벨보다 높은 주문은 선택할 수 없습니다.</li>\n<li>암송주문이 모두 준비됩니다. 암송주문은 주문 레벨 제한에 해당되지 않습니다.</li>\n</ul>"
 		},
 		{
 			"id": "Deity",
-			"name": "Divinité",
-			"description": "<p>Vous servez et adorez une divinit&eacute; ou puissance qui vous accorde des sorts. Donnez un nom &agrave; votre divinit&eacute; (par exemple, Helferth, Sucrellus, Zorica ou Krugon le Lugubre) et choisissez son domaine :</p><ul><li>Soins et gu&eacute;rison</li><li>Conqu&ecirc;te sanglante</li><li>Civilisation</li><li>Savoir et myst&egrave;res</li><li>Les opprim&eacute;s et les oubli&eacute;s</li><li>Ce qui est en-dessous</li></ul><p>Choisissez un <em>pr&eacute;cepte </em>pour votre religion :</p><ul><li>Votre religion pr&ecirc;che la souffrance purificatrice.<br><em>Ajoutez une supplique : souffrance</em></li><li>Votre religion est sectaire et isol&eacute;e.<br><em>Ajoutez une supplique : acc&eacute;der &agrave; des secrets</em></li><li>Votre religion a d&rsquo;importants rites sacrificiels.<br><em>Ajoutez une supplique : offrande</em></li><li>Votre religion croit &agrave; l&rsquo;&eacute;preuve du combat.<br><em>Ajoutez une supplique : victoire personnelle</em></li></ul>"
+			"name": "신",
+			"description": "<p>사제는 신이나 그와 비슷한 강력한 존재를 숭배하고 그 뜻에 따르며, 신은 사제에게 주문을 내립니다. 자기 신의 이름을 정하고 (수켈루스, 암흑의 크루곤, 조리카, 헬페르스 등등), 관장하는 영역을 고르십시오:</p>\n<ul>\n<li>치유와 복구.</li>\n<li>무력에 의한 정복.</li>\n<li>문명.</li>\n<li>지식과 숨겨진 것들.</li>\n<li>무시되고 핍박 받는 자들.</li>\n<li>땅 밑의 세계.</li>\n</ul>\n<p>자기 종교의 핵심 교리를 하나 고르십시오:&nbsp;</p>\n<ul>\n<li>고난의 신성함을 가르칩니다. 탄원: 고난을 추가하십시오.</li>\n<li>폐쇄적이고 비밀스럽습니다. 탄원: 비밀의 획득을 추가하십시오.</li>\n<li>제물을 바치는 의식을 중요시합니다. 탄원: 제물을 추가하십시오.</li>\n<li>전투를 통한 심판을 믿습니다. 탄원: 개인적 승리를 추가하십시오.</li>\n</ul>"
 		},
 		{
 			"id": "Devoted Healer",
-			"name": "Soigneur·euse dévoué·e",
-			"description": "<p>Quand vous soignez les blessures de quelqu&rsquo;un d&rsquo;autre, ajoutez votre niveau au montant soign&eacute;.</p>"
+			"name": "치유의 달인",
+			"description": "<p>다른 사람의 피해를 치유할 때, 치유량에 자기 레벨만큼을 더합니다.</p>"
 		},
 		{
 			"id": "Divine Armor",
-			"name": "Armure divine",
-			"description": "<p><em>Remplace : Protection divine</em></p><p>Quand vous ne portez ni armure ni bouclier, vous avez <strong>3 armure</strong>.</p>"
+			"name": "믿음의 보루",
+			"description": "<p><em>대체 : 믿음의 갑옷</em></p><p>갑옷을 입지도 방패를 들지도 않으면 장갑이 3이 됩니다.</p>"
 		},
 		{
 			"id": "Divine Guidance",
-			"name": "Inspiration divine",
-			"description": "<p>Quand vous adressez une <em>supplique</em> &agrave; votre divinit&eacute; conform&eacute;ment au <em>pr&eacute;cepte</em> de votre religion, vous recevez une inspiration utile ou une b&eacute;n&eacute;diction en rapport avec le domaine de votre divinit&eacute;. Lae MJ vous dira de quoi il s&rsquo;agit.</p>"
+			"name": "탄원",
+			"description": "<p>자기 종교의 교리에 따라 신에게 탄원을 하면 신이 관장하는 영역에 관련된 유용한 지식이나 도움을 받습니다. 구체적인 내용은 마스터가 정합니다.</p>"
 		},
 		{
 			"id": "Divine Intervention",
-			"name": "Intervention divine",
-			"description": "<p>Quand vous <em>communiez</em>, <strong>retenez 1</strong> et perdez ce que vous reteniez. D&eacute;pensez 1 quand un&middot;e alli&eacute;&middot;e ou vous-m&ecirc;me subissez des d&eacute;g&acirc;ts au nom de votre divinit&eacute; et celle-ci intervient par une manifestation appropri&eacute;e (un souffle de vent soudain, une chute providentielle, un &eacute;clair de lumi&egrave;re) et annule les d&eacute;g&acirc;ts.</p>"
+			"name": "신의 보우",
+			"description": "<p>예배를 올리면 예비를 1점 받습니다. 아직 안 쓰고 남아 있는 예비는 없어집니다. 자신이나 동료가 피해를 입게 되었을 때 이 예비를 소모하면 신이 적절한 방법으로 이 피해를 막아 줍니다 (갑자기 돌풍이 분다거나, 섬광이 일어난다거나, 적의 발이 미끄러진다거나).</p>"
 		},
 		{
 			"id": "Divine Invincibility",
-			"name": "Invincibilité",
-			"description": "<p><em>Remplace : Intervention divine</em></p><p>Quand vous <em>communiez</em>, <strong>retenez 2</strong> et perdez ce que vous reteniez. D&eacute;pensez 1 quand un&middot;e alli&eacute;&middot;e ou vous-m&ecirc;me encaissez des d&eacute;g&acirc;ts au nom de votre divinit&eacute; et celle-ci intervient par une manifestation appropri&eacute;e (un souffle de vent soudain, une chute providentielle, un &eacute;clair de lumi&egrave;re) et annule les d&eacute;g&acirc;ts.</p>"
+			"name": "신의 가호",
+			"description": "<p><em>대체: 신의 보우</em></p><p>예배를 올리면 예비를 2점 받습니다. 아직 안 쓰고 남아 있는 예비는 없어집니다. 자신이나 동료가 피해를 입게 되었을 때 예비를 1점 소모하면 신이 적절한 방법으로 이 피해를 막아 줍니다 (갑자기 돌풍이 분다거나, 섬광이 일어난다거나, 적의 발이 미끄러진다거나).</p>"
 		},
 		{
 			"id": "Divine Protection",
-			"name": "Protection divine",
-			"description": "<p>Quand vous ne portez ni armure ni bouclier, vous avez <strong>2 armure</strong>.</p>"
+			"name": "믿음의 갑옷",
+			"description": "<p>갑옷을 입지도 방패를 들지도 않으면 장갑이 2가 됩니다.</p>"
 		},
 		{
 			"id": "Empower",
-			"name": "Pouvoir",
-			"description": "<p>Quand vous <em>lancez un sort</em>, sur un <strong>10+</strong> vous pouvez opter pour un effet de la liste 7-9. Si vous le faites, vous pouvez doubler l&rsquo;effet ou le nombre de cibles du sort.</p>"
+			"name": "주문 강화",
+			"description": "<p>주문을 시전할 때, 10+가 나오더라도 원하면 7~9의 부작용을 하나 택하고 다음의 두 효과 중 하나를 택할 수 있습니다:</p>\n<ul>\n<li>주문의 효과가 2배 됩니다.</li>\n<li>주문의 대상의 수가 2배 됩니다.</li>\n</ul>"
 		},
 		{
 			"id": "First Aid",
-			"name": "Premiers soins",
-			"description": "<p>Le sort <em>Soins des Blessures L&eacute;g&egrave;res</em> est dor&eacute;navant une pri&egrave;re et ne compte plus dans la limite de niveaux.</p>"
+			"name": "응급 처치",
+			"description": "<p> 소치유가 암송주문이 되어, 주문의 레벨 제한에 걸리지 않게 됩니다.</p>"
 		},
 		{
 			"id": "Greater Empower",
-			"name": "Pleins pouvoirs",
-			"description": "<p><em>Requiert : Pouvoir</em></p><p>Quand vous obtenez <em>12+</em> en lan&ccedil;ant un sort, vous pouvez doubler les effets ou le nombre de cibles de votre sort.</p>"
+			"name": "상급 주문 강화",
+			"description": "<p><em>대체: 주문 강화</em></p><p>주문을 시전할 때, 10~11이면 원할 경우 7~9의 부작용을 하나 고르고 다음의 두 효과 중 하나를 택할 수 있습니다. 12가 나오면 부작용을 고르지 않고 효과를 하나 선택합니다:</p>\n<ul>\n<li>주문의 효과가 2배 됩니다.</li>\n<li>주문의 대상의 수가 2배 됩니다.</li>\n</ul>"
 		},
 		{
 			"id": "Greater First Aid",
-			"name": "Soins supérieurs",
-			"description": "<p><em>Requiert : Premiers soins</em></p><p>Le sort <strong>Soins des Blessures Moyennes</strong> est dor&eacute;navant une pri&egrave;re et ne compte plus dans la limite de niveaux.</p>"
+			"name": "상급 응급처치",
+			"description": "<p><em>대체: 응급처치</em></p><p>치유가 암송주문이 되어, 주문의 레벨 제한에 걸리지 않게 됩니다.</p>"
 		},
 		{
 			"id": "Invigorate",
-			"name": "Revigorer",
-			"description": "<p>Quand vous soignez quelqu&rsquo;un&middot;e, iel re&ccedil;oit <strong>+2</strong> &agrave; son prochain jet de d&eacute;g&acirc;ts.</p>"
+			"name": "활력",
+			"description": "<p>누군가를 치유하면, 그 사람은 다음 번 피해에 +2를 받습니다.</p>"
 		},
 		{
 			"id": "Martyr",
-			"name": "Martyr·e",
-			"description": "<p><em>Remplace : P&eacute;nitent&middot;e</em></p><p>Quand vous encaissez des d&eacute;g&acirc;ts et supportez la douleur, vous pouvez choisir de subir <strong>+1d4</strong> d&eacute;g&acirc;ts (ignorez l&rsquo;armure). Si vous le faites, vous avez <strong>+1</strong> la prochaine fois que vous lancez un sort et vous ajoutez votre niveau aux d&eacute;g&acirc;ts que ce sort soigne ou inflige.</p>"
+			"name": "회개",
+			"description": "<p><em>대체: 속죄</em></p><p>피해를 입고 그 고통을 기꺼이 받아들이면, 원할 경우 +1d4의 피해를 더 입을 수 있습니다 (장갑 무시). 그렇게 하면 다음 번 주문 시전 판정에 +1을 받고, 그 주문으로 가하는 피해나 치유에 자기의 레벨만큼이 더해집니다.</p>"
 		},
 		{
 			"id": "Multiclass Dabbler",
-			"name": "Multiclasse - Dilettante",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Vous &ecirc;tes consid&eacute;r&eacute;&middot;e comme d&rsquo;un niveau inf&eacute;rieur lors de votre choix.</p>"
+			"name": "다중직업 (초급)",
+			"description": "<p>다른 직업의 액션을 하나 택합니다. 이때는 마치 자기 레벨이 하나 낮은 것처럼 따집니다.</p>"
 		},
 		{
 			"id": "Orison For Guidance",
-			"name": "Guide spirituel",
-			"description": "<p>Quand vous sacrifiez quelque chose de valeur &agrave; votre divinit&eacute; et que vous priez pour un conseil, votre divinit&eacute; vous dit ce qu&rsquo;elle aurait souhait&eacute; vous voir faire. Si vous le faites, marquez <strong>1 PX</strong>.</p>"
+			"name": "이끌어 주십시오",
+			"description": "<p>뭔가 가치 있는 것을 제물로 바치고서 가르침을 구하는 기도를 올리면, 신이 앞으로 할 일을 내립니다. 그 일을 하면 경험치를 얻습니다.</p>"
 		},
 		{
 			"id": "Penitent",
-			"name": "Pénitent·e",
-			"description": "<p>Quand vous <em>encaissez des d&eacute;g&acirc;ts</em> et supportez la douleur, vous pouvez choisir de subir <strong>+1d4 d&eacute;g&acirc;ts</strong> (ignorez l&rsquo;armure). Si vous le faites, vous avez <strong>+1</strong> la prochaine fois que vous lancez un sort.</p>"
+			"name": "속죄",
+			"description": "<p>피해를 입고 그 고통을 기꺼이 받아들이면, 원할 경우 +<a class=\"inline-roll roll\" title=\"1d4\" data-mode=\"roll\" data-flavor=\"1d4\" data-formula=\"1d4\"><i class=\"fas fa-dice-d20\"></i> 1d4</a>의 피해를 더 입을 수 있습니다 (장갑 무시). 그렇게 하면 다음 번 주문 시전 판정에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Providence",
-			"name": "Providence",
-			"description": "<p><em>Remplace : S&eacute;r&eacute;nit&eacute;</em></p><p>Vous ignorez la p&eacute;nalit&eacute; de <strong>-1</strong> pour deux sorts que vous maintenez.</p>"
+			"name": "은총",
+			"description": "<p><em>대체: 평정</em></p><p>현재 지속되고 있는 주문으로 인해 받는 총 페널티가 -2까지 줄어듭니다.</p>"
 		},
 		{
 			"id": "Reaper",
-			"name": "Le faucheur",
-			"description": "<p>Apr&egrave;s un combat, lorsque vous prenez le temps de d&eacute;dier votre victoire &agrave; votre divinit&eacute; et de consacrer les morts, vous avez <strong>+1</strong> &agrave; votre prochain jet.</p>"
+			"name": "장례",
+			"description": "<p>싸움에서 이긴 뒤 시간을 들여 그 승리를 자기 신에게 봉헌하고 시신을 처리하면 다음 판정에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Serenity",
-			"name": "Sérénité",
-			"description": "<p>Quand vous lancez un sort, vous ignorez la premi&egrave;re p&eacute;nalit&eacute; de <strong>-1</strong> d&rsquo;autres sorts continus en cours.</p>"
+			"name": "평정",
+			"description": "<p>주문을 시전할 때, 이미 지속되는 주문으로 인해 받는 총 페널티가 -1 줄어듭니다.</p>"
 		},
 		{
 			"id": "The Scales Of Life And Death",
-			"name": "Pesée de l’âme",
-			"description": "<p>Quand quelqu&rsquo;un&middot;e pousse son <em>dernier soupir</em> en votre pr&eacute;sence, il ajoute <strong>+1</strong> &agrave; son jet de d&eacute;s.</p>"
+			"name": "생사의 저울",
+			"description": "<p>사제가 있는 곳에서 황천길을 가는 사람은 판정에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Turn Undead",
-			"name": "Repousser les morts-vivants",
-			"description": "<p>Quand vous brandissez votre symbole sacr&eacute; et invoquez la protection de votre divinit&eacute;, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Votre pri&egrave;re ne semble pas avoir &eacute;t&eacute; entendue.</p>",
-			"partial": "<p>Les morts-vivants demeurent hors de port&eacute;e de vous tant que vous priez dans cette posture.</p>",
-			"success": "<p>Vous &eacute;tourdissez momentan&eacute;ment les morts vivants intelligents et provoquez la fuite des autres.</p><p>La moindre agression brise cet effet et ils peuvent alors agir normalement. Les morts vivants intelligents peuvent toujours trouver moyen de vous nuire &agrave; distance. Ils sont malins vous savez !</p>"
+			"name": "언데드 퇴치",
+			"description": "<p>성표를 높이 들고 신의 보호를 요청하면 +혜 판정을 합니다.</p>",
+			"failure": "<p>언데드 퇴치에 실패합니다.</p>",
+			"partial": "<p>성표를 들고 기도를 하는 동안은 어느 언데드도 사제에게 닿는 거리까지 오지 못합니다.</p>",
+			"success": "<p>성표를 들고 기도를 하는 동안은 어느 언데드도 사제에게 닿는 거리까지 오지 못합니다. 이 효과와 더불어 지성이 있는 언데드들은 잠시 정신을 차리지 못하고, 지성이 없는 언데드들은 도망칩니다. 언데드들이 공격을 받으면 이 효과가 끝나고, 정상적으로 행동할 수 있게 됩니다. 다가오지 못하는 동안에도 지성을 가진 언데드들은 멀리서 공격할 방법을 찾을 것입니다.</p>"
 		}
 	]
 }
