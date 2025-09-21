@@ -1,5 +1,5 @@
 {
-	"label": "Sorts du·de la Clerc",
+	"label": "주문 (사제)",
 	"mapping": {
 		"name": "name",
 		"description": "system.description"
@@ -7,168 +7,168 @@
 	"entries": [
 		{
 			"id": "Animate Dead",
-			"name": "Animer les morts (Continu)",
-			"description": "<p>Vous invoquez un esprit affam&eacute; qui prend possession d&rsquo;un cadavre fra&icirc;chement d&eacute;c&eacute;d&eacute; et suit vos ordres. Cela cr&eacute;e un&middot;e zombie qui suivra vos ordres au mieux de ses faibles capacit&eacute;s. Traitez ce&middot;tte zombie comme un&middot;e PJ mais qui n&rsquo;a acc&egrave;s qu&rsquo;aux actions de base. Iel a un ajustement de <strong>+1</strong> &agrave; toutes ses caract&eacute;ristiques et 1 PV.</p><p>Lae zombie gagne aussi <strong>1d4</strong> options :</p><ul><li>Il est habile. Choisissez-lui une caract&eacute;ristique &agrave; +2.</li><li>Il est costaud. Il re&ccedil;oit +2 PV pour chacun de vos niveaux.</li><li>Il a un cerveau en &eacute;tat de marche et peut ob&eacute;ir &agrave; des ordres complexes.</li><li>Il n&rsquo;a pas l&rsquo;air mort, du moins pas pendant un jour ou deux.</li></ul>"
+			"name": "시체 각성 (지속)",
+			"description": "<p>굶주린 혼령을 시켜 죽은 지 얼마 되지 않는 시체에 깃들게 합니다. 이로써 사제의 명령을 듣는 좀비가 생깁니다. 좀비는 기본 액션만 쓸 수 있는 PC로 다루고, 사제의 플레이어가 담당합니다. 능력수정치는 모두 +1, HP는 1이며, 사제의 피해 주사위를 사용합니다. 1d4를 굴리고 다음 목록에서 그만큼의 추가 특징을 선택하십시오:</p>\n<ul>\n<li>유능합니다. 능력수정치 하나를 골라 +2로 높이십시오.</li>\n<li>튼튼합니다. HP가 사제의 레벨 1당 +2씩 추가됩니다.</li>\n<li>똑똑합니다. 뇌가 제 기능을 하여 복잡한 명령도 들을 수 있습니다.</li>\n<li>척 봐서 시체 같지 않습니다. 최소한 1~2일은 그 상태가 유지됩니다.</li>\n</ul>\n<p>좀비는 HP가 0으로 떨어져 파괴되거나 주인이 주문을 종료할 때까지 살아 움직입니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Bless",
-			"name": "Bénédiction (Continu)",
-			"description": "<p>Votre divinit&eacute; se penche sur un&middot;e combattant&middot;e de votre choix : cellui-ci re&ccedil;oit <strong>+1 continu</strong> pour toute la dur&eacute;e du combat tant qu&rsquo;iel y participe. Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> lorsque vous lancez un autre sort.</p>"
+			"name": "축복 (지속)",
+			"description": "<p>전투 중이나 직전에 사용합니다. 자신이 선택한 자에게 신의 축복이 내립니다. 싸움이 지속되고 대상이 계속 적들과 맞서 싸우는 한, 대상의 판정에는 계속 +1이 붙습니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Cause Fear",
-			"name": "Causer la peur (Continu)",
-			"description": "<p>Choisissez une cible que vous voyez et un objet proche. La cible est effray&eacute;e par l&rsquo;objet tant que vous maintenez le sort. Sa r&eacute;action d&eacute;pend d&rsquo;elle : fuir, paniquer, implorer, combattre. Vous ne pouvez pas affecter des cibles dont l&rsquo;intelligence est inf&eacute;rieure &agrave; celle d&rsquo;un animal (automates, morts-vivants, constructions magiques, etc.). Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> lorsque vous lancez un autre sort.</p>"
+			"name": "공포 유발 (지속)",
+			"description": "<p>대상을 선택하고 가까이 있는 물체를 고르십시오. 이 주문을 지속하는 동안, 대상은 그 물체를 두려워하게 됩니다. 정확한 반응은 대상에게 달려 있습니다. 도망칠 수도, 당황해서 어쩔 줄 모를 수도, 엎드려 빌 수도, 싸울 수도 있습니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다. 지능이 동물 미만인 존재에 대해서는 사용할 수 없습니다 (마법적 인공물, 언데드, 자동인형 등등).</p>"
 		},
 		{
 			"id": "Consume Unlife",
-			"name": "Consumer la non-vie",
-			"description": "<p>Le mort-vivant sans esprit que vous touchez est d&eacute;truit et son &eacute;nergie mortelle est transf&eacute;r&eacute;e pour vous soigner ou l&rsquo;un des alli&eacute;s que vous touchez. Le nombre de d&eacute;g&acirc;ts soign&eacute;s est &eacute;gal au nombre de PV qu&rsquo;il restait au mort-vivant.</p>"
+			"name": "언데드 흡수",
+			"description": "<p>이 주문을 걸고 지성이 없는 언데드에 손을 대면 그 언데드는 파괴되고, 그 죽음의 에너지가 사제에게 흡수됩니다. 이 에너지로는 사제 자신을 치유할 수도 있고, 사제가 다음에 손을 대는 부상자를 치유할 수도 있습니다. 치유량은 대상이 파괴되기 전에 갖고 있던 HP의 잔량과 같습니다.</p>"
 		},
 		{
 			"id": "Contagion",
-			"name": "Contagion (Continu)",
-			"description": "<p>Choisissez une cr&eacute;ature que vous voyez. Celle-ci souffre d&rsquo;une maladie de votre choix tant que vous maintenez ce sort. Dans ce cas, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "감염 (지속)",
+			"description": "<p>시야 내에 있는 생물을 하나 고릅니다. 사제가 주문을 종료할 때까지, 대상은 사제가 지정한 질병에 걸립니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Control Weather",
-			"name": "Contrôle climatique",
-			"description": "<p>Priez pour du soleil, de la pluie, du vent, ou de la neige. D&rsquo;ici un jour ou deux, votre divinit&eacute; r&eacute;pondra. Le temps changera selon vos souhaits et se maintiendra pendant quelques jours.</p>"
+			"name": "날씨 조종",
+			"description": "<p>특정한 날씨를 일으켜 달라고 기도하면 하루 정도 내에 신이 응답합니다. 이렇게 바뀐 날씨는 며칠 동안 지속됩니다.</p>"
 		},
 		{
 			"id": "Cure Critical Wounds",
-			"name": "Soin des blessures critiques",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez de <strong>3d8</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "대치유",
+			"description": "<p>이 주문을 걸고 부상자 한 명에게 손을 대면 3d8의 피해가 치유됩니다.</p>"
 		},
 		{
 			"id": "Cure Light Wounds",
-			"name": "Soin des blessures légères",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez d&rsquo;<strong>1d8</strong> d&eacute;g&acirc;ts. Les blessures se referment et la douleur cesse.</p>"
+			"name": "소치유",
+			"description": "<p>이 주문을 걸고 부상자 한 명에게 손을 대면 상처에 딱지가 앉고 통증이 가시면서 1d8 HP가 치유됩니다.</p>"
 		},
 		{
 			"id": "Cure Moderate Wounds",
-			"name": "Soin des blessures moyennes",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez de <strong>2d8</strong> d&eacute;g&acirc;ts. L&rsquo;h&eacute;morragie cesse et les fractures sont r&eacute;duites.</p>"
+			"name": "치유",
+			"description": "<p>이 주문을 걸고 부상자 한 명에게 손을 대면 흐르던 피가 멈추고 부러진 뼈가 붙으면서 2d8의 피해가 치유됩니다.</p>"
 		},
 		{
 			"id": "Darkness",
-			"name": "Obscurité (Continu)",
-			"description": "<p>La zone que vous regardez devient miraculeusement obscure. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "암흑",
+			"description": "<p>볼 수 있는 장소를 하나 골라 그곳에 초자연적인 어둠을 깝니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Detect Alignment",
-			"name": "Percevoir l’alignement",
-			"description": "<p>Quand vous lancez ce sort, choisissez un alignement : Bon, Mauvais, Loyal ou Chaotique. Un de vos sens est bri&egrave;vement capable de sentir cet alignement. Lae MJ vous dira ce qui est li&eacute; &agrave; cet alignement ici.</p>"
+			"name": "가치관 탐지",
+			"description": "<p>이 주문을 걸 때 선, 악, 질서, 혼돈 중 하나를 택하고 시각, 청각 등의 감각을 하나 지정합니다. 그러면 그 감각으로 그 가치관을 탐지할 수 있습니다. 근방에 해당 가치관을 가진 존재가 있는지, 있으면 누구/무엇인지 마스터가 이야기해 줄 것입니다.</p>"
 		},
 		{
 			"id": "Divination",
-			"name": "Divination",
-			"description": "<p>Nommez une personne, un lieu ou une chose dont vous voulez apprendre quelque&nbsp;<br>chose. Votre divinit&eacute; vous en donne une vision aussi claire et nette que si vous &eacute;tiez sur place.</p>"
+			"name": "신탁",
+			"description": "<p>사람, 장소, 물체를 하나 지정하고 이 주문을 걸면, 신이 대상의 모습을 마치 곁에 있는 것처럼 또렷하게 보여줍니다.</p>"
 		},
 		{
 			"id": "Divine Presence",
-			"name": "Présence divine (Continu)",
-			"description": "<p>Toutes les cr&eacute;atures doivent vous demander l&rsquo;autorisation de vous approcher et vous devez leur r&eacute;pondre oralement. Sans votre autorisation, ils encaissent <strong>+1d10</strong> d&eacute;g&acirc;ts &agrave; chaque fois qu&rsquo;ils subissent des d&eacute;g&acirc;ts en votre pr&eacute;sence. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "신의 위세 (지속)",
+			"description": "<p>이 주문이 지속되는 동안, 사제의 주변에서 피해를 입는 존재는 +1d10의 피해를 더 입게 됩니다. 단, 사제가 그 자리에 있어도 좋다고 허락을 내린 존재에게는 이 효과가 면제됩니다. 허락은 말로 입 밖에 내야 유효합니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Guidance",
-			"name": "Conseil",
-			"description": "<p>Le symbole de votre divinit&eacute; appara&icirc;t devant vous et vous indique le chemin ou l&rsquo;action que votre divinit&eacute; aimerait vous voir entreprendre, puis dispara&icirc;t. Ce message est exclusivement visuel ; vos moyens de communiquer par cette pri&egrave;re sont extr&ecirc;mement limit&eacute;s.</p>"
+			"name": "인도",
+			"description": "<p>신의 징표가 눈 앞에 나타나, 특정한 방향을 가리키거나 취할 행동을 표시하고는 사라집니다. 이 징표는 간단하게 움직이는 것이 고작이어서 복잡한 의사전달은 불가능합니다.</p>"
 		},
 		{
 			"id": "Harm",
-			"name": "Nuire",
-			"description": "<p>Touchez un&middot;e ennemi&middot;e pour lae frapper de la col&egrave;re divine : infligez-lui <strong>2d8</strong> d&eacute;g&acirc;ts et recevez vous-m&ecirc;me <strong>1d6</strong> d&eacute;g&acirc;ts (les deux ignorent l&rsquo;armure).</p>"
+			"name": "천벌",
+			"description": "<p>이 주문을 걸고 적에게 손을 대면 적에게 2d8, 자신에게 1d6의 피해가 가해집니다. 이 피해는 장갑을 무시합니다.</p>"
 		},
 		{
 			"id": "Heal",
-			"name": "Soins",
-			"description": "<p>Soignez un&middot;e alli&eacute;&middot;e que vous touchez d&rsquo;un nombre de points de d&eacute;g&acirc;ts &eacute;quivalant &agrave; votre maximum de PV.</p>"
+			"name": "완치",
+			"description": "<p>이 주문을 걸고 부상자 한 명에게 손을 대면 사제의 최대 HP만큼의 피해가 치유됩니다.</p>"
 		},
 		{
 			"id": "Hold Person",
-			"name": "Paralysie",
-			"description": "<p>Choisissez une cible que vous voyez. Elle peut parler mais ne peut agir tant que vous la gardez en vue et que vous ne lancez pas un autre sort. Ce sort s&rsquo;arr&ecirc;te si votre cible subit des d&eacute;g&acirc;ts quelle qu&rsquo;en soit la cause.</p>"
+			"name": "포박",
+			"description": "<p>시야 내에 있는 사람을 한 명 골라 움직이지 못하게 합니다. 말은 할 수 있습니다. 이 효과는 사제가 다른 주문을 걸거나, 그 자리를 떠나거나, 어떤 이유로든 대상이 피해를 입으면 즉시 끝납니다.</p>"
 		},
 		{
 			"id": "Light",
-			"name": "Lumière (Continu)",
-			"description": "<p>Un objet que vous touchez brille d&rsquo;une lumi&egrave;re divine, aussi brillante qu&rsquo;une torche. Cette lumi&egrave;re ne d&eacute;gage ni chaleur ni bruit et ne consomme aucun combustible mais a l&rsquo;allure d&rsquo;une torche ordinaire. Vous d&eacute;cidez librement de la couleur de cette lumi&egrave;re. Tant que ce sort est maintenu, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "빛 (지속)",
+			"description": "<p>자신이 만지는 물체가 횃불 정도 밝기의 신성한 광채를 발합니다. 열도 소리도 나지 않으며 연료도 필요 없지만, 그 외 면에서는 평범한 횃불과 같습니다. 빛의 색깔은 마음대로 정하고 바꿀 수 있습니다. 이 주문은 그 물체가 자기 곁에 있는 동안 유지됩니다.</p>"
 		},
 		{
 			"id": "Magic Weapon",
-			"name": "Arme magique (Continu)",
-			"description": "<p>L&rsquo;arme que vous brandissez quand vous lancez ce sort inflige <strong>+1d4</strong> d&eacute;g&acirc;ts jusqu&rsquo;&agrave; ce que vous r&eacute;voquiez ce sort. Tant que vous maintenez ce sort, vous recevez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "무기 축성 (지속)",
+			"description": "<p>잡고 있는 무기 하나에 신의 힘을 불어 넣습니다. 그 무기는 이 주문이 지속되는 동안 +1d4 피해를 더 줍니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Mark of Death",
-			"name": "Marque de la mort",
-			"description": "<p>Choisissez une cr&eacute;ature dont vous connaissez le vrai nom. Ce sort cr&eacute;e des runes permanentes sur une surface choisie qui tueront cette cr&eacute;ature si jamais elle les lit.</p>"
+			"name": "죽음의 룬",
+			"description": "<p>사제가 진정한 이름을 알고 있는 대상을 하나 선택합니다. 이 주문을 걸면 나무 줄기나 돌벽과 같은 표면에 영구적으로 룬이 새겨집니다. 대상은 이 룬을 읽으면 죽습니다.</p>"
 		},
 		{
 			"id": "Plague",
-			"name": "Plaies (Continu)",
-			"description": "<p>Nommez une cit&eacute;, une ville, un campement ou tout autre endroit o&ugrave; vivent des gens. Tant que vous maintenez ce sort, cet endroit subit une plaie correspondant au domaine de votre divinit&eacute; (sauterelles, mort des premiers n&eacute;s, etc.). Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "역병 (지속)",
+			"description": "<p>도시, 마을, 야영지와 같이 사람이 사는 곳을 하나 고르십시오. 이 주문이 지속되는 동안 그 장소에는 사제가 모시는 신의 영역에 맞는 질병이나 해충과 같은 재난이 일어납니다 (메뚜기 떼, 첫 아들이 모두 죽음, 등등). 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Repair",
-			"name": "Réparation",
-			"description": "<p>D&eacute;signez un &eacute;v&egrave;nement dans le pass&eacute; de votre cible. Toutes les cons&eacute;quences de cet &eacute;v&egrave;nement, comme les d&eacute;g&acirc;ts, l&rsquo;empoisonnement, la maladie, les effets magiques, s&rsquo;ach&egrave;vent et se r&eacute;parent.</p>"
+			"name": "돌이킴",
+			"description": "<p>대상의 과거에 일어난 어느 사건을 지정하십시오. 피해, 독, 질병, 마법 효과를 포함하여, 그 사건이 일으킨 효과는 모두 끝나고 원래대로 돌아갑니다. 피해와 질병은 치료되고, 독은 중화되며, 마법 효과는 끝납니다.</p>"
 		},
 		{
 			"id": "Resurrection",
-			"name": "Résurrection",
-			"description": "<p>Annoncez au&middot;&agrave; lae MJ que vous voulez ressusciter un&middot;e mort&middot;e dont l&rsquo;&acirc;me n&rsquo;a pas encore tout &agrave; fait quitt&eacute; ce monde. La r&eacute;surrection est toujours possible mais lae MJ vous demandera de remplir une ou plusieurs des conditions suivantes :</p><ul><li>&Ccedil;a va prendre des jours/semaines/mois.</li><li>Il te faudra l&rsquo;aide de ________.</li><li>&Ccedil;a demandera beaucoup d&rsquo;argent.</li><li>Tu devras d&rsquo;abord sacrifier ________.</li></ul><p>Selon les circonstances, lae MJ peut vous autoriser &agrave; ressusciter le corps tout de suite d&egrave;s lors que les conditions seront remplies, avant que cela ne devienne d&eacute;finitif, ou vous demander de remplir les conditions au pr&eacute;alable.</p>"
+			"name": "부활",
+			"description": "<p>아직 영혼이 이 세계를 완전히 떠나지 않은 시체를 되살립니다. 부활은 언제든 쓸 수 있지만, 마스터는 다음 조건 중 하나 이상을 (어쩌면 전부 다) 제시할 것입니다:</p>\n<ul>\n<li>• x일/x주/x개월이 걸린다.</li>\n<li>_________의 도움을 받아야 한다.</li>\n<li>엄청난 비용이 든다.</li>\n<li>_________를 희생해야 한다.</li>\n</ul>\n<p>제시된 조건이 충족되어야 하는 시기는 마스터가 정합니다. 부활을 먼저 허용하되 후에 조건이 충족되지 않으면 다시 죽는다고 할 수도 있고, 조건이 충족된 뒤에야 비로소 살려낼 수 있다고 할 수도 있습니다.</p>"
 		},
 		{
 			"id": "Revelation",
-			"name": "Révélation",
-			"description": "<p>Votre divinit&eacute; r&eacute;pond &agrave; vos pri&egrave;res en vous conf&eacute;rant un moment de compr&eacute;hension absolue. Lae MJ vous &eacute;clairera sur la situation actuelle. Si vous tenez compte de cette information pour agir, vous avez <strong>+1</strong> &agrave; cette action.</p>"
+			"name": "계시",
+			"description": "<p>신이 기도에 응하여 순간적 통찰을 부여합니다. 마스터가 현재의 상황에 관해 유용한 정보를 줄 것입니다. 그 정보에 의거하여 행동하면 다음 판정에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Sanctify",
-			"name": "Consécration",
-			"description": "<p>La nourriture ou l&rsquo;eau que vous avez en main au moment de la pri&egrave;re est consacr&eacute;e par votre divinit&eacute;. En plus d&rsquo;&ecirc;tre b&eacute;nite ou maudite, la substance est purifi&eacute;e de toute souillure ordinaire.</p>"
+			"name": "축성",
+			"description": "<p>이 주문을 걸 때 손에 들고 있는 식량이나 물이 신에 의해 축성됩니다. 평범하게 상한 것이 모두 정화되고, 신성한 음식으로 간주됩니다.</p>"
 		},
 		{
 			"id": "Sanctuary",
-			"name": "Sanctuaire",
-			"description": "<p>Alors que vous lancez ce sort, vous marchez autour de l&rsquo;endroit que vous consacrez &agrave; votre divinit&eacute;. Tant que vous restez dans cette zone, vous savez quand quelqu&rsquo;un&middot;e agit dans le sanctuaire avec malveillance (y compris y entrer avec des intentions nuisibles). De plus, quiconque re&ccedil;oit des soins dans le sanctuaire r&eacute;cup&egrave;re <strong>+1d4</strong> PV.</p>"
+			"name": "안식처",
+			"description": "<p>이 주문을 시전하면서 일정 영역의 경계를 따라 걸으면 그 영역에 신의 시선이 머무릅니다. 그 영역 안에 있는 동안, 사제는 그 안에서 누가 악의를 갖고 행동할 때 즉각 알아챌 수 있습니다 (해칠 의사를 갖고 영역으로 들어오는 것 포함). 영역 내에서 이루어지는 모든 치유에는 +1d4 HP가 더 붙습니다.</p>"
 		},
 		{
 			"id": "Sever",
-			"name": "Amputation (Continu)",
-			"description": "<p>D&eacute;signez un des appendices de la cible, comme un bras, un tentacule ou une aile. Cet appendice tombe sans causer de blessures mais tout en restant tr&egrave;s douloureux. Cette amputation peut, par exemple, emp&ecirc;cher une cr&eacute;ature ail&eacute;e de d&eacute;coller ou un taureau de vous encorner. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "절단 (지속)",
+			"description": "팔, 촉수, 날개와 같이 대상의 몸에 돋은 신체 부위를 하나 고릅니다. 그러면 그 부위가 몸에서 잘려 나갑니다. HP 손실은 없지만 고통은 상당합니다. 구체적인 효과는 어느 부위가 잘렸는가에 따라 달라집니다. 새의 날개를 자르면 날지 못할 것이고, 황소의 뿔을 자르면 들이받지 못할 것입니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Speak With Dead",
-			"name": "Parler aux morts",
-			"description": "<p>Vous pouvez parler bri&egrave;vement avec un cadavre. Il r&eacute;pondra &agrave; trois de vos questions du mieux qu&rsquo;il peut, selon ce qu&rsquo;il a appris de son vivant ou apr&egrave;s sa mort.</p>"
+			"name": "망자와의 대화",
+			"description": "<p>시체가 잠시 깨어나 대화를 합니다. 살아 있을 때의 지식, 그리고 죽은 후에 얻은 지식에 의거하여, 사제가 묻는 질문 세 가지에 아는 대로 대답할 것입니다.</p>"
 		},
 		{
 			"id": "Storm Of Vengeance",
-			"name": "Tempête vengeresse",
-			"description": "<p>Votre divinit&eacute; vous envoie une manifestation climatique surnaturelle de votre choix. Une pluie de sang ou d&rsquo;acide, des nuages d&rsquo;&acirc;mes tortur&eacute;es, un vent &agrave; emporter les b&acirc;timents, tout ce que vous pouvez imaginer : demandez-le et cela viendra.</p>"
+			"name": "진노의 폭풍",
+			"description": "<p>신에게 기도하여 초자연적인 날씨를 일으킵니다. 피나 산의 비가 내리거나, 영혼의 구름이 끼거나, 건물을 날려 버리는 바람이 부는 것입니다. 상상할 수 있는 것이면 무엇이건 가능합니다.</p>"
 		},
 		{
 			"id": "Trap Soul",
-			"name": "Emprisonner l’âme",
-			"description": "<p>Vous emprisonnez l&rsquo;&acirc;me d&rsquo;une cr&eacute;ature mourante dans une gemme. La cr&eacute;ature pi&eacute;g&eacute;e est consciente de son emprisonnement mais vous pouvez n&eacute;gocier ou utiliser des sorts ou d&rsquo;autres effets pour la manipuler. Toutes les actions &agrave; l&rsquo;encontre de la cr&eacute;ature pi&eacute;g&eacute;e se font &agrave; <strong>+1</strong>. Vous pouvez lib&eacute;rer l&rsquo;&acirc;me &agrave; tout moment mais jamais la pi&eacute;ger de nouveau.</p>"
+			"name": "영혼 포획",
+			"description": "<p>죽어가는 존재의 영혼을 보석에 담습니다. 갇힌 영혼은 자기가 붙잡혔다는 사실을 인식하며, 다양한 주문이나 협상 등의 대상이 될 수 있습니다. 포획된 영혼에 대한 모든 판정은 +1을 받습니다. 언제든 원하면 영혼을 풀어 줄 수 있지만, 한 번 풀어 주면 다시는 붙잡지 못합니다.</p>"
 		},
 		{
 			"id": "True Seeing",
-			"name": "Vision véritable (Continu)",
-			"description": "<p>Vous voyez la v&eacute;ritable nature de toute chose sur laquelle votre regard se pose. Vous percez les illusions et voyez les choses cach&eacute;es. Lae MJ vous d&eacute;crira la zone en ignorant les illusions et tromperies, magiques ou autres. Tant que vous maintenez ce sort, vous avez <strong>-1</strong> pour lancer un autre sort.</p>"
+			"name": "진실의 눈 (지속)",
+			"description": "<p>눈에 들어오는 모든 것의 본질을 직시할 수 있게 됩니다. 환상도 꿰뚫어 보며, 숨겨진 것들도 마치 뻔히 드러나 있는 것처럼 보게 됩니다. 마스터는 사제의 눈 앞에 펼쳐진 것들을 묘사할 때 환상이나 거짓을 제외하고 설명할 것입니다. 이 주문이 지속되는 동안 사제는 주문 시전 판정에 계속 -1을 받습니다.&nbsp;</p>"
 		},
 		{
 			"id": "Word of Recall",
-			"name": "Mot de rappel",
-			"description": "<p>Lancez ce sort en choisissant un mot. La premi&egrave;re fois que vous prononcerez ce mot, vous et tout alli&eacute; qui vous touche serez imm&eacute;diatement renvoy&eacute;s &agrave; l&rsquo;endroit o&ugrave; vous avez choisi le mot. Cela ne peut concerner qu&rsquo;une seule destination &agrave; la fois. <em>Tout nouveau mot de rappel choisi annule aussit&ocirc;t le pr&eacute;c&eacute;dent.</em></p>"
+			"name": "귀환의 진언",
+			"description": "<p>주문을 걸 때 단어를 하나 고르십시오. 나중에 그 단어를 입 밖에 내면 그 주문을 걸었을 때 있었던 장소로 돌아오게 됩니다. 주문을 걸었을 때 사제의 몸에 닿아 있었던 동료들도 모두 함께 돌아옵니다. 귀환의 진언은 한 번에 하나만 유지할 수 있습니다. 사용하지 않은 상태에서 다시 걸면 지난 번 귀환의 진언은 새것으로 대체됩니다.</p>"
 		},
 		{
 			"id": "Words of the Unspeaking",
-			"name": "Parole des sans voix",
-			"description": "<p>Ce sort vous permet de parler aux esprits qui habitent les objets. Un objet inanim&eacute; que vous touchez de cette fa&ccedil;on r&eacute;pondra &agrave; 3 de vos questions du mieux qu&rsquo;il peut.</p>"
+			"name": "목석의 말",
+			"description": "<p>물건을 만지며 이 주문을 걸면 그 안의 영들과 대화할 수 있습니다. 사제는 대상 물체에게 질문을 세 가지 할 수 있습니다. 물체는 이에 능력껏 대답할 것입니다.</p>"
 		}
 	]
 }
