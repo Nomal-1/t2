@@ -1,5 +1,5 @@
 {
-	"label": "Actions du·de la Guerrier·ère",
+	"label": "전사 액션",
 	"mapping": {
 		"name": "name",
 		"description": "system.description",
@@ -11,128 +11,128 @@
 	"entries": [
 		{
 			"id": "Armor Mastery",
-			"name": "Maîtrise des armures",
-			"description": "<p>Lorsque vous laissez votre armure encaisser l&rsquo;essentiel des d&eacute;g&acirc;ts qui vous sont inflig&eacute;s, ceux-ci sont absorb&eacute;s mais la valeur de votre armure (ou de votre bouclier au choix) est r&eacute;duite de 1. La valeur est r&eacute;duite chaque fois que vous faites ce choix. A 0, la protection est d&eacute;truite.</p>"
+			"name": "방어의 요령",
+			"description": "<p>보호구를 앞세워서 닥쳐 오는 피해를 막으면, 피해는 무시되지만 갑옷이나 방패의 장갑이 영구적으로 1 낮아집니다 (플레이어가 선택). 장갑이 0이 되면 그 갑옷이나 방패는 파괴됩니다.</p>"
 		},
 		{
 			"id": "Armored",
-			"name": "Cuirassé",
-			"description": "<p>Ignorez l&rsquo;encombrement des armures que vous portez.</p>"
+			"name": "갑옷을 옷처럼",
+			"description": "<p>갑옷의 불편 태그를 무시합니다.</p>"
 		},
 		{
 			"id": "Armored Perfection",
-			"name": "Maîtrise parfaite des armures",
-			"description": "<p><em>Remplace : Ma&icirc;trise des armures</em></p><p>Lorsque vous laissez votre armure encaisser l&rsquo;essentiel des d&eacute;g&acirc;ts qui vous sont inflig&eacute;s, ceux-ci sont absorb&eacute;s et vous gagnez +1 continu contre l&rsquo;attaquant, mais la valeur de votre armure (ou votre bouclier au choix) est r&eacute;duite de 1. La valeur est r&eacute;duite chaque fois que vous faites ce choix. A 0, la protection est d&eacute;truite.</p>"
+			"name": "방어의 비법",
+			"description": "<p><em>필요: 방어의 요령</em></p><p>보호구를 앞세워서 닥쳐 오는 피해를 막으면, 피해는 무시되고 공격자에 대한 다음 판정에 +1을 받습니다. 그러나 갑옷이나 방패의 장갑은 영구적으로 1 낮아집니다 (플레이어가 선택). 장갑이 0이 되면 그 갑옷이나 방패는 파괴됩니다.</p>"
 		},
 		{
 			"id": "Bend Bars, Lift Gates",
-			"name": "Forcer portes et herses",
-			"description": "<p>Quand vous utilisez la force brute pour d&eacute;truire un obstacle inanim&eacute;, lancez <strong>2d6+FOR</strong>.</p>",
-			"failure": "<p>Parfois la force brute ne suffit pas !</p>",
-			"partial": "<p>Choisissez 2.</p>",
-			"success": "<p>Choisissez 3.</p>",
-			"choices": "<ul><li>&Ccedil;a ne prend pas longtemps.</li><li>Rien de valeur n&rsquo;est endommag&eacute;.</li><li>Cela ne fait pas un bruit &eacute;norme.</li><li>Vous pouvez r&eacute;parer &ccedil;a sans trop d&rsquo;effort.</li></ul>"
+			"name": "창살을 굽히고 문을 들어올린다",
+			"description": "<p>순전히 힘으로 물건을 부술 때 +근 판정을 합니다.</p>",
+			"failure": "<p>뭔가 일이 잘못되었습니다.</p>",
+			"partial": "<p>다음 중 둘을 고릅니다.</p>",
+			"success": "<p>다음 중 셋을 고릅니다.</p>",
+			"choices": "<ul>\n<li>별로 시간이 걸리지 않는다.</li>\n<li>주변의 값진 물건이 손상되지 않는다.</li>\n<li>너무 큰 소리가 나지 않는다.</li>\n<li>별로 어렵지 않게 다시 고칠 수 있다.</li>\n</ul>"
 		},
 		{
 			"id": "Blacksmith",
-			"name": "Forgeron",
-			"description": "<p>Si vous avez acc&egrave;s &agrave; une forge, vous pouvez conf&eacute;rer les propri&eacute;t&eacute;s magiques d&rsquo;un objet &agrave; votre arme f&eacute;tiche. Cela d&eacute;truit l&rsquo;objet magique. Votre arme f&eacute;tiche re&ccedil;oit les propri&eacute;t&eacute;s magiques de l&rsquo;objet d&eacute;truit.</p>"
+			"name": "대장장이",
+			"description": "<p>대장간을 사용하여, 마법 무기의 마법적 성질을 자신의 고유병기에 이전할 수 있습니다. 이렇게 하면 원래의 마법 무기는 파괴되고, 고유병기에는 그 무기의 마법적인 힘이 추가됩니다.</p>"
 		},
 		{
 			"id": "Bloodthirsty",
-			"name": "Sanguinaire",
-			"description": "<p><em>Remplace : Sans piti&eacute;</em></p><p>Quand vous infligez des d&eacute;g&acirc;ts, ajoutez <strong>+1d8</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "살기등등",
+			"description": "<p><em>대체: 무자비</em></p><p>피해를 줄 때 +1d8이 더해집니다.</p>"
 		},
 		{
 			"id": "Evil Eye",
-			"name": "Regard meurtrier",
-			"description": "<p>Quand vous engagez le combat, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "Vos ennemis vous consid&egrave;rent imm&eacute;diatement comme la plus grande menace.</p>",
-			"partial": "Retenez 1.</p>",
-			"success": "Retenez 2.</p>",
-			"choices": "<p><strong>D&eacute;pensez 1</strong> pour accrocher le regard d&rsquo;un <em>PNJ pr&eacute;sent</em>, qui <em>se fige ou flanche</em> et ne peut agir tant que vous le fixez.</p>"
+			"name": "압도적인 시선",
+			"description": "<p><em>필요: 전사의 눈</em></p><p>전투에 들어갈 때 +매 판정을 합니다.</p>",
+			"failure": "<p>적들이 이쪽을 가장 위험한 존재로 인식합니다.</p>",
+			"partial": "<p>예비 1점을 받습니다.</p>",
+			"success": "<p>예비 2점을 받습니다.</p>",
+			"choices": "<p>예비를 1점 소비하면 NPC 하나를 골라 시선을 접촉할 수 있습니다. 그 NPC는 얼어 붙거나 움츠러들어 전사가 시선을 뗄 때까지 움직이지 못합니다.</p>"
 		},
 		{
 			"id": "Eye For Weaponry",
-			"name": "Jauger l’adversaire",
-			"description": "<p>Lorsque vous examinez l&rsquo;armement d&rsquo;un adversaire, demandez à lae MJ les d&eacute;g&acirc;ts qu&rsquo;il inflige.</p>"
+			"name": "무기 감정",
+			"description": "<p>상대의 무기를 한 번 보면, 피해를 얼마나 주는지 마스터에게 물을 수 있습니다.</p>"
 		},
 		{
 			"id": "Heirloom",
-			"name": "Mânes",
-			"description": "<p>Quand vous <em>consultez les esprits qui habitent votre arme f&eacute;tiche</em>, ceux-ci vous donneront un aper&ccedil;u de la situation actuelle et pourront vous poser des questions en retour. Lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Aucun esprit ne se manifeste.</p>",
-			"partial": "<p>Vous n&rsquo;aurez qu&rsquo;une impression.</p>",
-			"success": "<p>Lae MJ vous donnera des d&eacute;tails pr&eacute;cis.</p>"
+			"name": "병기의 영",
+			"description": "<p>자기의 고유병기에 깃든 영에게 말을 걸면, 현 상황에 관한 정보나 관점을 제시해 줄 수 있습니다. 이때 무기가 전사에게 질문을 할 수도 있습니다. +매 판정을 합니다.</p>",
+			"failure": "<p>영의 말을 대부분 이해하지 못합니다.</p>",
+			"partial": "<p>대략적인 인상만 얻습니다.</p>",
+			"success": "<p>마스터가 꽤 상세한 정보를 줄 것입니다.</p>"
 		},
 		{
 			"id": "Improved Weapon",
-			"name": "Armes améliorées",
-			"description": "<p>Ajoutez une option &agrave; votre arme f&eacute;tiche.</p>"
+			"name": "무기 강화",
+			"description": "<p>고유병기에 특징을 하나 추가합니다.</p>"
 		},
 		{
 			"id": "Interrogator",
-			"name": "Interrogatoire",
-			"description": "<p>Quand vous faites usage de menaces physiques alors que vous n&eacute;gociez, lancez<strong> </strong>avec <strong>FOR au lieu de CHA</strong>.</p>"
+			"name": "협박",
+			"description": "<p>폭력을 행사하겠다는 협박을 조건으로 협상을 할 때, +매 대신 +근을 쓸 수 있습니다.</p>"
 		},
 		{
 			"id": "Iron Hide",
-			"name": "Cuir tanné",
-			"description": "<p>Vous b&eacute;n&eacute;ficiez de +1 armure.</p>"
+			"name": "무쇠의 몸",
+			"description": "<p>장갑 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Merciless",
-			"name": "Sans pitié",
-			"description": "<p>Quand vous infligez des d&eacute;g&acirc;ts, ajoutez <strong>+1d4</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "무자비",
+			"description": "<p>피해를 줄 때 +1d4가 더해집니다.</p>"
 		},
 		{
 			"id": "Multiclass Dabbler",
-			"name": "Multiclasse - Dilettante",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Vous &ecirc;tes consid&eacute;r&eacute;&middot;e comme d&rsquo;un niveau inf&eacute;rieur lors de votre choix.</p>"
+			"name": "다중직업 (초급)",
+			"description": "<p>다른 직업의 액션을 하나 택합니다. 이때는 마치 자기 레벨이 하나 낮은 것처럼 따집니다.</p>"
 		},
 		{
 			"id": "Multiclass Initiate",
-			"name": "Multiclasse - Initié",
-			"description": "<p><em>Requiert : Multiclasse - Dilettante</em></p><p>Recevez une action d&rsquo;une autre classe, suivant les m&ecirc;mes conditions que Multiclasse - Dilettante.</p>"
+			"name": "다중직업 (중급)",
+			"description": "<p><em>필요: 다중직업 (초급)</em></p><p>다른 직업의 액션을 하나 택합니다. 이때는 마치 자기 레벨이 하나 낮은 것처럼 따집니다.</p>"
 		},
 		{
 			"id": "Scent Of Blood",
-			"name": "Odeur du sang",
-			"description": "<p>Apr&egrave;s avoir <em>taill&eacute; en pi&egrave;ces</em> un ennemi, votre prochaine attaque contre cet adversaire inflige <strong>+1d4</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "피의 향기",
+			"description": "<p>접근전을 하면, 같은 상대에 대한 다음 번 공격은 +1d4의 피해를 더 줍니다.</p>"
 		},
 		{
 			"id": "Seeing Red",
-			"name": "Voir rouge",
-			"description": "<p>Vous avez <strong>+1</strong> quand vous <em>discernez la r&eacute;alit&eacute;</em> en plein combat.</p>"
+			"name": "전사의 눈",
+			"description": "<p>전투 중에 상황 파악을 하면 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Signature Weapon",
-			"name": "Arme fétiche",
-			"description": "<p>C&rsquo;est votre arme. Beaucoup lui ressemblent, mais celle-l&agrave;, c&rsquo;est la v&ocirc;tre. Votre arme est votre meilleure amie. Votre vie en d&eacute;pend. Vous en &ecirc;tes ma&icirc;tre au m&ecirc;me titre que votre vie. Sans vous, elle est inutile et r&eacute;ciproquement. Vous devez la brandir pour de bon.</p><p>Choisissez une arme - elles p&egrave;sent toutes 2 poids :</p><ul><li>&Eacute;p&eacute;e</li><li>Hache</li><li>Marteau</li><li>Fl&eacute;au</li><li>&Eacute;pieu</li><li>Poings</li></ul><p>Choisissez une port&eacute;e qui corresponde le mieux :</p><ul><li>Contact</li><li>Proche</li><li>Allonge</li></ul><p>Choisissez deux am&eacute;liorations :</p><ul><li>Crochets et pointes. <strong>+1 d&eacute;g&acirc;ts</strong>, mais +1 poids.</li><li>Ac&eacute;r&eacute;e. <em>+2 perforant</em>.</li><li>Parfaitement &eacute;quilibr&eacute;e. Ajouter <em>pr&eacute;cis</em>.</li><li>Dentel&eacute;e. <strong>+1 d&eacute;g&acirc;ts</strong>.</li><li>Brille en pr&eacute;sence d&rsquo;un type de cr&eacute;ature de votre choix.</li><li>&Eacute;norme. Ajouter d&eacute;vastateur et puissant.</li><li>Tous usages. Choisissez une port&eacute;e suppl&eacute;mentaire.</li><li>Excellente facture. -1 Poids</li></ul><p>Choisissez une apparence :</p><ul><li>Ancienne</li><li>Immacul&eacute;e</li><li>Ouvrag&eacute;e</li><li>Sinistre</li><li>Tach&eacute;e de sang</li></ul><p>Votre arme f&eacute;tiche est sp&eacute;ciale. Ce n&rsquo;est pas un objet ordinaire. A moins que vous n&rsquo;entrepreniez quelque chose qui lui fasse courir un risque, elle ne vous quittera jamais de fa&ccedil;on permanente m&ecirc;me si parfois il vous faudra vous &eacute;carcasser pour la retrouver.</p>"
+			"name": "고유병기",
+			"description": "<p>자기의 이름이나 다름 없는 무기입니다. 잃어버리면 쉽게는 되찾을 수 없을 테니 주의하십시오!</p>\n<h3>우선 기본 형태를 정합니다. 모두 무게는 2입니다:</h3>\n<ul>\n<li>도검</li>\n<li>도끼</li>\n<li>망치</li>\n<li>창</li>\n<li>도리깨</li>\n<li>주먹</li>\n</ul>\n<h3>이 무기의 거리를 정합니다:</h3>\n<ul>\n<li>반걸음</li>\n<li>한걸음</li>\n<li>몇걸음</li>\n</ul>\n<h3>특징을 두 가지 고릅니다:</h3>\n<ul>\n<li>갈퀴와 못. 피해와 무게에 각각 +1.</li>\n<li>예리. 관통 +2.</li>\n<li>균형 발군. 정밀 태그 추가.</li>\n<li>톱날. 피해 +1.</li>\n<li>특정 종류의 생물이나 괴물이 근처에 있으면 빛남. 종류는 플레이어가 선택합니다.</li>\n<li>거대. 파괴적 및 괴력 태그 추가.</li>\n<li>다목적. 거리를 하나 더 고릅니다.</li>\n<li>명장의 작품. 무게에 -1.</li>\n</ul>\n<h3>생김새를 정합니다:</h3>\n<ul>\n<li>고풍스럽다.</li>\n<li>흠이 없다.</li>\n<li>화려하다.</li>\n<li>피에 물들었다.</li>\n<li>음험해 보인다.</li>\n</ul>"
 		},
 		{
 			"id": "Steel Hide",
-			"name": "Carapace",
-			"description": "<p><em>Remplace : Cuir tann&eacute;</em></p><p>Vous b&eacute;n&eacute;ficiez de <strong>+2 armure</strong>.</p>"
+			"name": "강철의 몸",
+			"description": "<p><em>대체: 무쇠의 몸</em></p><p>장갑 +2를 받습니다.</p>"
 		},
 		{
 			"id": "Superior Warrior",
-			"name": "Vétéran",
-			"description": "<p>Lorsque vous <em>taillez en pi&egrave;ces et</em> que vous obtenez 12+, infligez vos d&eacute;g&acirc;ts, esquivez les attaques et impressionnez, d&eacute;moralisez ou effrayez vos ennemis.</p>"
+			"name": "전쟁의 화신",
+			"description": "<p>접근전 판정이 12+이면 피해를 주고 상대의 공격을 모면함과 더불어, 적에게 감격, 공포, 절망 중 한 가지 감정을 심습니다.</p>"
 		},
 		{
 			"id": "Taste Of Blood",
-			"name": "Sanguinaire",
-			"description": "<p><em>Remplace : Sans piti&eacute;</em></p><p>Quand vous infligez des d&eacute;g&acirc;ts, ajoutez <strong>+1d8</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "피의 맛",
+			"description": "<p><em>대체: 피의 향기</em></p><p>접근전을 하면, 같은 상대에 대한 다음 번 공격은 피해에 +1d8이 붙습니다.</p>"
 		},
 		{
 			"id": "Through Death’s Eyes",
-			"name": "Fatale prémonition",
-			"description": "<p>Lorsque vous participez &agrave; une bataille, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Vous pr&eacute;voyez votre propre mort ; agissez &agrave; <strong>-1 continu</strong> durant toute la bataille.</p>",
-			"partial": "<p>Nommez quelqu&rsquo;un qui vivra <strong>ou</strong> quelqu&rsquo;un qui mourra.</p>",
-			"success": "<p>Nommez quelqu&rsquo;un qui vivra <strong>et</strong> quelqu&rsquo;un qui mourra.</p>",
-			"choices": "<p>Nommez des PNJ, pas des PJ. Lae MJ exaucera votre vision si elle est un tant soit peu plausible.</p>"
+			"name": "죽음의 예감",
+			"description": "<p>전투에 들어갈 때 +혜 판정을 합니다.</p>",
+			"failure": "<p>자기 자신의 죽음을 예감하고, 전투 동안 판정에 계속 -1을 받습니다.</p>",
+			"partial": "<p>이 전투가 끝났을 때 누가 사는지 또는 누가 죽는지를 하나만 지명합니다.</p>",
+			"success": "<p>이 전투가 끝났을 때 누가 살고 누가 죽는지 하나씩 지명합니다.</p>",
+			"choices": "<p> 플레이어 캐릭터가 아닌 NPC를 고르십시오. 일말의 가능성이라도 있으면 마스터가 이를 실현할 것입니다.</p>"
 		}
 	]
 }
