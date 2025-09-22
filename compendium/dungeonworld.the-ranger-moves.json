@@ -1,5 +1,5 @@
 {
-	"label": "Actions de l'Éclaireur·euse",
+	"label": "사냥꾼 액션",
 	"mapping": {
 		"name": "name",
 		"description": "system.description",
@@ -11,133 +11,133 @@
 	"entries": [
 		{
 			"id": "A Safe Place",
-			"name": "Un endroit sûr",
-			"description": "<p>Quand vous mettez en place des <em>tours de garde</em>, chacun&middot;e gagne <strong>+1</strong> durant sa veille.</p>"
+			"name": "이러면 안전하오",
+			"description": "<p>자신이 파수 순서를 정하면 전원이 파수 판정에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "A Safer Place",
-			"name": "Un endroit plus sûr",
-			"description": "<p><em>Remplace : Un endroit s&ucirc;r</em></p><p>Quand vous mettez en place des <em>tours de garde</em>, chacun&middot;e gagne <strong>+1</strong> durant sa veille. Apr&egrave;s une nuit de campement durant laquelle vous avez mis en place les <em>tours de garde</em>, chacun&middot;e obtient <strong>+1</strong> &agrave; sa prochaine action.</p>"
+			"name": "이러면 더 안전하오",
+			"description": "<p><em>대체: 이러면 안전하오</em></p><p>자신이 파수 순서를 정하면 전원이 파수 판정에 +1을 받습니다. 그렇게 야영을 하고 나면 모두가 다음 번 판정에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Animal Companion",
-			"name": "Animal familier",
-			"description": "<p>Vous avez un lien surnaturel avec un animal loyal. Vous ne pouvez pas lui parler v&eacute;ritablement mais il agit comme vous le souhaitez. Nommez votre animal familier et choisissez une esp&egrave;ce : loup, puma, ours, aigle, chien, faucon, chat,&nbsp;<br>chouette, pigeon, rat, mule.</p><p>Choisissez une base :</p><ul><li>F&eacute;rocit&eacute; +2, Ruse +1, Armure 1, Instinct +1</li><li>F&eacute;rocit&eacute; +2, Ruse +2, Armure 0, Instinct +1</li><li>F&eacute;rocit&eacute; +1, Ruse +2, Armure 1, Instinct +1</li><li>F&eacute;rocit&eacute; +3, Ruse +1, Armure 1, Instinct +2</li></ul><p>Choisissez autant de qualit&eacute;s que sa <em>f&eacute;rocit&eacute; </em>: rapide, costaud, gros, calme, polyvalent, r&eacute;flexes rapides, infatigable, camouflage, f&eacute;roce, intimidant, sens d&eacute;velopp&eacute;s, discret.</p><p>Votre animal familier est dress&eacute; &agrave; attaquer des humano&iuml;des. Choisissez autant de dressages suppl&eacute;mentaires que sa <em>ruse </em>: chasser, chercher, explorer, garder, combattre les monstres, jouer un spectacle, travailler, voyager.</p><p>Choisissez autant de faiblesses que son <em>instinct </em>: inconstant, sauvage, lent, soumis, effray&eacute;, &eacute;tourdi, born&eacute;, faible.</p>"
+			"name": "동물 친구",
+			"description": "<p>자기를 충실히 따르는 동물이 하나 있습니다. 말은 할 수 없지만, 이 동물은 사냥꾼이 원하는 대로 행동합니다. 동물 친구의 이름을 지으십시오:</p>\n<h2>동물 친구 이름</h2>\n<h3>종류를 선택합니다:</h3>\n<p>고양이, 곰, 노새, 늑대, 독수리, 매, 비둘기, 올빼미, 쥐, 퓨마, ________</p>\n<h3>기본 능력치를 선택합니다:</h3>\n<ul>\n<li>사나움 +2, 교활함 +1, 장갑 1, 본능 +1.</li>\n<li>사나움 +2, 교활함 +2, 장갑 0, 본능 +1.</li>\n<li>사나움 +1, 교활함 +2, 장갑 1, 본능 +1.</li>\n<li>사나움 +3, 교활함 +1, 장갑 1, 본능 +2.</li>\n</ul>\n<h3>아래 특성 중에서 사나움 수치만큼을 선택합니다:</h3>\n<p>감각이 예리하다, 건장하다, 빠르다, 보호색이 있다, 움직임이 은밀하다, 위협적이다, 적응을 잘 한다, 지칠 줄 모른다, 침착하다, 크다, 흉포하다, ____________________</p>\n<h3>동물 친구는 기본적으로 인간형 생물과 싸울 수 있게 훈련이 되어 있습니다. 그 외에도 교활함만큼의 훈련 특성을 아래에서 선택하십시오:</h3>\n<p>경비, 공연, 괴물 전투, 노동, 사냥, 수색, 여행, 척후, ___________</p>\n<h3>아래 약점들 중에서 본능만큼을 선택합니다:</h3>\n<p>겁이 많다, 고집이 세다, 기억력이 나쁘다, 난폭하다, 느리다, 다리를 전다, 무섭게 생겼다, 피폐했다, _________</p>"
 		},
 		{
 			"id": "Blot Out The Sun",
-			"name": "Noircir le ciel",
-			"description": "<p>Quand vous tirez une <em>salve</em>, vous pouvez d&eacute;penser des munitions suppl&eacute;mentaires avant de jeter les d&eacute;s. Pour chaque point de munition ainsi d&eacute;pens&eacute; vous pouvez choisir une cible suppl&eacute;mentaire. Lancez une seule fois les d&eacute;s et infligez les d&eacute;g&acirc;ts &agrave; toutes les cibles.</p>"
+			"name": "태양을 가리리라",
+			"description": "<p>사격을 할 때, 원하면 판정하기 전에 발수를 추가로 소비하여 추가 목표를 지정할 수 있습니다 (발수 1점당 목표 하나 추가). 판정은 한 번만 하고, 같은 피해를 모든 목표에 적용하십시오.</p>"
 		},
 		{
 			"id": "Called Shot",
-			"name": "Tir précis",
-			"description": "<p>Quand vous attaquez &agrave; distance un&middot;e ennemi&middot;e surpris&middot;e ou sans d&eacute;fense, vous pouvez choisir d&rsquo;infliger vos d&eacute;g&acirc;ts ou de choisir votre cible et tirer <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Vous n'atteignez pas la cible escompt&eacute;e.</p>",
-			"partial": "<p>Choisissez une localisation.</p>",
-			"success": "<p>Choisissez une localisation et infligez vos d&eacute;g&acirc;ts.</p>",
-			"choices": "<ul><li><em>T&ecirc;te </em>: l&rsquo;ennemi reste debout sans rien faire sauf baver quelques instants.</li><li><em>Bras </em>: l&rsquo;ennemi l&acirc;che tout ce qu&rsquo;il portait.</li><li><em>Jambes </em>: l&rsquo;ennemi est ralenti et boite.</li></ul>"
+			"name": "정조준",
+			"description": "<p>방어를 할 수 없거나 기습을 당한 적을 멀리서 공격할 때, 원하면 특정 부위를 노려서 쏠 수 있습니다. 목표를 정하고 +민 판정을 합니다:</p>",
+			"failure": "<p>당신은 예상한 목표를 맞추지 못합니다.</p>",
+			"partial": "<p>위치를 하나 선택하여 효과를 일으킵니다.</p>",
+			"success": "<p>위치를 하나 선택하여 효과를 일으키고, 피해 또한 일으힙니다.</p>",
+			"choices": "<ul><li><em>머리</em> : 적은 잠시 동안 침만 흘리며 아무것도 하지 않고 서 있습니다.</li><li><em>팔</em> : 적은 들고 있던 모든 것을 놓칩니다.</li><li><em>다리</em> : 적은 느려지고 절뚝거립니다.</li></ul>"
 		},
 		{
 			"id": "Camouflage",
-			"name": "Camouflage",
-			"description": "<p>Quand vous restez immobile dans un environnement naturel, les ennemis ne vous voient que si vous bougez.</p>"
+			"name": "위장숭",
+			"description": "<p>자연물 속에 숨어서 가만히 있으면 적들은 이쪽이 움직일 때까지 결코 눈치채지 못합니다.</p>"
 		},
 		{
 			"id": "Command",
-			"name": "Ordonner",
-			"description": "<p>Lorsque vous accomplissez une action pour laquelle votre <em>animal familier</em> est dress&eacute; et que :</p><ul><li>Vous <em>attaquez </em>la m&ecirc;me cible, ajoutez sa <strong>f&eacute;rocit&eacute; </strong>&agrave; vos d&eacute;g&acirc;ts.</li><li>Vous <em>pistez</em>, ajoutez sa <strong>ruse </strong>&agrave; votre jet.</li><li>Vous subissez des d&eacute;g&acirc;ts, ajoutez son armure &agrave; la v&ocirc;tre.</li><li>Vous <em>discernez la r&eacute;alit&eacute;</em>, ajoutez sa <strong>ruse </strong>&agrave; votre jet.</li><li>Vous <em>n&eacute;gociez</em>, ajoutez sa <strong>ruse </strong>&agrave; votre jet.</li><li>Quelqu&rsquo;un cherche &agrave; vous <em>g&ecirc;ner</em>, ajoutez son <strong>instinct </strong>&agrave; son jet.</li></ul>"
+			"name": "명령",
+			"description": "<p>동물 친구가 받은 훈련을 활용하고 있으면, 다음과 같은 효과를 받습니다:</p>\n<ul>\n<li>동물과 자기가 같은 대상을 공격할 때, 동물의 사나움이 피해에 추가됩니다.</li>\n<li>사냥과 추적을 할 때 동물의 교활함이 판정에 더해집니다.</li>\n<li>자신이 피해를 입을 때 동물의 장갑이 자신의 장갑에 추가됩니다.</li>\n<li>상황 파악을 할 때 동물의 교활함이 판정에 더해집니다.</li>\n<li>협상을 할 때 동물의 교활함이 판정에 더해집니다.</li>\n<li>다른 PC가 자신을 방해하려 들 때, 동물의 본능이 그 판정에 더해집니다.</li>\n</ul>"
 		},
 		{
 			"id": "Familiar Prey",
-			"name": "Proie familière",
-			"description": "<p>Quand vous <em>&eacute;talez votre science</em> &agrave; propos d&rsquo;un monstre, utilisez <strong>SAG </strong>au lieu d&rsquo;<strong>INT</strong>.</p>"
+			"name": "익숙한 사냥감",
+			"description": "<p>괴물에 대해 지식 더듬기를 할 때 +지 대신 +혜로 판정할 수 있습니다.</p>"
 		},
 		{
 			"id": "Follow Me",
-			"name": "Suivez-moi",
-			"description": "<p>Lorsque vous entreprenez un <em>voyage p&eacute;rilleux</em>, vous pouvez choisir deux r&ocirc;les. Vous faites un jet de d&eacute;s s&eacute;par&eacute;s pour chacun d&rsquo;eux.</p>"
+			"name": "여행길의 친구",
+			"description": "<p>험난한 여정에 오를 때 혼자서 두 직책을 맡을 수 있습니다. 판정은 따로 해야 합니다.</p>"
 		},
 		{
 			"id": "God Amidst The Wastes",
-			"name": "Prêcher dans le désert",
-			"description": "<p>Consacrez-vous &agrave; une divinit&eacute; (nommez-en une ou choisissez-en une d&eacute;j&agrave; &eacute;tablie). Vous gagnez la facult&eacute; de <em>communier </em>et de <em>lancer des sorts</em> comme un clerc. Quand vous choisissez cette action, consid&eacute;rez-vous comme un clerc de niveau 1 pour lancer un sort. Par la suite, chaque fois que vous gagnez un niveau, vous augmentez votre niveau de clerc de 1.</p>"
+			"name": "황무지의 신",
+			"description": "<p>특정한 신에게 봉사를 맹세합니다 (이미 이야기 속에서 확립된 신들 중에서 골라도 좋고, 새로 만들어도 좋습니다). 그러면 사제 액션인 예배와 주문 시전을 사용할 수 있게 됩니다. 이 액션을 선택했을 때에는 마치 1레벨 사제인 것처럼 주문을 쓰고, 그 뒤로 레벨이 1 오를 때마다 사제로서의 레벨도 1 오르는 것으로 칩니다.</p>"
 		},
 		{
 			"id": "Half-elven",
-			"name": "Demi-elfe",
-			"description": "<p><strong>Vous ne pouvez prendre cette action que si c&rsquo;est votre premi&egrave;re action avanc&eacute;e.</strong></p><p>Votre ascendance est m&eacute;tiss&eacute;e et cela commence &agrave; se faire sentir. Vous gagnez l&rsquo;action de d&eacute;part de l&rsquo;elfe si vous aviez choisi humain &agrave; la cr&eacute;ation de votre personnage et vice-versa.</p>"
+			"name": "하프 엘프",
+			"description": "<p>이 액션은 처음으로 레벨업을 할 때 택하지 않으면 영원히 고르지 못합니다.</p>\n<p>조상들 중에 인간과 엘프가 모두 있어서, 그 영향이 드러나기 시작합니다. 인간으로 시작했다면 엘프의 종족 액션을, 엘프로 시작했다면 인간이 종족 액션을 추가하십시오.</p>"
 		},
 		{
 			"id": "Hunt & Track",
-			"name": "Chasser et pister",
-			"description": "<p>Quand vous suivez une piste d&rsquo;indices laiss&eacute;s par le passage de cr&eacute;atures, lancez <strong>2d6+SAG</strong>.</p>",
-			"failure": "<p>Vous faites fausse piste.</p>",
-			"partial": "<p>Vous suivez la piste de la cr&eacute;ature jusqu&rsquo;&agrave; ce qu&rsquo;un changement significatif dans sa direction ou son moyen de d&eacute;placement ne survienne.</p>",
-			"success": "<p>Vous suivez la piste de la cr&eacute;ature jusqu&rsquo;&agrave; ce qu&rsquo;un changement significatif dans sa direction ou son moyen de d&eacute;placement ne survienne. Vous choisissez aussi une option.</p>",
-			"choices": "<ul><li>Vous recevez une information utile sur votre proie. Lae MJ vous dira quoi.</li><li>Vous d&eacute;terminez ce qui a interrompu la piste.</li></ul>"
+			"name": "사냥과 추적",
+			"description": "<p>사람이나 짐승이 지나가며 남긴 자취를 따라갈 때, +혜 판정을 합니다.</p>",
+			"failure": "<p>자취가 도중에 끊어져있거나, 더 나쁜 일을 당합니다.</p>",
+			"partial": "<p>대상이 방향이나 이동 방식을 크게 바꾼 지점까지 추적해 갈 수 있습니다.</p>",
+			"success": "<p>대상이 방향이나 이동 방식을 크게 바꾼 지점까지 추적해 갈 수 있습니다. 더불어 한 가지를 고릅니다.</p>",
+			"choices": "<ul><li>대상에 관한 유용한 정보를 얻습니다. 마스터가 정해서 알려줄 것입니다.</li><li>자취가 왜 여기서 끊어지는지 알아냅니다.</li></ul>"
 		},
 		{
 			"id": "Hunter’s Prey",
-			"name": "Proie du chasseur",
-			"description": "<p><em>Remplace : Proie famili&egrave;re</em></p><p>Quand vous <em>&eacute;talez votre science</em> &agrave; propos d&rsquo;un monstre, utilisez <strong>SAG </strong>au lieu d&rsquo;<strong>INT</strong>. Sur <strong>12+</strong>, en plus des effets normaux, vous pouvez poser une question au&middot;&agrave; lae MJ sur ce sujet.</p>"
+			"name": "사냥의 지식",
+			"description": "<p><em>대체: 익숙한 사냥감</em></p><p>괴물에 대해 지식 더듬기를 할 때 +지 대신 +혜를 쓸 수 있습니다. 12+이면 통상적인 효과와 더불어 마스터에게 그 주제에 관해 하나의 질문을 할 수 있습니다.</p>"
 		},
 		{
 			"id": "Man’s Best Friend",
-			"name": "Le meilleur ami de l’homme",
-			"description": "<p>Quand vous laissez votre <em>animal familier</em> prendre un coup &agrave; votre place, vous ne subissez pas de d&eacute;g&acirc;ts et la <strong>f&eacute;rocit&eacute; </strong>de votre animal tombe &agrave; 0. Si cette caract&eacute;ristique est d&eacute;j&agrave; &agrave; 0, vous ne pouvez pas utiliser cette action. Quelques heures de repos en compagnie de votre animal lui restaurent sa f&eacute;rocit&eacute;.</p>"
+			"name": "헌신적인 친구",
+			"description": "<p>자기가 맞을 공격을 동물 친구가 대신 맞게 하면, 동물은 피해를 입지 않지만 사나움이 0으로 떨어집니다. 이미 사나움이 0이면 이 액션은 발동되지 않습니다. 사냥꾼과 동물 친구가 함께 몇 시간 쉬고 나면 사나움은 원래대로 돌아옵니다.</p>"
 		},
 		{
 			"id": "Observant",
-			"name": "Observateur",
-			"description": "<p>Quand vous <em>chassez et pistez</em>, sur <strong>7+</strong> vous pouvez &eacute;galement poser gratuitement une question de la liste de &laquo; <em>discerner la r&eacute;alit&eacute;</em> &raquo; &agrave; propos de la cr&eacute;ature que vous traquez.</p>",
-			"choices": "<ul><li>Que s&rsquo;est-il pass&eacute; ici r&eacute;cemment ?</li><li>Que va-t-il se passer ?</li><li>&Agrave; quoi dois-je &ecirc;tre attentif ?</li><li>Qu&rsquo;est-ce qui pourrait m&rsquo;&ecirc;tre utile ou pr&eacute;cieux ici ?</li><li>Qui est vraiment ma&icirc;tre de la situation ici ?</li><li>Qu&rsquo;est-ce qui n&rsquo;est pas ce qu&rsquo;il para&icirc;t &ecirc;tre ici ?</li></ul>"
+			"name": "관찰력",
+			"description": "<p>사냥과 추적을 할 때, 10+이면 원래 효과와 더불어 추적 대상에 대한 질문을 한 가지 할 수 있습니다. 질문은 상황 파악의 목록에서 고르십시오.</p>",
+			"choices": "<ul>\n<li>여기서 최근에 무슨 일이 일어났는가?</li>\n<li>무슨 일이 일어나려고 하고 있는가?</li>\n<li>무엇을 주의해서 봐야 하는가?</li>\n<li>여기서 나에게 유용하거나 값진 것은 무엇인가?</li>\n<li>이 상황은 누가 장악하고 있는가?</li>\n<li>여기서 겉보기와 다른 것은 무엇인가?</li>\n</ul>"
 
 		},
 		{
 			"id": "Smaug’s Belly",
-			"name": "Le ventre de Smaug",
-			"description": "<p>Quand vous connaissez le point faible de votre cible, vos fl&egrave;ches sont perforantes &agrave; 2.</p>"
+			"name": "약점 공략",
+			"description": "<p>목표의 약점을 알고 있으면 화살에 관통 2가 붙습니다.</p>"
 		},
 		{
 			"id": "Special Trick",
-			"name": "Dressage spécial",
-			"description": "<p>Choisissez une action d&rsquo;une autre classe. Cette action est possible aussi longtemps que vous agissez avec votre <em>animal familier</em>.</p>"
+			"name": "특별한 재주",
+			"description": "<p>다른 직업의 액션을 하나 고릅니다. 동물 친구와 함께 행동하는 경우에 한하여 그 액션을 사용할 수 있습니다.</p>"
 		},
 		{
 			"id": "Strider",
-			"name": "Grand-Pas",
-			"description": "<p><em>Remplace : Suivez-moi</em></p><p>Lorsque vous entreprenez un <em>voyage p&eacute;rilleux</em>, vous pouvez choisir deux r&ocirc;les. Lancez deux fois les d&eacute;s. Appliquez le meilleur r&eacute;sultat pour les deux r&ocirc;les.</p>"
+			"name": "여행길의 스승",
+			"description": "<p><em>대체: 여행길의 친구</em></p><p>험난한 여정에 오를 때 혼자서 두 직책을 맡을 수 있습니다. 판정은 따로 하되, 각각 두 번씩 해서 더 유리한 쪽을 고르십시오.</p>"
 		},
 		{
 			"id": "Unnatural Ally",
-			"name": "Allié surnaturel",
-			"description": "<p>Votre <em>animal familier</em> n&rsquo;est pas un animal mais un monstre. D&eacute;crivez-le. Il a +2 F&eacute;rocit&eacute; et +1 Instinct et un entra&icirc;nement suppl&eacute;mentaire.</p>"
+			"name": "괴물 친구",
+			"description": "<p>동물 친구가 보통 동물이 아닌 괴물입니다. 어떤 존재인지 묘사하십시오. 사나움에 +2, 본능에 +1이 붙고, 훈련 특성도 하나 추가됩니다.</p>"
 		},
 		{
 			"id": "Viper’s Fangs",
-			"name": "Crochets de la vipère",
-			"description": "<p><em>Remplace : Morsure de la vip&egrave;re</em></p><p>Quand vous frappez un ennemi avec une arme dans chaque main, ajoutez <strong>+1d8</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "독사의 이빨",
+			"description": "<p><em>대체: 독사의 일격</em></p><p>동시에 무기 두 개로 적을 공격하면 통상적인 공격의 피해에 +1d8이 더해집니다.</p>"
 		},
 		{
 			"id": "Viper’s Strike",
-			"name": "Morsure de la vipère",
-			"description": "<p>Quand vous frappez un ennemi avec une arme dans chaque main, ajoutez <strong>+1d4</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "독사의 일격",
+			"description": "<p>동시에 무기 두 개로 적을 공격하면 통상적인 공격의 피해에 +1d4가 더해집니다.</p>"
 		},
 		{
 			"id": "Well-trained",
-			"name": "Surentraîné",
-			"description": "<p>Choisissez un entra&icirc;nement suppl&eacute;mentaire pour votre <em>animal familier</em>.</p>"
+			"name": "재주꾼",
+			"description": "<p>동물 친구에게 훈련 특성을 하나 추가하십시오.</p>"
 		},
 		{
 			"id": "Wild Empathy",
-			"name": "Empathie sauvage",
-			"description": "<p>Vous pouvez parler aux animaux et les comprendre.</p>"
+			"name": "야성의 교감",
+			"description": "<p>동물의 말을 이해하고 동물과 대화할 수 있게 됩니다.</p>"
 		},
 		{
 			"id": "Wild Speech",
-			"name": "Langage sauvage",
-			"description": "<p><em>Remplace : Empathie sauvage</em></p><p>Vous pouvez parler avec toute cr&eacute;ature non magique et non-planaire et la comprendre.</p>"
+			"name": "야성의 언어",
+			"description": "<p><em>대체: 야성의 교감</em></p><p>마법적이지 않고 이계에서 오지도 않은 존재라면 누구든 무엇이든 말을 알아듣고 대화를 나눌 수 있습니다.</p>"
 		}
 	]
 }
