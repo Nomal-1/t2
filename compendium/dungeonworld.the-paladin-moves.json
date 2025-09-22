@@ -1,5 +1,5 @@
 {
-    "label": "Actions du·de la Paladin·e",
+    "label": "성기사 액션",
 	"mapping": {
 		"name": "name",
 		"description": "system.description",
@@ -10,129 +10,129 @@
 	},
     "entries": [{
             "id": "Armored",
-            "name": "Cuirassé",
-            "description": "<p>Ignorez l’encombrement des armures que vous portez.</p>"
+            "name": "갑옷을 옷처럼",
+            "description": "<p>갑옷의 불편 태그를 무시합니다.</p>"
         },
         {
             "id": "Bloody Aegis",
-            "name": "Égide sanglante",
-            "description": "<p>Quand vous subissez des dégâts vous pouvez serrer les dents et supporter le choc. Si vous le faites, vous ne subissez pas de dégâts mais un handicap de votre choix. Si vous avez déjà six handicaps vous ne pouvez pas utiliser cette action.</p>"
+            "name": "피의 보루",
+            "description": "<p>피해를 입을 상황에서 이를 꽉 다물고 고통을 견딜 수 있습니다. 그러면 피해를 입지 않지만 대신 자기가 선택한 약화 효과를 하나 겪게 됩니다. 이미 모든 약화 효과를 다 갖고 있다면 이 액션은 사용할 수 없습니다.</p>"
         },
         {
             "id": "Charge!",
-            "name": "Charge",
-            "description": "<p>Quand vous menez la charge au combat, ceux qui vous suivent ont +1 à leur prochaine action.</p>"
+            "name": "돌격",
+            "description": "<p>선두에서 자기 편을 이끌고 돌격하면, 지휘를 받는 사람들이 다음 판정에 +1을 받습니다.</p>"
         },
         {
             "id": "Divine Authority",
-            "name": "Autorité divine",
-            "description": "<p><em>Remplace : Autorité</em></p>\n<p>Vous avez +1 pour diriger des mercenaires. Sur 12+ les mercenaires transcendent leur brève hésitation et accomplissent leur devoir avec une particulière efficacité.</p>"
+            "name": "천상의 권위",
+            "description": "<p><em>대체: 권위의 음성</em></p><p>모든 고용인의 무리한 명령 판정에 +1이 붙습니다. 판정이 12+이면 고용인은 두려움과 의심을 떨치고 받은 명령을 특별히 잘 수행합니다.</p>"
         },
         {
             "id": "Divine Favor",
-            "name": "Faveur divine",
-            "description": "<p>Dévouez-vous à une divinité (nommez-en une nouvelle ou choisissez-en une déjà existante). Vous obtenez les actions de clerc Communion et Lancer un sort. Quand vous choisissez cette action, considérez-vous comme un clerc de niveau 1. Chaque fois que vous gagnez un niveau par la suite, augmentez de un votre niveau effectif de clerc.</p>"
+            "name": "신의 은혜",
+            "description": "<p>특정한 신에게 봉사를 맹세합니다 (이미 이야기 속에서 확립된 신들 중에서 골라도 좋고, 새로 만들어도 좋습니다). 그러면 사제 액션인 예배와 주문 시전을 사용할 수 있게 됩니다. 이 액션을 선택했을 때에는 마치 1레벨 사제인 것처럼 주문을 쓰고, 그 뒤로 레벨이 1 오를 때마다 사제로서의 레벨도 1 오르는 것으로 칩니다.</p>"
         },
         {
             "id": "Divine Protection",
-            "name": "Protection divine",
-            "description": "<p><em>Remplace : Protection sacrée</em></p>\n<p>Vous gagnez +2 armure tant que vous suivez votre quête.</p>"
+            "name": "신의 갑옷",
+            "description": "<p><em>대체: 정의의 갑옷</em></p><p>신성한 임무를 수행 중인 동안 장갑에 +2를 받습니다.</p>"
         },
         {
             "id": "Ever Onward",
-            "name": "En avant, toujours !",
-            "description": "<p><em>Remplace : Charge !</em></p>\n<p>Quand vous menez la charge au combat, ceux qui vous suivent ont +1 à leur prochaine action et +2 armure pour cette action.</p>"
+            "name": "끝없는 전진",
+            "description": "<p><em>대체: 돌격</em></p><p>선두에서 자기 편을 이끌고 돌격하면, 지휘를 받는 사람들이 다음 판정에 +1을 받고, 다음에 입는 피해에 대해 장갑에 +2를 받습니다.</p>"
         },
         {
             "id": "Evidence Of Faith",
-            "name": "Manifestation divine",
-            "description": "<p><em>Requiert : Faveur divine</em></p>\n<p>Quand vous assistez à une manifestation de magie divine, vous pouvez demander à lae MJ quelle divinité a octroyé ce sort et quels sont ses effets.</p>"
+            "name": "신앙의 증거",
+            "description": "<p><em>필요: 신의 은혜</em></p><p>신성 마법이 일어나는 것을 보았을 때, 마스터에게 그 주문과 효과를 내린 신이 누구인지 물을 수 있습니다. 그 정보에 의거하여 행동하면 다음 판정에 +1을 받습니다.</p>"
         },
         {
             "id": "Exterminatus",
-            "name": "Exterminatus",
-            "description": "<p>Quand vous proclamez votre détermination à vaincre un ennemi, vous infligez +2d4 dégâts contre cet ennemi et -4 dégâts contre tout autre. Cet effet dure jusqu’à ce que l’ennemi soit vaincu. Si vous échouez ou abandonnez le combat, vous pouvez admettre votre défaite, mais l’effet continue jusqu’à ce que vous trouviez un moyen de vous racheter.</p>"
+            "name": "척살",
+            "description": "<p>특정한 어느 하나의 적을 쓰러뜨릴 것을 소리 내어 약속하면 그 적에 대해서는 +2d4의 피해를 더 주지만 다른 적들에게 가하는 피해에는 -4가 붙습니다. 이 효과는 그 적이 쓰러질 때까지 계속됩니다. 적에게 이기지 못하거나 싸움을 그만두어도, 이 실패를 만회할 방법을 찾을 때까지는 효과가 지속됩니다.</p>"
         },
         {
             "id": "Holy Protection",
-            "name": "Protection sacrée",
-            "description": "<p>Vous gagnez +1 armure tant que vous suivez votre quête.</p>"
+            "name": "정의의 갑옷",
+            "description": "<p>신성한 임무를 수행 중인 동안 장갑에 +1을 받습니다.</p>"
         },
         {
             "id": "Holy Smite",
-            "name": "Frappe divine",
-            "description": "<p><em>Remplace : Frappe violente</em></p>\n<p>Vous infligez +1d8 dégâts tant que vous suivez votre quête.</p>"
+            "name": "거룩한 분노",
+            "description": "<p><em>대체: 의로운 분노</em></p><p>신성한 임무를 수행 중인 동안, 피해를 줄 때 +1d8을 더 가합니다.</p>"
         },
         {
             "id": "Hospitaller",
-            "name": "Hospitalier",
-            "description": "<p>Quand vous soignez un allié, guérissez +1d8 dégâts</p>"
+            "name": "치료사",
+            "description": "<p>부상자를 치유할 때 +1d8을 더 치유합니다.</p>"
         },
         {
             "id": "I Am The Law",
-            "name": "La loi c’est moi",
-            "description": "<p>Quand vous donnez un ordre à un·e PNJ de par votre droit divin, lancez 2d6+CHA.</p>",
-            "failure": "<p>Iel fait ce qu’iel veut et vous avez -1 à suivre contre ellui.</p>",
-			"partial": "<p>Iel choisit entre :<p>",
-			"success": "<p>Vous avez +1 à suivre contre ellui et iel choisit entre :</p>",
-			"choices": "<ul><li>s’exécuter</li><li>reculer avec précaution avant de fuir</li><li>vous attaquer</li></ul>"
+            "name": "내가 법이다",
+            "description": "<p>신이 내린 권위를 내세워 NPC에게 명령을 내리면, +매 판정을 합니다.</p>",
+            "failure": "<p>상대는 자기 하고 싶은 대로 하고, 이쪽은 상대에 대한 다음 판정에 -1을 받습니다.</p>",
+			"partial": "<p>상대는 다음 중 한 가지를 선택합니다.<p>",
+			"success": "<p>상대는 다음 중 한 가지를 선택합니다. 이와 더불어 상대에 대한 다음 판정에 +1을 받습니다.:</p>",
+			"choices": "<ul>\n<li>시키는 대로 한다.</li>\n<li>조심스럽게 물러나다가 도망친다.</li>\n<li>성기사를 공격한다.</li>\n</ul>"
         },
         {
             "id": "Impervious Defender",
-            "name": "Défenseur inébranlable",
-            "description": "<p><em>Remplace : Défenseur acharné</em></p>\n<p>Quand vous <em>défendez</em>, vous gagnez toujours +1 de retenue, même sur un 6-. Sur 12+, au lieu d’une retenue, votre adversaire le plus proche est entravé et vous obtenez un net avantage. Lae MJ vous dira lequel.</p>"
+            "name": "무적의 방어",
+            "description": "<p><em>대체: 견고한 방어</em></p><p>방어를 하면 항상 예비 1점을 더 받습니다. 6-가 나와도 마찬가지입니다. 방어 판정이 12+이면 예비를 받지 않습니다. 대신 가장 가까이에서 공격하는 적 하나를 방해하여 아주 유리한 상황을 취한 것이 됩니다. 묘사는 마스터가 합니다.</p>"
         },
         {
             "id": "Indomitable",
-            "name": "Inflexible",
-            "description": "<p>Quand vous subissez un handicap (y compris par Égide sanglante), vous gagnez +1 sur ce qui l’a provoquée.</p>"
+            "name": "불굴",
+            "description": "<p>약화를 입은 경우 (피의 보루로 생긴 경우도 포함), 그 약화를 유발한 자에 대한 다음 판정에 +1을 받습니다.</p>"
         },
         {
             "id": "Lay On Hands",
-            "name": "Imposition des mains",
-            "description": "<p>Quand vous touchez une personne à même la peau et priez pour son bien-être, lancez 2d6+CHA.</p>",
-			"partial": "<p>Elle est soignée mais les dégâts ou la maladie vous sont transférés.<p>",
-			"success": "<p>Vous soignez 1d8 dégâts ou guérissez une maladie.</p>"
+            "name": "안수치료",
+            "description": "<p>환자와 피부 접촉을 하고 그 건강을 위해 기도하면 +매 판정을 합니다.</p>",
+			"partial": "<p>환자는 낫지만 피해나 질병이 성기사에게 옮아 옵니다.<p>",
+			"success": "<p>1d8 피해를 치유하거나 하나의 질병을 고칩니다. </p>"
         },
         {
             "id": "Perfect Hospitaller",
-            "name": "Grand hospitalier",
-            "description": "<p><em>Remplace : Hospitalier</em></p>\n<p>Quand vous soignez un allié, guérissez +2d8 dégâts.</p>"
+            "name": "치료사의 모범",
+            "description": "<p><em>대체: 치료사</em></p><p>부상자를 치유할 때 +2d8을 더 치유합니다.</p>"
         },
         {
             "id": "Perfect Knight",
-            "name": "Sans peur et sans reproche",
-            "description": "<p>Quand vous suivez votre quête choisissez trois bénédictions au lieu de deux</p>"
+            "name": "기사의 귀감",
+            "description": "<p>신성한 임무에서 택할 수 있는 축복이 2개에서 3개로 늘어납니다.</p>"
         },
         {
             "id": "Quest",
-            "name": "Quête",
-            "description": "<p>Quand vous vous consacrez à une mission par la prière et un rituel de purification, déclarez sa nature :</p>\n<ul>\n<li>Pourfendre _____________, une grande plaie sur cette terre.</li>\n<li>Défendre _______________ des injustices qui le(s) frappent.</li>\n<li>Découvrir la vérité sur _____________.</li>\n</ul>\n<p>Choisissez alors jusqu’à deux bénédictions :</p>\n<ul>\n<li>Un indéfectible sens de l’orientation vers _____________.</li>\n<li>L’invulnérabilité à ___________ (par ex. les armes tranchantes, le feu, les enchantements, etc.).</li>\n<li>Une marque d’autorité divine.</li>\n<li>La révélation innée des mensonges.</li>\n<li>Une voix qui sublime la parole.</li>\n<li>Une insensibilité à la faim, à la soif ou au sommeil.</li>\n</ul>\n<p>Lae MJ vous indiquera le ou les vœux que vous devez respecter pour maintenir ces bénédictions :</p>\n<ul>\n<li>Honneur (interdiction : des manœuvres ou des ruses de lâche).</li>\n<li>Tempérance (interdiction : la goinfrerie, l’ivresse et les plaisirs de la chair).</li>\n<li>Piété (obligation : le respect des services quotidiens)</li>\n<li>Valeur (interdiction : tolérer la survie d’une créature mauvaise)</li>\n<li>Vérité (interdiction : le mensonge)</li>\n<li>Hospitalité (obligation : réconfort des nécessiteux, quels qu’ils soient).</li>\n</ul>"
+            "name": "신성한 임무",
+            "description": "<p>기도와 목욕재계를 하고 특정한 임무 하나를 수행할 것을 맹세하면, 먼저 목적을 정합니다:&nbsp;</p>\n<ul>\n<li>만인의 적 _________를 죽인다.</li>\n<li>부당한 공격으로부터 _________를 수호한다.</li>\n<li>_________의 진실을 밝혀낸다.</li>\n</ul>\n<p>&nbsp;</p>\n<p>그리고 다음 중에서 최대 두 가지 축복을 고릅니다:</p>\n<ul>\n<li>언제 어디서도 _________의 방향을 알 수 있게 됩니다.&nbsp;</li>\n<li>_________에 다치지 않게 됩니다 (예: 날붙이 무기, 불, 주술 등).</li>\n<li>신의 권위를 증명하는 증표가 생깁니다.</li>\n<li>거짓말을 바로 알아볼 수 있게 됩니다.</li>\n<li>언어를 초월하는 목소리를 갖게 됩니다.</li>\n<li>굶주림, 목마름, 졸음으로부터 자유로워집니다.</li>\n</ul>"
         },
         {
             "id": "Setup Strike",
-            "name": "Attaque concertée",
-            "description": "<p>Quand vous <em>taillez en pièces</em>, choisissez un allié. Sa prochaine attaque contre votre adversaire inflige +1d4 dégâts.</p>"
+            "name": "연계 공격",
+            "description": "<p>접근전을 할 때 우리 편을 한 명 지명합니다. 지명된 사람은 성기사가 방금 공격한 목표를 공격할 때 +1d4의 피해를 더 줍니다.</p>"
         },
         {
             "id": "Smite",
-            "name": "Frappe violente",
-            "description": "<p>Quand vous suivez votre quête vous infligez +1d4 dégâts.</p>"
+            "name": "의로운 분노",
+            "description": "<p>신성한 임무를 수행 중인 동안, 피해를 줄 때 +1d4를 더 가합니다.</p>"
         },
         {
             "id": "Staunch Defender",
-            "name": "Défenseur acharné",
-            "description": "<p>Quand vous <em>défendez</em>, vous gagnez toujours +1 de retenue, même sur un 6-.</p>"
+            "name": "견고한 방어",
+            "description": "<p>방어를 하면 항상 예비 1점을 더 받습니다. 6-가 나와도 마찬가지입니다.</p>"
         },
         {
             "id": "Tandem Strike",
-            "name": "Coude à coude",
-            "description": "<p><em>Remplace : Attaque concertée</em></p>\n<p>Quand vous <em>taillez en pièces</em>, choisissez un·e allié·e. Sa prochaine attaque contre votre adversaire inflige +1d4 dégâts et iel gagne +1 à sa prochaine action.</p>"
+            "name": "협공",
+            "description": "<p><em>대체: 연계 공격</em></p><p>접근전을 할 때, 우리 편을 한 명 지명합니다. 지명된 사람은 성기사가 방금 공격한 목표를 공격할 때 +1d4의 피해를 더 주고, 적에 대한 다음 판정에 +1을 받습니다.</p>"
         },
         {
             "id": "Voice Of Authority",
-            "name": "Autorité",
-            "description": "<p>Vous avez +1 pour <em>commander</em> des mercenaires</p>"
+            "name": "권위의 음성",
+            "description": "<p>모든 고용인의 무리한 명령 판정에 +1이 붙습니다.</p>"
         }
     ]
 }
