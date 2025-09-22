@@ -1,5 +1,5 @@
 {
-	"label": "Actions du·de la Voleur·euse",
+	"label": "도적 액션",
 	"mapping": {
 		"name": "name",
 		"description": "system.description",
@@ -11,135 +11,135 @@
 	"entries": [
 		{
 			"id": "Alchemist",
-			"name": "Chimiste",
-			"description": "<p><em>Requiert : Distillateur</em></p><p>Vous pouvez cr&eacute;er de nouveaux poisons. D&eacute;crivez en l&rsquo;effet recherch&eacute; au&middot;&agrave; lae MJ. Cellui-ci peut ajouter une ou plusieurs limites de son choix parmi les suivantes :</p><ul><li>Il ne marche que dans certaines conditions.</li><li>Il est moins puissant que pr&eacute;vu.</li><li>Il prend un certain temps &agrave; agir.</li><li>Il y a des effets secondaires perceptibles.</li></ul>"
+			"name": "독학박사",
+			"description": "<p><em>대체: 독제사</em></p><p>재료를 모으고 안전한 곳에서 시간을 들여 조제하면, 자기가 한 번이라도 사용한 적이 있는 독을 3회분 만들 수 있습니다. 아니면 원하는 효과를 가진 독을 묘사하십시오. 그런 독을 만들 수는 있지만, 마스터가 다음 중에서 조건을 하나 이상 골라 제시할 것입니다:</p>\n<ul>\n<li>특정한 상황에서만 효과를 발휘한다.</li>\n<li>원하는 것보다 약하다.</li>\n<li>효과가 발휘되는 데 시간이 꽤 걸린다.</li>\n<li>뚜렷한 부작용이 일어난다.</li>\n</ul>"
 		},
 		{
 			"id": "Backstab",
-			"name": "Attaque sournoise",
-			"description": "<p>Quand vous attaquez un&middot;e ennemi&middot;e sans d&eacute;fense ou par surprise avec une arme de m&ecirc;l&eacute;e, vous pouvez choisir d&rsquo;infliger vos d&eacute;g&acirc;ts ou de lancer <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Choisissez 1 option.</p>",
-			"success": "<p>Choisissez 2 options.</p>",
-			"choices": "<ul><li>Vous &eacute;vitez le corps &agrave; corps avec votre adversaire.</li><li>Vous infligez vos d&eacute;g&acirc;ts <strong>+1d6</strong>.</li><li>Vous obtenez un avantage de <strong>+1 &agrave; suivre</strong> pour un alli&eacute; ou vous-m&ecirc;me si vous en profitez.</li><li>Vous r&eacute;duisez son armure de 1 jusqu&rsquo;&agrave; ce qu&rsquo;il la r&eacute;pare.</li></ul>"
+			"name": "암습",
+			"description": "<p>방어를 할 수 없거나 기습을 당한 적을 근거리 무기로 공격할 때, 피해를 주지 않고 대신 +민 판정을 할 수 있습니다.</p>",
+			"failure": "<p>당신의 공격 시도에 의해 좋지 않은 결과가 일어납니다.</p>",
+			"partial": "<p>다음 중 하나를 고릅니다.</p>",
+			"success": "<p>다음 중 둘을 고릅니다.</p>",
+			"choices": "<ul><li>상대와의 근거리 전투에 말려들지 않습니다.</li><li>통상적인 피해 +1d6을 줍니다.</li><li>유리한 상황을 만듭니다. 자기 자신, 또는 그 상황을 이용하는 우리 편이 다음 판정에 +1을 받습니다.</li><li>상대가 갑옷을 수리할 때까지 장갑에 -1을 받습니다.</li></ul>"
 		},
 		{
 			"id": "Brewer",
-			"name": "Distillateur·rice",
-			"description": "<p>Quand vous avez le temps de r&eacute;unir les ingr&eacute;dients n&eacute;cessaires et un endroit calme o&ugrave; concocter vos m&eacute;langes, vous pouvez pr&eacute;parer 3 doses d&rsquo;un poison que vous avez d&eacute;j&agrave; utilis&eacute;.</p>"
+			"name": "독제사",
+			"description": "<p>재료를 모으고 안전한 곳에서 시간을 들여 조제하면 자기가 한 번이라도 사용한 적이 있는 독을 3회분 만들 수 있습니다.</p>"
 		},
 		{
 			"id": "Cautious",
-			"name": "Prudent·e",
-			"description": "<p>M&ecirc;me sur un 6-, vous prenez 1 avec votre <strong>Expertise des Pi&egrave;ges</strong>.</p>"
+			"name": "신중함",
+			"description": "<p>덫 전문가를 사용하면 항상 예비 1점을 더 받습니다. 6-가 나와도 마찬가지입니다.</p>"
 		},
 		{
 			"id": "Cheap Shot",
-			"name": "Coup bas",
-			"description": "<p>Quand vous maniez une arme dont les marqueurs sont &laquo; <em>pr&eacute;cis </em>&raquo; ou &laquo; <em>contact </em>&raquo;, votre <strong>Attaque Sournoise</strong> fait <strong>+1d6</strong> d&eacute;g&acirc;ts suppl&eacute;mentaires.</p>"
+			"name": "급소 가격",
+			"description": "<p>정밀 또는 반걸음 무기를 사용하면 암습의 피해가 +1d6 늘어납니다.</p>"
 		},
 		{
 			"id": "Connections",
-			"name": "Mauvaises fréquentations",
-			"description": "<p>Quand vous faites savoir au milieu local que vous cherchez quelque chose dont vous avez besoin, lancez <strong>2d6+CHA</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Vous devez vous contenter de quelque chose d&rsquo;approchant ou vous allez devoir rendre la pareille plus tard, au choix.</p>",
-			"success": "<p>Quelqu&rsquo;un&middot;e vous l&rsquo;a trouv&eacute;.</p>"
+			"name": "연줄",
+			"description": "<p>자기가 원하는 것이나 필요한 것이 있다고 범죄 세계에 소문을 흘리면 +매 판정을 합니다.</p>",
+			"failure": "<p>당신의 시도로 당신에게 좋지 않은 일이 일어납니다.</p>",
+			"partial": "<p>비슷한 다른 것으로 만족해야 하거나, 뭔가 특이한 조건이 따라 옵니다 (플레이어 선택).</p>",
+			"success": "<p>누군가가 그것을 갖고 있고 이쪽에 팔 의사가 있습니다.</p>"
 		},
 		{
 			"id": "Dirty Fighter",
-			"name": "Coup vicieux",
-			"description": "<p><em>Remplace : Coup bas</em></p><p>Quand vous maniez une arme dont les marqueurs sont &laquo; <em>pr&eacute;cis</em> &raquo; ou &laquo; <em>contact</em> &raquo;, votre <em>Attaque Sournoise</em> fait <strong>+1d8 d&eacute;g&acirc;ts</strong> suppl&eacute;mentaires et vos autres attaques <strong>+1d4</strong>.</p>"
+			"name": "치사한 수법",
+			"description": "<p><em>대체: 급소 가격</em></p><p>정밀 또는 반걸음 무기를 사용하면 암습의 피해가 +1d8, 다른 모든 공격의 피해가 +1d4 늘어납니다.</p>"
 		},
 		{
 			"id": "Disguise",
-			"name": "Déguisement",
-			"description": "<p>Quand vous avez du temps et de quoi fabriquer un <strong>d&eacute;guisement</strong>, vous pouvez prendre l&rsquo;apparence de n&rsquo;importe quelle cr&eacute;ature humano&iuml;de de vos taille et corpulence et tromper n&rsquo;importe qui sur votre identit&eacute;. Vos actions peuvent vous trahir, mais pas votre apparence.</p>"
+			"name": "변장",
+			"description": "<p>시간과 재료가 있으면 비슷한 크기와 모양의 다른 사람이나 괴물로 변장할 수 있습니다. 생김새만으로는 절대로 들키지 않지만, 행동 때문에 발각될 수는 있습니다.</p>"
 		},
 		{
 			"id": "Envenom",
-			"name": "Envenimer",
-			"description": "<p>Vous pouvez appliquer les poisons les plus complexes d&rsquo;une simple piq&ucirc;re d&rsquo;&eacute;pingle. Quand vous appliquez sur votre arme un poison qui n&rsquo;est pas dangereux pour vous, remplacez &laquo; <em>appliqu&eacute;</em> &raquo; par &laquo; <em>toucher</em> &raquo;.</p>"
+			"name": "독칼",
+			"description": "<p>자신이 위험 없이 다룰 수 있는 투여 독을 무기에 바르면 접촉이 됩니다.</p>"
 		},
 		{
 			"id": "Escape Route",
-			"name": "Issue de secours",
-			"description": "<p>Quand vous y &ecirc;tes jusqu&rsquo;au cou et voulez prendre la poudre d&rsquo;escampette, d&eacute;crivez votre &eacute;chappatoire et lancez <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Vous ne parvenez pas &agrave; trouver d'&eacute;chappatoire.</p>",
-			"partial": "<p>Vous pouvez rester ou vous en aller mais, si vous partez, il vous en co&ucirc;te : laissez quelque chose derri&egrave;re vous ou prenez quelque chose avec vous. Lae MJ vous dira quoi.</p>",
-			"success": "<p>Vous disparaissez.</p>"
+			"name": "탈출로",
+			"description": "<p>너무 곤란한 상황에 빠져서 벗어날 길이 필요하면, 어떻게 탈출할 것인지 말하고 +민 판정을 합니다.</p>",
+			"failure": "<p>좋은 시도였습니다. 하지만 유감이네요.</p>",
+			"partial": "<p>탈출할 수도 있고 그냥 있을 수도 있지만, 탈출하려면 대가를 치러야 합니다. 뭔가를 놓고 가게 되는지 아니면 뭔가가 따라오게 되는지, 마스터가 정할 것입니다.</p>",
+			"success": "<p>바로 탈출합니다.</p>"
 		},
 		{
 			"id": "Evasion",
-			"name": "Dérobade",
-			"description": "<p>Quand vous <em>d&eacute;fiez le danger</em> avec <strong>12+</strong>, vous transcendez le danger. Non seulement vous atteignez votre objectif, mais en plus lae MJ vous proposera un meilleur r&eacute;sultat, voire un moment de pure gr&acirc;ce.</p>"
+			"name": "위험 초월",
+			"description": "<p>위험 돌파 판정이 12+이면 위험을 단순히 모면한 것이 아니라 뛰어 넘은 것입니다. 원래 목적을 달성함은 물론이고, 마스터가 더 유리한 결과, 진정한 아름다움, 또는 초인적 우아함의 순간을 제공할 것입니다.</p>"
 		},
 		{
 			"id": "Extremely Cautious",
-			"name": "Très prudent·e",
-			"description": "<p><em>Requiert : Prudent&middot;e</em></p><p>Quand vous utilisez votre <em>expertise des pi&egrave;ges</em> et obtenez <strong>12+</strong>, prenez 3 et quand vous passerez non loin du prochain pi&egrave;ge, lae MJ vous dira ce qu&rsquo;il fait, comment il s&rsquo;active, qui l&rsquo;a pos&eacute; et comment l&rsquo;utiliser &agrave; votre avantage.</p>"
+			"name": "극도로 신중함",
+			"description": "<p><em>대체: 신중함</em></p><p>덫 전문가를 사용하면 항상 예비 1점을 더 받습니다. 6-가 나와도 마찬가지입니다. 12+이면 예비 3점을 받고, 그 후 처음으로 만나는 덫을 자동으로 발견하게 됩니다. 더불어, 마스터는 그 덫이 어떻게 발동되고 효과는 무엇이며 누가 설치했는지, 그리고 어떻게 하면 역이용할 수 있는지 가르쳐 줍니다.</p>"
 		},
 		{
 			"id": "Flexible Morals",
-			"name": "Morale souple",
-			"description": "<p>Quand quelqu&rsquo;un&middot;e essaie de d&eacute;terminer votre alignement, vous pouvez r&eacute;pondre par l&rsquo;alignement qui vous chante.</p>"
+			"name": "희박한 도덕관념",
+			"description": "<p>누군가가 가치관을 탐지하려 할 경우, 원하면 거짓으로 가르쳐 주어도 됩니다.</p>"
 		},
 		{
 			"id": "Heist",
-			"name": "Le casse du siècle",
-			"description": "<p>Quand vous prenez le temps de planifier un casse, d&eacute;crivez l&rsquo;objet de votre convoitise et posez ces questions au&middot;&agrave; lae MJ. Quand vous tenez compte des r&eacute;ponses pour agir, vous et vos alli&eacute;&middot;e&middot;s b&eacute;n&eacute;ficiez d&rsquo;un <strong>+1 &agrave; suivre</strong>.</p><ul><li>Qui va remarquer son absence ?</li><li>Quelle est sa meilleure protection ?</li><li>Qui va chercher &agrave; le r&eacute;cup&eacute;rer ?</li><li>Qui d&rsquo;autre le veut ?</li></ul>"
+			"name": "대도적",
+			"description": "<p>시간을 들여 뭔가를 훔칠 계획을 세우면, 무엇을 훔치고 싶은지 말하고 마스터에게 다음 질문을 하십시오. 그 대답에 의거하여 행동하면 자신과 일행이 모두 다음 판정에 +1을 받습니다:</p>\n<ul>\n<li>물건이 없어지면 누가 눈치를 챌 것인가?</li>\n<li>이 물건을 지키는 가장 강력한 것은 무엇인가?</li>\n<li>훔치고 나면 누가 쫓아올 것인가?</li>\n<li>이 물건을 다른 누가 또 탐내는가?</li>\n</ul>"
 		},
 		{
 			"id": "Poison Master",
-			"name": "Maître·sse empoisonneur·euse",
-			"description": "<p>Lorsque vous avez utilis&eacute; un poison une fois avec succ&egrave;s, il n&rsquo;est plus jamais dangereux pour vous.</p>"
+			"name": "독의 달인",
+			"description": "<p>자기가 한 번이라도 사용한 독은 그 후로 위험 없이 다룰 수 있게 됩니다.</p>"
 		},
 		{
 			"id": "Poisoner",
-			"name": "Empoisonneur·euse",
-			"description": "<p>Vous ma&icirc;trisez l&rsquo;usage d&rsquo;un poison. Choisissez un poison dans la liste suivante : ce poison n&rsquo;est d&eacute;sormais plus dangereux pour vous. Vous commencez le jeu avec 3 doses de ce poison. Si vous avez le temps et les composants, vous pouvez distiller librement 3 nouvelles doses de ce poison.</p><p>Notez que certains poisons sont <em>appliqu&eacute;s</em>, ce qui requiert de les administrer pr&eacute;cautionneusement &agrave; la cible ou dans une nourriture ou boisson qu&rsquo;elle absorbera. D&rsquo;autres poisons n&eacute;cessiteront simplement de <em>toucher</em> la victime, ce qui peut notamment se faire en enduisant une lame.</p><ul><li><strong>Huile de Tagit</strong> (<em>appliquer</em>) : la cible s&rsquo;endort d&rsquo;un sommeil l&eacute;ger.</li><li><strong>Herbe sanglante</strong> (<em>toucher</em>) : la cible, tant qu&rsquo;elle n&rsquo;est pas soign&eacute;e, soustrait <strong>1d4 </strong>des d&eacute;g&acirc;ts qu&rsquo;elle inflige.</li><li><strong>Racine d&rsquo;or</strong> (<em>appliquer</em>) : la cible consid&egrave;re la prochaine cr&eacute;ature qu&rsquo;elle voit comme un&middot;e alli&eacute;&middot;e fiable, jusqu&rsquo;&agrave; preuve du contraire.</li><li><strong>Larmes de serpent</strong> (<em>toucher</em>) : quiconque inflige des d&eacute;g&acirc;ts &agrave; la cible tire deux d&eacute;s au lieu d&rsquo;un et prend le meilleur r&eacute;sultat.</li></ul>"
+			"name": "독의 기술",
+			"description": "<p>독을 다루고 사용하는 법에 통달했습니다. 다음 중에서 독을 하나 고르십시오. 처음에 그 독을 3회분 가지고 시작하며, 그 독은 아무 위험 없이 다룰 수 있습니다. 시간을 들여 재료를 모으고 안전한 곳에서 조제를 하면, 자기가 선택한 독은 공짜로 3회분씩 만들 수 있습니다. 아래에서 투여라고 되어 있는 독은 대상에게 조심스럽게 바르거나 음식에 타야 합니다. 반면 접촉이라고 되어 있는 독은 대상에게 닿기만 하면 효과를 발휘하며, 날붙이에 발라서 쓸 수도 있습니다.</p>\n<ul>\n<li>타기트 기름 (투여): 대상은 가벼운 잠에 빠집니다.</li>\n<li>박혈초 (접촉): 대상은 독이 풀릴 때까지 피해에 -1d4를 받습니다.</li>\n<li>황금근 (투여): 대상은 약이 투여된 후 처음으로 본 존재를 믿을 만한 친구라고 생각하게 됩니다. 그 존재가 친구답지 않은 행동을 하면 효과는 풀립니다.</li>\n<li>뱀눈물 (접촉): 대상에게 피해를 가하는 사람은 피해 주사위를 두 번 굴려서 그 중 높은 쪽을 취합니다.</li>\n</ul>"
 		},
 		{
 			"id": "Serious Underdog",
-			"name": "Dos au mur",
-			"description": "<p><em>Remplace : Aux abois</em></p><p>Vous avez <strong>+1 armure</strong>. Quand vous &ecirc;tes en sous-nombre, vous avez <strong>+2 armure</strong>.</p>"
+			"name": "투지",
+			"description": "<p><em>대체: 오가</em></p><p>기본적으로 장갑 +1을 받고, 수적 열세에 놓였을 때는 장갑 +1을 더 받습니다.</p>"
 		},
 		{
 			"id": "Shoot First",
-			"name": "Sixième sens",
-			"description": "<p>On ne vous prend jamais par surprise. Quand l&rsquo;ennemi&middot;e devrait vous prendre de vitesse, vous pouvez quand m&ecirc;me r&eacute;agir avant ellui.</p>"
+			"name": "선수필승",
+			"description": "<p>기습을 당하는 일이 없습니다. 적이 이쪽을 기습할 법한 상황에서도 먼저 행동할 수 있습니다.</p>"
 		},
 		{
 			"id": "Strong Arm, True Aim",
-			"name": "Bras ferme, œil vif",
-			"description": "<p>Vous pouvez <em>tirer une salve</em> avec n&rsquo;importe quelle arme de m&ecirc;l&eacute;e. Une arme lanc&eacute;e est perdue : vous ne pouvez pas choisir de r&eacute;duire vos munitions sur un 7-9.</p>"
+			"name": "철완의 투척",
+			"description": "<p>아무 근거리 무기나 던져서 사격을 할 수 있습니다. 한 번 던진 근거리 무기는 손을 떠나기 때문에, 7~9가 나왔을 때 발수를 소비하는 선택지를 고를 수 없습니다.</p>"
 		},
 		{
 			"id": "Trap Expert",
-			"name": "Expertise des pièges",
-			"description": "<p>Quand vous prenez le temps d&rsquo;&eacute;tudier une zone dangereuse, lancez <strong>2d6+DEX</strong>.&nbsp;</p>",
+			"name": "덫 전문가",
+			"description": "<p>위험한 지역을 잠시 살피면 +민 판정을 합니다. </p>",
 			"failure": "<p>Il semble n'y avoir rien de signifiant.</p>",
-			"partial": "<p>Prenez 1 option.</p>",
-			"success": "<p>Prenez 3 options.</p>",
-			"choices": "<p>D&eacute;pensez 1 pour poser une des questions suivantes pendant que vous vous d&eacute;placez dans cette zone :</p><ul><li>Y a-t-il un pi&egrave;ge ici et si oui, comment se d&eacute;clenche-t-il ?</li><li>Que fait ce pi&egrave;ge quand il se d&eacute;clenche ?</li><li>Qu&rsquo;y a-t-il d&rsquo;autre cach&eacute; ici ?</li></ul>"
+			"partial": "<p>예비 1점을 받습니다.</p>",
+			"success": "<p>예비 3점을 받습니다.</p>",
+			"choices": "<p>그 지역을 지나는 동안 원할 때 언제나 예비를 소비하여 다음 질문을 할 수 있습니다 (예비 1점마다 질문 하나씩):</p>\n<ul>\n<li>여기 덫이 있는가? 있다면 어떻게 발동되는가?</li>\n<li>발동되면 무슨 일이 일어나는가?</li>\n<li>그 외에 숨겨진 것이 있는가?</li>\n</ul>"
 		},
 		{
 			"id": "Tricks Of The Trade",
-			"name": "Ficelles du métier",
-			"description": "<p>Quand vous crochetez une serrure, faites les poches de quelqu&rsquo;un&middot;e ou d&eacute;sactivez un pi&egrave;ge, lancez <strong>2d6+DEX</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Vous y parvenez mais lae MJ vous laisse choisir deux options parmi suspicion, danger ou co&ucirc;t.</p>",
-			"success": "<p>Vous y parvenez sans probl&egrave;me.</p>"
+			"name": "프로의 솜씨",
+			"description": "<p>자물쇠를 따거나 덫을 해제할 때 +민 판정을 합니다.</p>",
+			"failure": "<p>좋지 않은 일이 발생합니다.</p>",
+			"partial": "<p>여도 성공은 하지만, 의심, 위험, 대가 중 두 가지를 마스터가 제시할 것입니다.</p>",
+			"success": "<p>아무 문제 없이 해냅니다.</p>"
 		},
 		{
 			"id": "Underdog",
-			"name": "Aux abois",
-			"description": "<p>Quand vous combattez en sous-nombre, vous avez +1 armure.</p>"
+			"name": "오기",
+			"description": "<p>수적으로 열세일 때 장갑에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Wealth And Taste",
-			"name": "Richesse et bon goût",
-			"description": "<p>Quand vous exhibez votre plus pr&eacute;cieuse possession sous le nez de tout le monde,&nbsp;<br>d&eacute;signez quelqu&rsquo;un&middot;e de pr&eacute;sent. Iel fera tout pour obtenir cet objet ou quelque chose qui s&rsquo;en approche.</p>"
+			"name": "부와 교양",
+			"description": "<p>자기가 가진 물건 중 가장 값진 것을 자랑하며 내보일 때, 주변에 있는 사람을 하나 고릅니다. 그 사람은 그 물건, 또는 그와 비슷한 물건을 얻기 위해 수단과 방법을 가리지 않을 것입니다.</p>"
 		}
 	]
 }
