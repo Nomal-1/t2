@@ -1,5 +1,5 @@
 {
-	"label": "Sorts du·de la Magicien·ne",
+	"label": "주문 (마법사)",
 	"mapping": {
 		"name": "name",
 		"description": "system.description"
@@ -7,17 +7,17 @@
 	"entries": [
 		{
 			"id": "Alarm",
-			"name": "Alarme",
-			"description": "<p>Lancez ce sort tout en marchant en un large cercle. Tant que vous ne pr&eacute;parez pas de nouveaux sorts, vous &ecirc;tes pr&eacute;venu&middot;e magiquement d&egrave;s qu&rsquo;une cr&eacute;ature franchit ce cercle. Le sort vous r&eacute;veille m&ecirc;me si vous &ecirc;tes endormi&middot;e profond&eacute;ment.</p>"
+			"name": "경보",
+			"description": "<p>이 주문을 걸면서 크게 원을 그리며 걷습니다. 다음에 주문 준비를 할 때까지, 누군가가 그 원의 경계를 지날 때 마법사는 자연히 이를 알게 됩니다. 설령 잠을 자고 있더라도 깨어납니다.</p>"
 		},
 		{
 			"id": "Alert",
-			"name": "Alerte (Divination)",
-			"description": "<p>D&eacute;crivez un &eacute;v&egrave;nement. Lae MJ vous avertira quand il survient, quels qu&rsquo;en soient le lieu et la distance. Si vous le souhaitez, vous pouvez m&ecirc;me voir l&rsquo;&eacute;v&egrave;nement comme si vous y &eacute;tiez. Vous ne pouvez avoir qu&rsquo;une alerte active &agrave; la fois.</p>"
+			"name": "소식",
+			"description": "<p>사건을 하나 묘사하십시오. 자신이 어디에 있건, 그 사건이 얼마나 먼 곳에서 일어났건 간에, 마법사는 지정한 사건이 일어나면 그 사실을 알게 됩니다. 원하면 자기가 사건이 일어난 곳에 몸소 있는 것처럼 그곳을 볼 수도 있습니다. 소식은 한 번에 하나만 설정할 수 있습니다.</p>"
 		},
 		{
 			"id": "Antipathy",
-			"name": "Antipathie (Enchantement, Continu)",
+			"name": "기피",
 			"description": "<p>D&eacute;signez une cible et d&eacute;crivez un type de cr&eacute;ature ou un alignement. Les cr&eacute;atures de ce type ou de cet alignement ne peuvent s&rsquo;approcher de la cible. Si une cr&eacute;ature de ce type se trouve dans le champ de vision de la cible, elle fuira imm&eacute;diatement. Le sort se poursuit tant que vous restez en pr&eacute;sence de la cible et que vous ne l&rsquo;interrompez pas. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
 		},
 		{
