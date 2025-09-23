@@ -12,147 +12,148 @@
 		},
 		{
 			"id": "Alert",
-			"name": "소식",
+			"name": "소식 (해득, 지속)",
 			"description": "<p>사건을 하나 묘사하십시오. 자신이 어디에 있건, 그 사건이 얼마나 먼 곳에서 일어났건 간에, 마법사는 지정한 사건이 일어나면 그 사실을 알게 됩니다. 원하면 자기가 사건이 일어난 곳에 몸소 있는 것처럼 그곳을 볼 수도 있습니다. 소식은 한 번에 하나만 설정할 수 있습니다.</p>"
 		},
 		{
 			"id": "Antipathy",
-			"name": "기피",
-			"description": "<p>D&eacute;signez une cible et d&eacute;crivez un type de cr&eacute;ature ou un alignement. Les cr&eacute;atures de ce type ou de cet alignement ne peuvent s&rsquo;approcher de la cible. Si une cr&eacute;ature de ce type se trouve dans le champ de vision de la cible, elle fuira imm&eacute;diatement. Le sort se poursuit tant que vous restez en pr&eacute;sence de la cible et que vous ne l&rsquo;interrompez pas. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
+			"name": "기피 (부과, 지속)",
+			"description": "<p>대상을 하나 지정하고, 그 대상을 기피하게 될 존재의 종류나 가치관을 지정합니다. 지정된 종류나 가치관의 존재는 대상이 볼 수 있는 곳으로 들어 올 수 없습니다. 어쩌다가 우연히 범위 안에 들어오더라도, 괴물은 그 점을 알아채는 순간 즉시 범위 밖으로 도주합니다. 이 효과는 마법사가 대상의 곁을 떠나거나 주문을 종료할 때까지 지속됩니다. 이 주문이 지속되는 동안 마법사는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Cage",
-			"name": "Cage (Évocation, Continu)",
-			"description": "<p>La cible est retenue dans une cage de force magique. Rien ne peut entrer ou sortir de la cage. La cage demeure jusqu&rsquo;&agrave; ce que vous lanciez un autre sort ou que vous la r&eacute;voquiez. Tant que ce sort est actif, la cr&eacute;ature emprisonn&eacute;e peut lire vos pens&eacute;es et vous ne pouvez pas quitter la cage des yeux.</p>"
+			"name": "마력의 우리 (형성, 지속)",
+			"description": "<p>마력으로 만들어진 우리에 대상을 가둡니다. 아무도 안에서 나올 수 없고, 아무도 들어가지 못합니다. 이 우리는 주문을 종료하거나 새로운 주문을 걸 때까지 지속됩니다. 주문이 지속되는 동안, 그 안에 갇힌 존재는 마법사의 생각을 읽을 수 있고 마법사는 우리가 보이는 곳에 머물러야만 합니다.</p>"
 		},
 		{
 			"id": "Charm Person",
-			"name": "Charme personne (Enchantement)",
-			"description": "<p>La personne (ni animal, ni monstre) que vous touchez pendant l&rsquo;ex&eacute;cution du sort vous consid&egrave;re comme un&middot;e ami&middot;e jusqu&rsquo;&agrave; ce qu&rsquo;elle subisse des d&eacute;g&acirc;ts ou que vous lui prouviez le contraire.</p>"
+			"name": "매혹 (부과, 지속)",
+			"description": "<p>이 주문을 걸면서 대상에게 손을 대면, 대상은 마법사를 친구로 여기게 됩니다. 괴물이나 짐승에는 사용할 수 없습니다. 이 효과는 마법사가 친구답지 않은 행동을 하거나 대상이 피해를 입으면 끝납니다.</p>"
 		},
 		{
 			"id": "Cloudkill",
-			"name": "Nuage mortel (Invocation, Continu)",
-			"description": "<p>Un brouillard s&rsquo;&eacute;chappe du Sombre Portail du Royaume des Morts, envahissant une zone proche. Lorsqu&rsquo;une cr&eacute;ature prend des d&eacute;g&acirc;ts dans cette zone, elle subit <strong>1d6</strong> d&eacute;g&acirc;ts suppl&eacute;mentaires qui ignorent l&rsquo;armure. Le sort dure tant que vous pouvez voir la zone affect&eacute;e et que vous ne le r&eacute;voquez pas.</p>"
+			"name": "죽음의 안개 (소환, 지속)",
+			"description": "<p>황천의 흑관문 저편으로부터 짙은 안개가 이 세계에 흘러 들어와 주변을 채웁니다. 이 안개 속에서 피해를 입는 존재는 그때마다 +1d6의 피해를 더 입습니다. 이 추가 피해는 장갑을 무시합니다. 이 주문은 마법사가 더 이상 해당 영역을 볼 수 없게 되거나 주문을 종료할 때까지 지속됩니다.</p>"
 		},
 		{
 			"id": "Contact Other Plane",
-			"name": "Contacter un autre plan (Divination)",
-			"description": "<p>Vous envoyez une requ&ecirc;te vers un autre plan. Pr&eacute;cisez qui ou ce que vous voulez contacter en indiquant sa situation, le type de cr&eacute;ature, nom ou titre. Vous cr&eacute;ez une communication avec cette cr&eacute;ature que vous ou la cr&eacute;ature pouvez interrompre &agrave; tout moment.</p>"
+			"name": "이계 접촉 (해득)",
+			"description": "<p>다른 세계에 대화 요청을 보냅니다. 누구/무엇과 대화하고 싶은지 밝히십시오. 장소, 종류, 이름, 칭호 등으로 지정하면 됩니다. 그러면 서로 원거리 의사소통이 가능하게 됩니다. 마법사 자신도, 그리고 대화 상대도 원하면 언제든지 대화를 끝낼 수 있습니다.</p>"
 		},
 		{
 			"id": "Contact Spirits",
-			"name": "Contacter les esprits (Invocation)",
-			"description": "<p>Nommez l&rsquo;esprit que vous voulez contacter (ou laissez le choix au&middot;&agrave; lae MJ). Vous amenez cette cr&eacute;ature &agrave; travers les plans suffisamment pr&egrave;s pour qu&rsquo;elle puisse vous parler. Elle doit r&eacute;pondre &agrave; une question du mieux qu&rsquo;elle peut.</p>"
+			"name": "혼령 소환 (소환)",
+			"description": "<p>대화하고 싶은 혼령의 이름을 지정하십시오 (마스터에게 맡겨도 됩니다). 그러면 그 혼령이 다른 세계에서 이 세계로, 딱 대화를 나눌 수 있을 정도로 가까이 옵니다. 이렇게 불려 온 혼령은 마법사의 질문 하나에 성의껏 대답해야 합니다.</p>"
 		},
 		{
 			"id": "Contingency",
-			"name": "Prévoyance (Évocation)",
-			"description": "<p>Choisissez un de vos sorts de niveau 5 ou moins. D&eacute;crivez une condition de d&eacute;clenchement dont le nombre de mots ne d&eacute;passe pas votre niveau. Ce sort est conserv&eacute; en r&eacute;serve tant que vous ne le lancez pas ou que la condition n&rsquo;est pas remplie. Vous n&rsquo;avez pas &agrave; lancer de d&eacute;s, le sort se d&eacute;clenche, c&rsquo;est tout. Vous ne pouvez avoir qu&rsquo;un seul sort en r&eacute;serve &agrave; la fois. Si vous relancez le sort de pr&eacute;voyance, le nouveau sort en r&eacute;serve remplace l&rsquo;ancien s&rsquo;il y en avait un d&eacute;j&agrave; en r&eacute;serve.</p>"
+			"name": "대기 주문 (형성)",
+			"description": "<p>자신이 알고 있는 5레벨 이하 주문을 하나 고르고 발동 조건을 정합니다 (발동 조건을 정의할 때 쓸 수 있는 어절의 수는 레벨 1당 하나입니다). 선택한 주문은 발동 조건이 만족되거나 마법사가 원할 때 즉시 발동됩니다. 이렇게 대기 중인 주문은 판정을 하지 않습니다. 그냥 효과를 발휘합니다. 대기 주문은 한 번에 하나만 가능합니다. 이미 대기 주문이 있는 상태에서 또 걸면 새로운 주문이 전의 주문을 대체합니다.</p>"
 		},
 		{
 			"id": "Detect Magic",
-			"name": "Détecter la magie (Divination)",
-			"description": "<p>Un de vos sens s&rsquo;accorde bri&egrave;vement &agrave; la magie. Lae MJ vous dira ce qui est magique ici.</p>"
+			"name": "마법 탐지 (해득)",
+			"description": "<p>감각 하나가 잠시 마법을 느낄 수 있게 됩니다. 주변에 마법적인 것이 있는지 마스터가 이야기해 줄 것입니다.</p>"
 		},
 		{
 			"id": "Dispel Magic",
-			"name": "Dissiper la magie",
-			"description": "<p>Choisissez un sort ou un effet magique en votre pr&eacute;sence : votre sort le disperse. Les sorts faibles sont annul&eacute;s, la magie puissante est juste r&eacute;duite ou &eacute;touff&eacute;e tant que vous restez &agrave; proximit&eacute;.</p>"
+			"name": "마법 해제",
+			"description": "<p>근처에서 작용 중인 주문이나 마법 효과를 하나 선택하고 이 주문을 겁니다. 약한 효과는 즉시 사라지고, 강력한 효과는 마법사가 근처에 머무르는 동안 약화됩니다.</p>"
 		},
 		{
 			"id": "Dominate",
-			"name": "Domination (Enchantement, Continu)",
-			"description": "<p>Lorsque vous touchez quelqu&rsquo;un&middot;e, vous projetez votre esprit dans le sien. Retenez <strong>1d4</strong>. D&eacute;pensez 1 pour que votre cible accomplisse l&rsquo;une de ces actions :</p><ul><li>Dire quelques mots de votre choix,</li><li>Vous donner ce qu&rsquo;elle porte,</li><li>Attaquer une cible de votre choix,</li><li>R&eacute;pondre sinc&egrave;rement &agrave; une question.</li></ul><p>Le sort cesse lorsque vous venez &agrave; bout de vos points retenus. Si la cible prend des d&eacute;g&acirc;ts, perdez un point de retenue. Tant que ce sort est continu, vous ne pouvez pas lancer d&rsquo;autre sort.</p>"
+			"name": "정신 조종 (부과, 지속)",
+			"description": "<p>대상에게 손을 대면 마법사의 정신이 대상의 정신을 압도합니다. 예비를 1d4점 받습니다. 예비를 1점 소비할 때마다 대상에게 다음 중 한 가지를 시킬 수 있습니다.</p>\n<ul>\n<li>마법사가 원하는 말을 몇 마디 한다.</li>\n<li>자기가 들고 있는 것을 준다.</li>\n<li>마법사가 지정한 대상을 공격한다.</li>\n<li>질문 하나에 솔직하게 대답한다.</li>\n</ul>\n<p>예비가 떨어지면 주문은 끝납니다. 대상이 피해를 입어도 예비는 하나 줄어듭니다. 이 주문이 지속되는 동안, 마법사 자신은 주문을 걸 수 없습니다.</p>"
 		},
 		{
 			"id": "Fireball",
-			"name": "Boule de feu (Évocation)",
-			"description": "<p>Vous &eacute;voquez une &eacute;norme boule de flammes qui enveloppe votre cible et tous ceux autour, ignore l&rsquo;armure et inflige <strong>2d6</strong> d&eacute;g&acirc;ts.</p>"
+			"name": "화염탄 (형성)",
+			"description": "<p>대상과 그 주변의 모두를 덮치는 거대한 불덩어리를 쏘아, 장갑을 무시하는 2d6의 피해를 줍니다.</p>"
 		},
 		{
 			"id": "Invisibility",
-			"name": "Invisibilité (Illusion, Continu)",
-			"description": "<p>Touchez un&middot;e alli&eacute;&middot;e : personne ne peut le voir. Iel est invisible ! Le sort persiste tant que la cible n&rsquo;attaque pas ou que vous ne le dissipez pas. Tant que ce sort est actif, vous ne pouvez pas lancer d&rsquo;autre sort.</p>"
+			"name": "투명화 (환상, 지속)",
+			"description": "<p>손을 댄 대상이 눈에 보이지 않게 됩니다. 이 주문은 대상이 공격을 하거나 마법사가 종료할 때까지 지속됩니다. 이 주문이 지속되는 동안, 마법사 자신은 주문을 걸 수 없습니다.</p>"
 		},
 		{
 			"id": "Light",
-			"name": "Lumière",
-			"description": "<p>Un objet que vous touchez brille d&rsquo;une lumi&egrave;re arcanique, &agrave; peu pr&egrave;s aussi brillante qu&rsquo;une torche. Cette lumi&egrave;re ne d&eacute;gage ni chaleur ni bruit et ne consomme aucun combustible mais a l&rsquo;allure d&rsquo;une torche ordinaire. Vous d&eacute;cidez librement de la couleur de cette lumi&egrave;re. Ce sort dure tant que vous &ecirc;tes en pr&eacute;sence de l&rsquo;objet.</p>"
+			"name": "빛",
+			"description": "<p>자신이 만지는 물체가 횃불 정도 밝기의 신비한 광채를 발합니다. 열도 소리도 나지 않으며 연료도 필요 없지만, 그 외 면에서는 평범한 횃불과 같습니다. 빛의 색깔은 마음대로 정하고 바꿀 수 있습니다. 이 주문은 그 물체가 자기 곁에 있는 동안 유지됩니다.</p>"
 		},
 		{
 			"id": "Magic Missile",
-			"name": "Projectile magique (Évocation)",
-			"description": "<p>Des projectiles de pure magie jaillissent de vos doigts. Infligez <strong>2d4</strong> d&eacute;g&acirc;ts &agrave; une cible.</p>"
+			"name": "마탄 (형성)",
+			"description": "<p>손 끝에서 순수한 마법의 힘을 발사하여, 하나의 대상에게 2d4의 피해를 줍니다.</p>"
 		},
 		{
 			"id": "Mimic",
-			"name": "Imiter (Continu)",
-			"description": "<p>Vous prenez la forme de quelqu&rsquo;un&middot;e que vous touchez en lan&ccedil;ant le sort. Vos caract&eacute;ristiques physiques sont identiques mais peut-&ecirc;tre pas votre comportement. Le sort dure jusqu&rsquo;&agrave; ce que vous subissiez des d&eacute;g&acirc;ts ou que vous repreniez votre forme. Pendant que ce sort est actif, vous ne pouvez plus entreprendre une action de Magicien.</p>"
+			"name": "둔갑 (지속)",
+			"description": "<p>이 주문을 걸면서 누군가에게 손을 대면, 마법사가 그 사람의 모습으로 변신합니다. 모습은 똑같이 변하지만 태도나 성격까지 같아지지는 않습니다. 이 변화는 피해를 입거나 스스로 취소할 때까지 적용됩니다. 이 주문이 지속되는 동안 마법사는 직업 액션을 전혀 사용할 수 없습니다.</p>"
 		},
 		{
 			"id": "Mirror Image",
-			"name": "Image miroir (Illusion)"
+			"name": "환영 분신 (환상)",
+			"description": "<p>자신과 똑같이 생긴 환영을 만들어 냅니다. 공격을 받을 때 d6으로 판정하십시오. 4, 5, 6이 나오면 공격은 자신이 아니라 환영에 명중하고, 환영은 사라집니다.</p>"
 		},
 		{
 			"id": "Perfect Summons",
-			"name": "Invocation parfaite (Invocation)",
-			"description": "<p>Vous t&eacute;l&eacute;portez une cr&eacute;ature jusqu&rsquo;&agrave; vous. Nommez une cr&eacute;ature ou donnez-en une br&egrave;ve description. Si vous avez nomm&eacute; la cr&eacute;ature, celle-ci appara&icirc;t devant vous. Si vous avez d&eacute;crit un type de cr&eacute;ature, une cr&eacute;ature de ce type appara&icirc;t devant vous.</p>"
+			"name": "대소환 (소환)",
+			"description": "<p>대상을 자기 곁에 즉시 나타나게 합니다. 이름을 지정해도 되고, 어떤 존재인지 종류를 지정해도 됩니다. 종류를 지정한 경우 이에 해당되는 존재 하나가 무작위로 나타납니다.</p>"
 		},
 		{
 			"id": "Polymorph",
-			"name": "Polymorphie (Enchantement)",
-			"description": "<p>Votre toucher transforme enti&egrave;rement le corps d&rsquo;une cr&eacute;ature qui restera sous cette forme tant que vous ne lancez pas de nouveau sort. D&eacute;crivez la nouvelle forme que vous cr&eacute;ez, les changements de caract&eacute;ristiques, ses modifications significatives ou ses faiblesses majeures. Lae MJ choisira ensuite une ou plusieurs de ces options :</p><ul><li>La forme est instable et temporaire.</li><li>L&rsquo;esprit de la cr&eacute;ature est &eacute;galement alt&eacute;r&eacute;.</li><li>La forme a un avantage ou un point faible impr&eacute;vu.</li></ul>"
+			"name": "강제변신 (부과)",
+			"description": "<p>마법사가 주문을 걸며 대상에게 손을 대면 대상의 모습이 변합니다. 어떤 모습인지는 마법사가 마음대로 정합니다. 수치상의 변화, 큰 특징, 중요한 약점 등도 명시하십시오. 그러면 마스터가 다음 중 하나 이상을 골라서 말해 줍니다:&nbsp;</p>\n<ul>\n<li>지정한 형태는 불안정하고 일시적입니다.</li>\n<li>대상의 정신도 영향을 받습니다.</li>\n<li>그 형태에 마법사가 생각지 않은 약점이나 이점이 있습니다.</li>\n</ul>"
 		},
 		{
 			"id": "Prestidigitation",
-			"name": "Prestidigitation",
-			"description": "<p>Vous faites un petit tour de vraie magie. Si vous touchez un objet pendant l&rsquo;ex&eacute;cution du sort, vous pouvez le changer superficiellement : le nettoyer, le salir, le refroidir, le r&eacute;chauffer, le parfumer ou changer sa couleur. Au lieu de cela, si vous lancez ce sort sans toucher d&rsquo;objet, vous pouvez cr&eacute;er une illusion mineure, pas plus grande que vous-m&ecirc;me.</p><p>Les illusions ainsi cr&eacute;&eacute;es sont grossi&egrave;res et manifestement illusoires. Elles ne tromperont personne mais pourront en amuser certains.</p>"
+			"name": "소마법",
+			"description": "<p>마법을 이용하여 사소한 효과를 냅니다. 이 주문을 걸며 물건을 만지면, 깨끗이 하거나, 더럽히거나, 덥히거나, 식히거나, 색이나 맛을 바꾸는 등의 간단한 변화를 일으킬 수 있습니다. 물건을 건드리지 않고서 이 주문을 걸면 자기 몸집 이하 크기의 간단한 환상을 만들어낼 수 있습니다. 소마법으로 만드는 환상은 척 봐도 환상이라는 것을 알 수 있기 때문에, 주로 오락용으로 사용됩니다.</p>"
 		},
 		{
 			"id": "Shadow Walk",
-			"name": "Marche de l’ombre (Illusion)",
-			"description": "<p>L&rsquo;ombre que vous d&eacute;signez devient un portail pour vous et vos ami&middot;e&middot;s. Nommez un lieu en le d&eacute;crivant avec un nombre de mots &eacute;gal &agrave; votre niveau. Franchissez ce portail pour &ecirc;tre transport&eacute;&middot;e, avec les alli&eacute;&middot;e&middot;s pr&eacute;sent&middot;e&middot;s au moment o&ugrave; vous lancez le sort, vers le lieu que vous avez d&eacute;crit. Le portail ne peut &ecirc;tre utilis&eacute; qu&rsquo;une fois par chaque alli&eacute;&middot;e.</p>"
+			"name": "그림자 문 (환상)",
+			"description": "<p>이 주문이 걸린 그림자는 마법사와 그 동료들이 사용할 수 있는 문이 됩니다. 도착할 위치를 지정하십시오 (묘사할 때 쓸 수 있는 어절의 수는 레벨 1당 하나입니다). 이 문을 통과하면 그 장소로 갈 수 있지만, 주문이 걸릴 당시에 마법사와 함께 있었던 동료만이 지나갈 수 있습니다. 하나의 문은 한 사람이 한 번만 사용할 수 있습니다.</p>"
 		},
 		{
 			"id": "Shelter",
-			"name": "Abri (Évocation, Continu)",
-			"description": "<p>Vous cr&eacute;ez une structure faite de pure magie qui peut &ecirc;tre aussi grande qu&rsquo;un ch&acirc;teau ou aussi petite qu&rsquo;une hutte. Elle est insensible &agrave; tout d&eacute;g&acirc;t non-magique. La structure persiste jusqu&rsquo;&agrave; ce que vous la quittiez ou que vous arr&ecirc;tiez le sort.</p>"
+			"name": "마법의 요새 (형성, 지속)",
+			"description": "<p>순수한 마력으로 이루어진 건물을 짓습니다. 이 건물은 성처럼 클 수도 있고 오두막처럼 작을 수도 있습니다. 이 건물은 비마법적인 피해에 전혀 영향을 받지 않습니다. 건물은 마법사가 떠나거나 주문을 종료할 때까지 유지됩니다.</p>"
 		},
 		{
 			"id": "Sleep",
-			"name": "Sommeil (Enchantement)",
-			"description": "<p><strong>1d4</strong> ennemi&middot;e&middot;s parmi celleux que vous voyez s&rsquo;endorment (au choix du&middot;de lae MJ). Seules les cr&eacute;atures capables de sommeil sont affect&eacute;es. Iels se r&eacute;veillent normalement en cas de bruit fort, de secousses ou de douleur.</p>"
+			"name": "수면 (부과)",
+			"description": "<p>1d4를 굴립니다. 눈에 보이는 적들 중 그 만큼이 잠에 빠집니다. 구체적으로 누가 잠드는지는 마스터가 정합니다. 당초에 잠을 자지 않는 존재는 영향을 받지 않습니다. 보통의 잠과 마찬가지로, 시끄러운 소리가 들리거나, 공격을 받거나 하면 깨어납니다.</p>"
 		},
 		{
 			"id": "Soul Gem",
-			"name": "Gemme d’âme",
-			"description": "<p>Vous emprisonnez l&rsquo;&acirc;me d&rsquo;une cr&eacute;ature mourante dans une gemme. La victime est consciente de sa d&eacute;tention mais vous pouvez n&eacute;gocier ou utiliser des sorts ou d&rsquo;autres effets pour la manipuler. Toutes les actions &agrave; l&rsquo;encontre de la cr&eacute;ature pi&eacute;g&eacute;e se font &agrave; <strong>+1</strong>. Vous pouvez lib&eacute;rer l&rsquo;&acirc;me &agrave; tout moment mais une fois lib&eacute;r&eacute;e, elle ne peut plus &ecirc;tre captur&eacute;e de nouveau.</p>"
+			"name": "영혼석",
+			"description": "<p>죽어가는 존재의 영혼을 보석에 담습니다. 갇힌 영혼은 자기가 붙잡혔다는 사실을 인식하며, 다양한 주문, 협상과 같은 효과의 대상이 될 수 있습니다. 포획된 영혼에 대한 모든 판정은 +1을 받습니다. 언제든 원하면 영혼을 풀어 줄 수 있지만, 한 번 풀어 주면 다시는 붙잡지 못합니다.</p>"
 		},
 		{
 			"id": "Summon Monster",
-			"name": "Invoquer un monstre (Invocation, Continu)",
-			"description": "<p>Un monstre appara&icirc;t et vous aide du mieux qu&rsquo;il peut. Jouez ce monstre comme si c&rsquo;&eacute;tait votre personnage, mais il n&rsquo;a acc&egrave;s qu&rsquo;aux actions de base. Toutes ses caract&eacute;ristiques ont un ajustement de +1, il a 1PV et inflige votre d&eacute; de d&eacute;g&acirc;ts. Vous avez &eacute;galement le choix d&rsquo;<strong>1d6</strong> attributs ci-dessous :</p><ul><li>Il a un ajustement de +2 au lieu de +1 &agrave; une de ses caract&eacute;ristiques.</li><li>Il n&rsquo;est pas t&eacute;m&eacute;raire.</li><li>Il inflige 1d8 d&eacute;g&acirc;ts.</li><li>Ses liens avec votre plan sont forts : +2PV pour chacun de vos niveaux.</li><li>Il a une capacit&eacute; utile.</li></ul><p>Lae MJ vous dira quel monstre correspond aux traits que vous avez choisis. Cette cr&eacute;ature reste sur ce plan jusqu&rsquo;&agrave; ce qu&rsquo;elle meure ou que vous la r&eacute;voquiez. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
+			"name": "괴물 소환 (소환, 지속)",
+			"description": "<p>이계에서 괴물이 불려와 마법사를 능력껏 돕습니다. 괴물은 기본 액션만 쓸 수 있는 PC로 다루고, 마법사의 플레이어가 담당합니다. 능력수정치는 모두 +1, HP는 1이며, 마법사의 피해 주사위를 사용합니다. 더불어, 1d6을 굴리고 다음 목록에서 그만큼의 추가 특징을 선택하십시오:</p>\n<ul>\n<li>능력수정치 하나가 +2로 높아집니다.</li>\n<li>무모하지 않습니다.</li>\n<li>1d8 피해를 줍니다.</li>\n<li>이 세계에 더 잘 적응합니다: 마법사의 레벨 1마다 HP에 +2를 받습니다.</li>\n<li>뭔가 유용한 특징이 있습니다.</li>\n</ul>\n<p>괴물의 종류는 플레이어가 지정한 특징들을 고려하여 마스터가 정합니다. 소환된 괴물은 죽거나 주인이 소환을 해제할 때까지 이 세계에 머무릅니다. 이 주문이 지속되는 동안 마법사는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Telepathy",
-			"name": "Télépathie (Divination, Continu)",
-			"description": "<p>Vous formez un lien t&eacute;l&eacute;pathique vous permettant de discuter par la pens&eacute;e avec une personne que vous touchez. Vous ne pouvez avoir qu&rsquo;un seul lien t&eacute;l&eacute;pathique &agrave; la fois.</p>"
+			"name": "마음의 대화 (해득, 지속)",
+			"description": "<p>지정한 사람 한 명을 만져서 정신을 연결합니다. 이렇게 연결이 되면 대상과 생각만으로 대화를 나눌 수 있습니다. 한 번에는 하나의 연결만 유지할 수 있습니다.</p>"
 		},
 		{
 			"id": "True Seeing",
-			"name": "Vraie vision (Divination, Continu)",
-			"description": "<p>Vous voyez les choses telles qu&rsquo;elles sont vraiment. Le sort s&rsquo;interrompt si vous mentez ou si vous le d&eacute;cidez. Tant que vous maintenez ce sort, vous avez -1 pour lancer un autre sort.</p>"
+			"name": "진실의 눈 (해득, 지속)",
+			"description": "<p>눈에 들어오는 모든 것의 본질을 직시할 수 있게 됩니다. 환상도 꿰뚫어 보며, 숨겨진 것들도 마치 뻔히 드러나 있는 것처럼 봅니다. 이 주문은 마법사가 거짓말을 하거나 주문을 종료할 때까지 지속됩니다. 이 주문이 지속되는 동안 마법사는 주문 시전 판정에 계속 -1을 받습니다.</p>"
 		},
 		{
 			"id": "Unseen Servant",
-			"name": "Serviteur invisible (Continu)",
-			"description": "<p>Vous invoquez un automate invisible qui ne peut que porter vos affaires. Il porte tout ce que vous lui donnez dans la limite de 3 poids. Il ne peut ramasser tout seul des objets et ne peut porter que ceux que vous lui confiez. Les objets port&eacute;s par un servant invisible semblent flotter dans les airs quelques pas derri&egrave;re vous. Un servant invisible qui prend des d&eacute;g&acirc;ts ou quitte votre pr&eacute;sence est imm&eacute;diatement r&eacute;voqu&eacute;.</p>"
+			"name": "보이지 않는 하인 (지속)",
+			"description": "<p>눈에 보이지 않는 마법적 존재를 만들어 부립니다. 짐을 드는 것 말고는 아무 것도 할 수 없습니다. 하중은 3입니다. 건네 주는 것을 들 뿐, 스스로 물건을 집지는 못합니다. 이렇게 운반되는 짐은 마치 마법사의 몇 걸음 뒤에서 공중에 떠가는 것처럼 보입니다. 보이지 않는 하인은 피해를 입거나 마법사와 떨어지면 즉시 사라지고, 들고 있던 물건은 모두 떨어집니다.</p>"
 		},
 		{
 			"id": "Visions Through Time",
-			"name": "Clairvoyance (Divination)",
-			"description": "<p>Lancez ce sort et fixez une surface r&eacute;fl&eacute;chissante pour voir dans les profondeurs du temps. Lae MJ vous r&eacute;v&egrave;lera les d&eacute;tails d&rsquo;un sombre pr&eacute;sage - un &eacute;v&egrave;nement sinistre qui se r&eacute;alisera si vous n&rsquo;intervenez pas. La vision vous r&eacute;v&egrave;lera quelque chose d&rsquo;utile pour vous mettre en travers de cette triste perspective. Rare est le pr&eacute;sage o&ugrave; &laquo; Vous vivrez heureux et aurez beaucoup d&rsquo;enfants &raquo;. D&eacute;sol&eacute;.</p>"
+			"name": "미래를 보는 눈 (해득)",
+			"description": "<p>이 주문을 걸고 반사면을 들여다 보면 시간 저편의 모습이 떠오릅니다. 마스터는 주인공들이 간섭하지 않으면 일어나게 되는 암울한 사건, 즉 흉조 하나의 세부 사항을 공개합니다. 더불어, 흉조가 일어나지 않게 하려면 무엇을 해야 하는지도 어느 정도 알려 줍니다. “그래서 모두가 행복해집니다” 같은 흉조는 웬만하면 없습니다.</p>"
 		}
 	]
 }
