@@ -1,5 +1,5 @@
 {
-	"label": "Actions du·de la Magicien·ne",
+	"label": "마법사 액션",
 	"mapping": {
 		"name": "name",
 		"description": "system.description",
@@ -11,136 +11,136 @@
 	"entries": [
 		{
 			"id": "Arcane Armor",
-			"name": "Armure arcanique",
-			"description": "<p><em>Remplace : Protection arcanique</em></p><p>Tant que vous avez au moins encore un sort pr&eacute;par&eacute; de niveau 1 ou plus, vous avez <strong>+4</strong> armure.</p>"
+			"name": "마력의 갑옷",
+			"description": "<p><em>대체: 마력의 방패</em></p><p>1레벨 이상의 주문을 하나 이상 준비한 상태이면 장갑에 +4를 받습니다.</p>"
 		},
 		{
 			"id": "Arcane Ward",
-			"name": "Protection arcanique",
-			"description": "<p>Tant que vous avez au moins encore un sort pr&eacute;par&eacute; de niveau 1 ou plus, vous avez <strong>+2</strong> armure.</p>"
+			"name": "마력의 방패",
+			"description": "<p>1레벨 이상의 주문을 하나 이상 준비한 상태이면 장갑에 +2를 받습니다.</p>"
 		},
 		{
 			"id": "Cast a Spell",
-			"name": "Lancer un sort",
-			"description": "<p>Quand vous lancez un sort que vous avez pr&eacute;par&eacute;, lancez <strong>2d6+INT</strong>.</p>",
-			"failure": "<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>Le sort est lanc&eacute; mais choisissez une option.</p>",
-			"success": "<p>Vous lancez le sort avec succ&egrave;s et vous ne l&rsquo;oubliez pas.</p>",
-			"choices": "<ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous d&eacute;crira comment).</li><li>Ce sort perturbe le tissu de la r&eacute;alit&eacute; : vous avez <strong>-1</strong> continu pour lancer un sort jusqu&rsquo;&agrave; ce que vous pr&eacute;pariez vos sorts de nouveau.</li><li>Une fois lanc&eacute;, le sort est oubli&eacute;. Vous ne pouvez plus le lancer tant que vous n&rsquo;avez pas pr&eacute;par&eacute; vos sorts &agrave; nouveau.</li></ul>"
+			"name": "주문 시전",
+			"description": "<p>준비된 주문을 사용하면 +지 판정을 합니다.</p>",
+			"failure": "<p>좋지 않은 일이 일어납니다.</p>",
+			"partial": "<p>주문은 시전되지만 다음의 부작용 중 하나가 일어납니다.</p>",
+			"success": "<p>주문이 부작용 없이 성공적으로 시전됩니다. 원하면 다음에 또 걸 수도 있습니다.</p>",
+			"choices": "<ul><li>곤란한 상황에 처하거나 원치 않는 주의를 끌게 됩니다. 마스터가 정합니다.</li>\n<li>주문이 현실의 구조를 어지럽힙니다. 다시 주문 준비를 할 때까지 주문 시전 판정에 계속 -1을 받습니다.</li>\n<li>주문을 잊어 버립니다. 주문 준비를 할 때까지, 이 주문은 사용할 수 없습니다.</li>\n<li>지속적인 효과를 가진 주문은 작용하는 동안 주문 시전에 페널티를 주는 일도 있으니 참고하십시오.</li>\n</ul>"
 		},
 		{
 			"id": "Counterspell",
-			"name": "Contresort",
-			"description": "<p>Quand vous tentez de contrer un sort d&rsquo;arcane qui devrait normalement vous affecter, misez l&rsquo;un de vos sorts pr&eacute;par&eacute;s et lancez <strong>2d6+INT</strong>.</p>",
-			"failure":"<p>Oups, quelque chose ne s'est pas pass&eacute; comme pr&eacute;vu.</p>",
-			"partial": "<p>L&rsquo;effet est contr&eacute; et vous oubliez le sort que vous avez mis&eacute;. Le contresort ne prot&egrave;ge que vous. Si le sort a d&rsquo;autres cibles, elles restent affect&eacute;es.</p>",
-			"success": "<p>Le sort est contr&eacute; et n&rsquo;a pas d&rsquo;effet sur vous. Le contresort ne prot&egrave;ge que vous. Si le sort a d&rsquo;autres cibles, elles restent affect&eacute;es.</p>"
+			"name": "주문 차단",
+			"description": "<p>자기에게 영향을 줄 주문을 차단하려 할 때, 준비된 주문을 하나 걸고 +지 판정을 합니다.주문 차단은 자신만을 보호합니다. 그 주문이 다른 대상에게도 영향을 주는 경우, 다른 대상들에 대한 효과는 원래대로 일어납니다. 마법사, 음유시인 등이 쓰는 세속 마법에 대해서만 사용할 수 있으며, 신성 마법 계통의 주문에는 통하지 않습니다.</p>",
+			"failure":"<p>좋지 안은 일이 일어납니다.</p>",
+			"partial": "<p>상대의 주문은 자단되고, 자신은 걸었던 주문을 잊습니다. </p>",
+			"success": "<p>상대의 주문은 차단되고 자신에게는 아무 일도 일어나지 않습니다.</p>"
 		},
 		{
 			"id": "Empowered Magic",
-			"name": "Puissance magique",
-			"description": "<p>Quand vous <em>lancez un sort</em>, sur un <strong>10+</strong> vous pouvez opter pour un effet de la liste 7-9, &agrave; savoir :</p><ul><li>Vous attirez une attention malvenue ou vous vous exposez (lae MJ vous d&eacute;crira comment).</li><li>Ce sort perturbe le tissu de la r&eacute;alit&eacute; : vous avez <strong>-1</strong> continu pour lancer un sort jusqu&rsquo;&agrave; ce que vous pr&eacute;pariez vos sorts de nouveau.</li><li>Une fois lanc&eacute;, le sort est oubli&eacute;. Vous ne pouvez plus le lancer tant que vous n&rsquo;avez pas pr&eacute;par&eacute; vos sorts &agrave; nouveau.</li></ul><p>Si vous le faites, vous pouvez, au choix :</p>",
-			"choices": "<ul><li>Obtenir l&rsquo;effet maximal de votre sort,</li><li>Doubler le nombre de cibles du sort.</li></ul>"
+			"name": "주문 강화",
+			"description": "<p>주문을 시전할 때, 10+가 나오더라도 원하면 7~9의 부작용을 하나 택하고 다음의 두 효과 중 하나를 택할 수 있습니다.</p><ul><li>곤란한 상황에 처하거나 원치 않는 주의를 끌게 됩니다. 마스터가 정합니다.</li>\n<li>주문이 현실의 구조를 어지럽힙니다. 다시 주문 준비를 할 때까지 주문 시전 판정에 계속 -1을 받습니다.</li>\n<li>주문을 잊어 버립니다. 주문 준비를 할 때까지, 이 주문은 사용할 수 없습니다.</li>\n<li>지속적인 효과를 가진 주문은 작용하는 동안 주문 시전에 페널티를 주는 일도 있으니 참고하십시오.</li>\n</ul>",
+			"choices": "<ul><li>주문의 효과가 2배 됩니다.</li><li>주문의 대상이 2배 됩니다.</li></ul>"
 		},
 		{
 			"id": "Enchanter",
-			"name": "Enchanteur",
-			"description": "<p>Quand vous passez du temps en s&eacute;curit&eacute; avec un objet magique, vous pouvez demander au&middot;&agrave; lae MJ ce que fait cet objet et iel vous r&eacute;pondra sinc&egrave;rement.</p>"
+			"name": "물품 분석",
+			"description": "<p>시간이 충분하고 안전한 상황에서 마법 물품을 분석하면 마스터가 그 물품의 마법적 기능을 사실대로 밝힙니다.</p>"
 		},
 		{
 			"id": "Enchanter's Soul",
-			"name": "Âme de l’enchanteur",
-			"description": "<p><em>Requiert : Enchanteur</em></p><p>Quand vous passez du temps en s&eacute;curit&eacute; avec un objet magique dans un lieu de pouvoir, vous pouvez renforcer les effets de sa prochaine utilisation. Lae MJ vous dira exactement comment.</p>"
+			"name": "물품 강화",
+			"description": "<p><em>필요: 물품 분석</em></p><p>힘이 서린 장소에 있을 때, 안전한 상황에서 시간을 들여 마법 물품에 힘을 불어 넣으면 다음 번에 사용할 때 효과가 증폭됩니다. 어떻게 증폭될지는 마스터가 설명할 것입니다.</p>"
 		},
 		{
 			"id": "Ethereal Tether",
-			"name": "Lien éthéré",
-			"description": "<p>Lorsque vous passez du temps avec un sujet volontaire ou sans d&eacute;fense, vous pouvez cr&eacute;er un lien &eacute;th&eacute;r&eacute; avec ellui. Vous percevez les choses telles qu&rsquo;iel les per&ccedil;oit et discernez la r&eacute;alit&eacute; de son environnement quelle que soit la distance. Quelqu&rsquo;un&middot;e li&eacute;&middot;e de son plein gr&eacute; peut communiquer avec vous comme s&rsquo;iel &eacute;tait &agrave; vos c&ocirc;t&eacute;s.</p>"
+			"name": "에테르의 끈",
+			"description": "<p>보이지 않는 끈으로 자신과 다른 사람을 연결할 수 있습니다. 대상은 연결에 동의하거나, 저항할 수단이 없어야 합니다 (묶여 있다거나). 이렇게 연결되면 거리에 관계 없이 대상이 보고 듣는 것을 자신도 보고 들을 수 있게 되고, 대상이나 그 주변에 대해 상황 파악을 할 수 있게 됩니다. 동의해서 연결된 사람은, 마법사와 마치 곁에 있는 것처럼 대화할 수 있습니다.</p>"
 		},
 		{
 			"id": "Expanded Spellbook",
-			"name": "Codex",
-			"description": "<p>Ajoutez un nouveau sort de n&rsquo;importe quelle classe &agrave; votre grimoire.</p>"
+			"name": "증보",
+			"description": "<p>직업에 관계 없이 주문을 하나 골라 주문서에 추가합니다.</p>"
 		},
 		{
 			"id": "Fount of Knowledge",
-			"name": "Puits de science",
-			"description": "<p>Vous avez <strong>+1</strong> lorsque vous <em>&eacute;talez votre science</em> &agrave; propos de quelque chose dont personne d&rsquo;autre n&rsquo;a id&eacute;e.</p>"
+			"name": "지식의 샘",
+			"description": "<p>다른 누구도 전혀 감을 잡지 못하는 것에 대해 지식 더듬기를 사용하면 판정에 +1을 받습니다.</p>"
 		},
 		{
 			"id": "Greater Empowered Magic",
-			"name": "Surpuissance magique",
-			"description": "<p><em>Requiert : Puissance magique</em></p><p>Quand vous obtenez <strong>12+</strong> en lan&ccedil;ant un sort, vous pouvez doubler les effets ou le nombre de cibles de votre sort.</p>"
+			"name": "상급 주문 강화",
+			"description": "<p><em>필요: 주문 강화</em></p><p>주문을 시전할 때, 12가 나오면 부작용을 고르지 않고 주문 강화의 효과를 하나 선택합니다.</p>"
 		},
 		{
 			"id": "Highly Logical",
-			"name": "Parfaite logique",
-			"description": "<p>Quand vous utilisez votre seul raisonnement pour analyser les alentours, vous pouvez <em>discerner la r&eacute;alit&eacute;</em> avec <strong>INT</strong> au lieu de <strong>SAG</strong>. Sur un <strong>12+</strong>, vous pouvez poser 3 questions de votre choix, sans vous limiter &agrave; la liste.</p>"
+			"name": "매우 논리적",
+			"description": "<p><em>대체: 논리적</em></p><p>엄정한 추리를 통해 주변을 분석하면, 상황 파악을 +혜 대신 +지로 할 수 있습니다. 12+이면 목록에 구애 받지 않고 아무 질문이나 세 가지를 할 수 있습니다.</p>"
 		},
 		{
 			"id": "Know-It-All",
-			"name": "M. je sais tout",
-			"description": "<p>Quand un&middot;e autre PJ vous demande un conseil et que vous lui indiquez ce qui vous semble la meilleure marche &agrave; suivre, iel a <strong>+1</strong> lorsqu&rsquo;iel accomplit la prochaine action en suivant votre conseil et vous <em>marquez 1 PX</em> s&rsquo;iel le suit.</p>"
+			"name": "만물박사",
+			"description": "<p>다른 플레이어 캐릭터가 조언을 구하고 마법사가 이에 솔직하게 대답하는 경우, 상대가 그 조언을 따르면 상대는 다음 판정에 +1을 받고, 마법사는 경험치를 얻습니다.</p>"
 		},
 		{
 			"id": "Logical",
-			"name": "Logique",
-			"description": "<p>Quand vous utilisez votre seul raisonnement pour analyser les alentours, vous pouvez <em>discerner la r&eacute;alit&eacute;</em> avec <strong>INT</strong> au lieu de <strong>SAG</strong>.</p>"
+			"name": "논리적",
+			"description": "<p>엄정한 추리를 통해 주변을 분석하면, 상황 파악을 +혜 대신 +지로 할 수 있습니다.</p>"
 		},
 		{
 			"id": "Master",
-			"name": "Maître",
-			"description": "<p><em>Requiert : Prodige</em></p><p>Choisissez un sort. Vous pr&eacute;parez ce sort comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur.</p>"
+			"name": "대가",
+			"description": "<p><em>필요: 천재</em></p><p>천재로 고르지 않은 주문을 하나 고르십시오. 그 주문은 마치 1레벨 낮은 것처럼 다룹니다. 이로써 0레벨이 된 주문은 간편주문으로 간주합니다.</p>"
 		},
 		{
 			"id": "Mystical Puppet Strings",
-			"name": "Manipulateur mystique",
-			"description": "<p>Quand vous utilisez un sort pour contr&ocirc;ler les actions de quelqu&rsquo;un&middot;e, ce&middot;tte dernier&middot;&egrave;re n&rsquo;en aura aucun souvenir et ne vous en tiendra pas rancune.</p>"
+			"name": "꼭두각시",
+			"description": "<p>마법을 사용하여 사람을 조종한 경우, 대상들은 조종 당한 동안의 기억이 없고, 자기가 조종 당했다는 사실도 알지 못합니다.</p>"
 		},
 		{
 			"id": "Prepare Spells",
-			"name": "Préparer des sorts",
-			"description": "<p>Quand vous consacrez un moment ininterrompu (environ 1 heure) &agrave; l'apprentissage tranquille de votre <em>grimoire</em> :</p><ul><li>Vous perdez tous les sorts que vous aviez pr&eacute;par&eacute;s,</li><li>Vous pr&eacute;parez de nouveaux sorts choisis dans votre grimoire dont le niveau total ne peut pas d&eacute;passer votre propre niveau+1,</li><li>Vous pr&eacute;parez aussi tous vos sorts mineurs qui ne comptent jamais dans la limite de niveau de sorts.</li></ul>"
+			"name": "주문 준비",
+			"description": "<p>1시간 정도 방해를 받지 않고 주문서를 조용히 정독하면 다음과 같은 효과가 일어납니다:</p>\n<ul>\n<li>현재 준비된 주문을 모두 잃습니다.</li>\n<li>자기가 선택하는 주문이 하나 이상 준비됩니다. 주문 레벨의 합은 자기 레벨 +1을 넘을 수 없고, 자기 레벨보다 높은 주문은 선택할 수 없습니다.</li>\n<li>간편주문이 모두 준비됩니다. 간편주문은 주문 레벨 제한에 해당되지 않습니다.</li>\n</ul>"
 		},
 		{
 			"id": "Prodigy",
-			"name": "Prodige",
-			"description": "<p>Choisissez un sort. Vous pr&eacute;parez ce sort comme s&rsquo;il &eacute;tait d&rsquo;un niveau inf&eacute;rieur.</p>"
+			"name": "천재",
+			"description": "<p>주문 하나를 고르십시오. 그 주문은 마치 1레벨 낮은 것처럼 다룹니다. 이로써 0레벨이 된 주문은 간편주문으로 간주합니다.</p>"
 		},
 		{
 			"id": "Protective Counter",
-			"name": "Contresort protecteur",
-			"description": "<p><em>Requiert : Contresort</em></p><p>Quand l&rsquo;un&middot;e de vos alli&eacute;&middot;es que vous voyez est affect&eacute;&middot;e par un sort arcanique, vous pouvez contrer celui-ci comme s&rsquo;il vous visait. Si le sort affecte plusieurs alli&eacute;&middot;es, il vous faudra contrer chaque effet s&eacute;par&eacute;ment.</p>"
+			"name": "마법 차폐",
+			"description": "<p><em>필요: 주문 차단</em></p><p>자기 시야 내에 있는 우리 편이 주문에 영향을 받으려 할 때, 마치 자기에게 그 주문이 닥친 것처럼 주문을 차단할 수 있습니다. 절차는 주문 차단과 같습니다. 주문이 둘 이상에 대해 영향을 주는 경우 대상마다 따로 차단을 해야 합니다. 마법사나 음유시인의 세속적인 마법에 대해서만 사용할 수 있으며, 신성 마법 계통의 주문에는 통하지 않습니다.</p>"
 		},
 		{
 			"id": "Quick Study",
-			"name": "Étude rapide",
-			"description": "<p>Quand vous observez les effets d&rsquo;un sort arcanique, demandez au&middot;&agrave; lae MJ le nom et les effets de ce sort. Vous avez <strong>+1</strong> si vous agissez en fonction de la r&eacute;ponse.</p>"
+			"name": "주문 추리",
+			"description": "<p>주문의 효과를 목격했을 때, 마스터에게 주문의 이름과 효과를 물을 수 있습니다. 그 대답에 의거하여 행동하면 다음 판정에 +1을 받습니다. 마법사, 음유시인 등이 쓰는 세속 마법에 대해서만 사용할 수 있으며, 신성 마법 계통의 주문에는 통하지 않습니다.</p>"
 		},
 		{
 			"id": "Ritual",
-			"name": "Rituel",
-			"description": "<p>Quand vous cr&eacute;ez un effet magique &agrave; partir d&rsquo;un lieu de pouvoir, indiquez au&middot;&agrave; lae MJ votre objectif. Les effets du rituel sont toujours possibles mais lae MJ&nbsp;<br>posera une &agrave; quatre des conditions suivantes :</p><ul><li>&Ccedil;a va prendre des jours/semaines/mois,</li><li>D&rsquo;abord, il te faudra ________,</li><li>Tu auras besoin de l&rsquo;aide de ________,</li><li>Cela va co&ucirc;ter beaucoup d&rsquo;argent,</li><li>Tu parviens &agrave; un effet moindre, peu fiable et limit&eacute;,</li><li>Tes alli&eacute;s et toi-m&ecirc;me encourez un risque venant de ________,</li><li>Tu vas devoir d&eacute;senchanter ________ pour le faire.</li></ul>"
+			"name": "마법 의식",
+			"description": "<p>힘이 서린 장소에서 마력을 끌어다가 마법적 효과를 만들 때, 마스터에게 무엇을 하려고 하는지 말하십시오. 마법 의식에 의한 효과는 무엇이건 실현 가능하지만, 마스터는 다음 조건 중에서 1~4가지를 골라 제시할 것입니다:</p>\n<ul>\n<li>며칠/몇 주/몇 개월이 걸립니다.</li>\n<li>그 전에 _________를 해야 합니다.</li>\n<li>_________의 도움을 받아야 합니다.</li>\n<li>돈이 많이 듭니다.</li>\n<li>제한되고 신뢰성 낮은 약화판으로 밖에 할 수 없습니다.</li>\n<li>자신과 동료들이 _________ 때문에 위험에 처하게 됩니다.</li>\n<li>_________ (특정 마법 물품)에 걸린 마법을 깨야 의식을 할 수 있습니다.</li>\n</ul>"
 		},
 		{
 			"id": "Self-Powered",
-			"name": "Pouvoir personnel",
-			"description": "<p>Quand vous avez le temps, les mat&eacute;riaux arcaniques et un endroit s&ucirc;r, vous pouvez cr&eacute;er votre propre lieu de pouvoir. D&eacute;crivez au&middot;&agrave; lae MJ de quel pouvoir il s&rsquo;agit et comment vous le liez &agrave; cet endroit. Lae MJ vous indiquera une cr&eacute;ature int&eacute;ress&eacute;e par vos travaux.</p>"
+			"name": "마력 응집",
+			"description": "<p>시간과 재료, 그리고 안전한 공간이 있으면 그 장소에 마력을 깃들게 하여 힘이 서린 장소를 만들 수 있습니다. 어떤 종류의 힘을 어떻게 불어 넣을 것인지 마스터에게 말하십시오. 마스터는 이 작업에 (괴물이건 사람이건) 어떤 존재가 관심을 가질 만한지 정해서 가르쳐 줄 것입니다.</p>"
 		},
 		{
 			"id": "Spell Augmentation",
-			"name": "Amplification",
-			"description": "<p>Quand vous infligez des d&eacute;g&acirc;ts &agrave; une cr&eacute;ature, vous pouvez y ajouter l&rsquo;&eacute;nergie d&rsquo;un sort. Interrompez un sort continu et ajoutez son niveau aux d&eacute;g&acirc;ts inflig&eacute;s.</p>"
+			"name": "주문 접지",
+			"description": "<p>자신이 피해를 줄 때, 지속 중인 주문의 에너지를 그리로 돌릴 수 있습니다. 지속 중인 주문을 하나 종료하면 그 주문의 레벨이 피해에 추가됩니다.</p>"
 		},
 		{
 			"id": "Spell Defense",
-			"name": "Défense magique",
-			"description": "<p>Vous pouvez cesser imm&eacute;diatement un sort continu et utiliser l&rsquo;&eacute;nergie de la dissipation pour d&eacute;tourner une attaque. Le sort s&rsquo;ach&egrave;ve et vous soustrayez son&nbsp;<br>niveau des d&eacute;g&acirc;ts qui vous sont inflig&eacute;s.</p>"
+			"name": "주문 방어",
+			"description": "<p>지속되는 주문 하나를 중단하면 그 소멸 에너지를 사용하여 자기에게 닥치는 공격을 방어할 수 있습니다. 주문은 끝나고, 공격의 피해가 주문의 레벨만큼 줄어듭니다. 간편주문은 레벨 0으로 간주합니다.</p>"
 		},
 		{
 			"id": "Spellbook",
-			"name": "Grimoire",
-			"description": "<p>Vous avez ma&icirc;tris&eacute; plusieurs sorts et les avez inscrits dans votre <em>grimoire</em>. Vous commencez avec 3 sorts de niveau 1 et les sorts mineurs. D&egrave;s que vous montez d&rsquo;un niveau, vous ajoutez un nouveau sort de votre niveau ou moins &agrave; votre&nbsp;<br>grimoire. Votre grimoire p&egrave;se 1 poids.</p>"
+			"name": "주문서",
+			"description": "<p>주문서에는 마법사가 익힌 주문이 모두 기록되어 있습니다. 처음에는 간편주문 전부와 1레벨 주문 3개를 갖고 시작합니다 레벨이 오를 때마다 주문서에 자기 레벨 이하의 새로운 주문을 하나 추가하십시오. 주문서의 무게는 1입니다.</p>"
 		}
 	]
 }
