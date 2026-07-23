@@ -1,7 +1,7 @@
 {
   "id": "dungeonworld-ko",
   "title": "Dungeon World Korean Translation",
-  "description": "던월 12.331 한글 번역 테스트용 모듈",
+  "description": "던전월드(Dungeon World) 한글화 모듈",
   "version": "#{VERSION}#",
   "library": "false",
   "manifestPlusVersion": "1.2.0",
