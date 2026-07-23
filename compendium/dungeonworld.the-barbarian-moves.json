@@ -11,14 +11,14 @@
 	"entries": [
 		{
 			"id": "A Good Day To Die",
-			"name": "Un bon jour pour mourir",
-			"description": "<p>Vous avez <strong>+1 continu</strong> tant que vos PV sont inf&eacute;rieurs &agrave; votre <strong>CON</strong> <em>(ou 1, prenez le plus &eacute;lev&eacute; des deux)</em>.</p>"
+			"name": "죽기 좋은 날",
+			"description": "<p>현재 HP가 당신의 <strong>체력</strong>보다 낮은 동안(또는 <strong>1</strong>, 더 높은 쪽으로) 판정에 <strong>+1</strong>을 받습니다.</p>"
 
 		},
 		{
 			"id": "Appetite For Destruction",
-			"name": "Avide de destruction",
-			"description": "<p>Choisissez une action de la liste du guerrier, du barde ou du voleur. Vous ne pouvez pas prendre l&rsquo;action multiclasse.</p>"
+			"name": "파괴에 대한 갈망",
+			"description": "<p>전사, 음유시인 또는 도적의 액션을 하나 택합니다. 다중 직업 액션은 가져올 수 없습니다.</p>"
 		},
 		{
 			"id": "Eye for Weakness",
@@ -35,8 +35,8 @@
 		},
 		{
 			"id": "Full Plate and Packing Steel",
-			"name": "Bardé d’acier",
-			"description": "<p>Ignorez le marqueur encombrant de l&rsquo;armure que vous portez.</p>"
+			"name": "완전무장",
+			"description": "<p>갑옷의 <em>불편함</em> 태그를 무시합니다.</p>"
 		},
 		{
 			"id": "Healthy Distrust",
@@ -46,23 +46,23 @@
 		{
 			"id": "Herculean Appetites",
 			"name": "헤라클레스의 욕망",
-			"description": "<p>다른 사람들은 단지 포도주를 맛보거나, 하인 한 두 명을 거느리는 것으로 만족할 수도 있겠지만, 당신은 그 이상을 원합니다. 욕망을 두 가지 고르십시오:</p><ul><li>갈등과 파괴</li><li>잔혹한 복수</li><li>지배하는 권력</li><li>육신의 쾌락</li><li>정복</li><li>잃어버린 지식의 발견</li><li>부와 재산</li><li>명성과 영광</li></ul><p>선택한 욕망을 추구하기 위한 액션에서 주사위를 하나 다시 판정할 수 있지만, 판정에는 두 번째로 굴린 결과를 적용해야만 합니다. 만약 다시 굴린 주사위가 1이라면 마스터는 당신의 부주의한 욕망으로 인해 발생하는 곤란한 상황이나 위험을 말해줍니다.</p><p>레벨을 올릴 때, 욕망을 만족시켰거나 그 욕망이 더 이상 pc에게 들어맞지 않는다고 생각하면 욕망 중 하나를 지울 수 있습니다. 그렇게 한 뒤 새 욕망을 고르십시오. 욕망은 한 번만 교체할 수 있습니다.</p>"
+			"description": "<p>다른 이들은 와인 한 모금을 맛보거나, 하인 한두 명을 부리는 것에 만족하겠지만, 당신은 더 많은 것을 원합니다. 욕망을 두 가지 고르십시오. 당신이 욕망을 쫓아 액션을 할 때, <strong>2d6</strong> 대신 <strong>1d6+1d8</strong>로 판정합니다. 만약 두 주사위 중 <strong>1d6</strong>이 더 높을 경우, 마스터는 당신의 경솔한 행동으로 인한 곤란한 상황이나 위험에 대해 얘기해 줄 것입니다.</p><ul><li>순수한 파괴</li><li>다른 이들보다 뛰어난 힘</li><li>엄청난 쾌락</li><li>정복</li><li>부와 재산</li><li>명성과 영광</li></ul>"
 		},
 		{
 			"id": "Indestructible Hunger",
-			"name": "Faim insatiable",
-			"description": "<p>Lorsque vous subissez des d&eacute;g&acirc;ts, vous pouvez choisir de les ignorer en prenant <strong>-1 continu</strong> jusqu&rsquo;&agrave; ce que vous ayez satisfait l&rsquo;une de vos ambitions.</p>"
+			"name": "불멸의 굶주림",
+			"description": "<p>피해를 입을 때, 피해를 입는 대신 욕망이 충족될 때까지 판정에 <strong>-1</strong>을 받을 수 있습니다. 이미 이 페널티를 받고 있을 때는 이 옵션을 선택할 수 없습니다.</p>"
 		},
 		{
 			"id": "Khan Of Khans",
 			"name": "위대한 칸",
-			"description": "<p>전사들을 당신의 깃발 아래 구인할 때 <strong>+체력</strong>으로 판정하면 추종자들은 당신이 이끄는 동안 <em>전사</em> 태그를 받습니다.</p>"
+			"description": "<p>고용인들은 언제나 당신의 욕망을 위한 무보수 노동을 받아들일 것입니다.</p>"
 
 		},
 		{
 			"id": "Kill 'Em All",
-			"name": "Tuez-les tous !",
-			"description": "<p><em>Requiert : Avide de destruction</em></p><p>Prenez une autre action de guerrier, barde ou de voleur. Vous ne pouvez pas prendre l&rsquo;action multiclasse.</p>"
+			"name": "모조리 죽여라",
+			"description": "<p><em>필요: 파괴에 대한 갈망</em></p><p>전사, 음유시인 또는 도적의 액션을 하나 택합니다. 다중 직업 액션은 가져올 수 없습니다.</p>"
 		},
 		{
 			"id": "Mark Of Might",
@@ -71,8 +71,8 @@
 		},
 		{
 			"id": "More! Always More!",
-			"name": "Toujours plus !",
-			"description": "<p>Quand vous poussez l&rsquo;une de vos ambitions &agrave; l&rsquo;extr&ecirc;me (en d&eacute;truisant quelque chose d&rsquo;unique et d&rsquo;important, en acc&eacute;dant &agrave; une prodigieuse renomm&eacute;e, richesse, puissance, etc.), vous pouvez d&eacute;cider de mettre fin &agrave; cette ambition. Rayez-l&agrave; de votre liste et marquez un PX. Bien que vous puissiez poursuivre de nouveau cette ambition, vous ne ressentez plus ce besoin imp&eacute;rieux de le faire. &Agrave; sa place, choisissez une nouvelle ambition de la liste ou cr&eacute;ez-en une.</p>"
+			"name": "더! 더 많이!",
+			"description": "<p>욕망을 최고로 충족할 때(유일하고 중요한 것을 파괴함, 엄청난 명성·부·힘을 얻음 등) 그 욕망을 해소할 수 있습니다. 목록에서 그 욕망을 지우고 경험치를 얻습니다. 다시 그 욕망을 추구하더라도, 더 이상 예전만큼 강렬한 욕망을 느끼지 못합니다. 그 대신, 목록에서 새로 고르거나 당신이 새로 지어낸 욕망을 추가합니다.</p>"
 		},
 		{
 			"id": "Musclebound",
@@ -81,8 +81,8 @@
 		},
 		{
 			"id": "My Love For You Is Like A Truck",
-			"name": "Berserker !",
-			"description": "<p>Lorsque vous accomplissez une prouesse physique, nommez une personne pr&eacute;sente que vous avez impressionn&eacute;e et vous avez <strong>+1 &agrave; suivre</strong> pour <em>n&eacute;gocier</em> avec elle.</p>"
+			"name": "너에 대한 내 사랑은 트럭 같아",
+			"description": "<p>힘으로 엄청난 일을 했을 경우, 당신에게 감명받은 사람 하나를 골라, 대상과의 <em>협상</em> 판정에 계속 <strong>+1</strong>을 받습니다.</p>"
 		},
 		{
 			"id": "On The Move",
@@ -92,27 +92,27 @@
 		{
 			"id": "Samson",
 			"name": "불복, 불요, 불굴",
-			"description": "<p>야영을 할 때 가장 최근의 싸움에서 얻은 상처를 서술할 수 있습니다. 그렇게 한다면 추가로 <strong>1d6 HP</strong>를 더 회복하거나 약화를 지웁니다.</p><p>또한 신체적, 정신적으로 무력화되었을 때 약화를 하나 받는 대신 즉시 구속에서 벗어날 수 있습니다.</p>"
+			"description": "<p>육체적 또는 정신적 방해에서 벗어나기 위해 약화 효과를 선택할 수 있습니다.</p>"
 		},
 		{
 			"id": "Smash!",
-			"name": "Blam !",
-			"description": "<p>Lorsque vous <em>taillez en pi&egrave;ces</em>, sur <strong>12+</strong> infligez vos d&eacute;g&acirc;ts et choisissez quelque chose de mat&eacute;riel que perd votre adversaire (une arme, sa position, un membre).</p>"
+			"name": "박살내기!",
+			"description": "<p>근접전을 할 때, <strong>12+</strong>가 나오면 피해를 주고 목표물이 가지고 있는 물리적인 것을 하나 고릅니다(무기, 위치, 팔다리 등). 목표물은 그것을 잃어버립니다.</p>"
 		},
 		{
 			"id": "Still Hungry",
-			"name": "Toujours affamé",
-			"description": "<p>Choisissez une ambition suppl&eacute;mentaire.</p>"
+			"name": "여전히 굶주린",
+			"description": "<p>욕망을 하나 더 고릅니다.</p>"
 		},
 		{
 			"id": "The One Who Knocks",
-			"name": "C’est moi le danger",
-			"description": "<p>Lorsque vous <em>d&eacute;fiez le danger</em>, sur <strong>12+</strong> vous renvoyez le danger d&rsquo;o&ugrave; il vient, lae MJ vous dira comment.</p>"
+			"name": "위협은 나다",
+			"description": "<p><em>위험 돌파</em>를 할 때, <strong>12+</strong>가 나오면 위험을 다시 돌려줍니다. 어떻게 될지는 마스터가 정합니다.</p>"
 		},
 		{
 			"id": "The Upper Hand",
 			"name": "주도권",
-			"description": "<p>황천길 판정을 할 때, <strong>7~9</strong>이면 당신의 목숨을 위해 사신에게 무언가를 바칠 수 있습니다. 만약 사신이 받아들인다면 그는 당신의 목숨을 돌려줄 것입니다. 그렇지 않다면, 죽습니다.</p>"
+			"description": "<p>황천길 판정에 <strong>+1 상시</strong> 보너스를 받습니다. 황천길 판정을 할 때, <strong>7~9</strong>가 나오면 당신의 목숨을 위해 사신에게 무언가를 바칠 수 있습니다. 만약 사신이 받아들인다면 그는 당신의 목숨을 돌려줄 것입니다. 그렇지 않다면, 죽습니다.</p>"
 		},
 		{
 			"id": "Unencumbered, Unharmed",
@@ -121,35 +121,35 @@
 		},
 		{
 			"id": "Usurper",
-			"name": "Usurpateur",
-			"description": "<p>Lorsque vous d&eacute;montrez votre sup&eacute;riorit&eacute; sur un&middot;e puissant&middot;e de ce monde, vous avez <strong>+1 &agrave; suivre</strong> envers ses serviteur&middot;ante&middot;s, ses hommes ou femmes de main et ses courtisan&middot;e&middot;s.</p>"
+			"name": "찬탈자",
+			"description": "<p>스스로 누군가보다 힘이 강함을 입증할 때, 그의 부하, 하인들에 대한 판정에 <strong>+1</strong>을 받습니다.</p>"
 		},
 		{
 			"id": "War Cry",
 			"name": "전쟁의 사자",
-			"description": "<p>전투 중 뿔나팔을 불거나 목청껏 포효하면 <strong>+체력</strong>으로 판정하십시오.</p><p>이 액션을 사용한 이후 적을 한 명 죽일 때까지, 혹은 전투가 끝날 때까지 판정에 불리를 받습니다.</p>",
+			"description": "<p>전투를 시작하면서 힘을 과시할 때(소리치기, 함성 지르기, 전투의 춤 등) <strong>+체력</strong>으로 판정합니다.</p>",
 			"failure": "<p>Votre d&eacute;monstration n'a pas l'effet escompt&eacute;.</p>",
-			"partial": "<p>하나만 고릅니다.</p>",
-			"success": "<p>둘을 고릅니다.</p>",
-			"choices": "<ul><li>아군이 두려움을 떨쳐버리고 다음 피해에 유리를 받습니다.</li><li>적의 의지를 꺾고, 주의를 분산시키고, 집중을 잃게 합니다.</li><li>가치 있는 적 하나를 선택합니다. 대상은 당신을 이 전장에서 가장 큰 위협으로 간주합니다.</li><li>적이 두려움에 사로잡힙니다. 당신이 압박한다면 패주할 수도 있습니다.</li></ul>"
+			"partial": "<p>7~9면 하나만 받습니다.</p>",
+			"success": "<p>10+이 나오면 둘 다 받습니다.</p>",
+			"choices": "<ul><li>동료들이 단결되어 판정에 +1을 받습니다.</li><li>적들이 공포를 느끼고 그에 따라 행동합니다(당신을 피함, 숨음, 공포에 질려 공격함 등).</li></ul>"
 		},
 		{
 			"id": "What Are You Waiting For?",
-			"name": "Qu’est-ce que t’attends ?",
-			"description": "<p>Quand vous hurlez un d&eacute;fi &agrave; vos ennemis, lancez <strong>2d6+CON</strong>.</p>",
+			"name": "뭘 기다리는 거야?",
+			"description": "<p>적들에게 도전적으로 몰아붙일 때 <strong>+체력</strong>으로 판정합니다.</p>",
 			"failure": "<p>Votre provocation n'a pas l'effet voulu.</p>",
-			"partial": "<p>Seuls quelques-un&middot;e&middot;s (les plus faibles ou les plus t&eacute;m&eacute;raires) succombent &agrave; vos provocations.</p>",
-			"success": "<p>Iels vous consid&egrave;rent comme la menace la plus importante &agrave; affronter et ignorent vos compagnons. Gagnez <strong>+2 d&eacute;g&acirc;ts continu</strong> contre eux.</p>"
+			"partial": "<p>7~9가 나오면 매우 적은 이들만이(그중 가장 약하거나 가장 무모한 이) 당신의 도발에 걸려듭니다.</p>",
+			"success": "<p>10+이 나오면 적들은 당신의 동료를 무시하고 당신에게 달려듭니다. 그들과 싸울 때 <strong>+2 추가 피해</strong>를 입힙니다.</p>"
 		},
 		{
 			"id": "What Is Best In Life",
-			"name": "Qu’y a-t-il de mieux dans la vie ?",
-			"description": "<p>&Agrave; la fin d&rsquo;une session, si au cours de celle-ci vous avez &eacute;cras&eacute; vos ennemi&middot;e&middot;s, les avez vu mourir devant vous ou avez entendu les lamentations de leurs proches, marquez <strong>1 PX</strong>.</p>"
+			"name": "삶에서 가장 좋은 것",
+			"description": "<p>세션이 끝날 때, 세션 동안 당신이 짓밟은 적이 당신 앞을 지나가는 것을 보거나, 그의 친척들의 비탄을 들을 경우, 경험치를 얻습니다.</p>"
 		},
 		{
 			"id": "Wide-Wanderer",
-			"name": "Grand voyageur",
-			"description": "<p>Vous avez bourlingu&eacute; &agrave; travers le monde. Lorsque vous arrivez quelque part, demandez au&middot;&agrave; lae MJ quelles sont les traditions importantes, les rituels, etc. Iel vous dira ce que vous avez besoin de savoir.</p>"
+			"name": "방랑자",
+			"description": "<p>당신은 세상의 이곳저곳을 돌아다녔습니다. 당신이 마스터에게 어딘가의 중요한 전통, 관습 등을 물어봤을 때, 마스터는 당신이 알아야 하는 것을 말해 줄 것입니다.</p>"
 		}
 	]
 }
