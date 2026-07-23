@@ -1,5 +1,5 @@
 {
-	"label": "Actions du·de la Barbare",
+	"label": "야만전사 액션",
 	"mapping": {
 		"name": "name",
 		"description": "system.description",
@@ -27,11 +27,11 @@
 		},
 		{
 			"id": "For The Blood God",
-			"name": "Pour le dieu sanglant",
-			"description": "<p>Vous &ecirc;tes initi&eacute;&middot;e aux anciens rites sacrificiels. D&eacute;signez ce &agrave; quoi vos dieux (ou esprits ancestraux, votre totem, etc.) attachent de la valeur : de l&rsquo;or, du sang, des os ou quelque chose du m&ecirc;me genre.</p><p>Lorsque vous sacrifiez cela selon le rituel, lancez <strong>2d6+SAG</strong>.</p>",
+			"name": "피의 신을 위해",
+			"description": "<p>당신은 옛 방식, 희생의 길을 알고 있습니다. 당신의 신(또는 조상의 영혼이나 당신의 토템 등)들이 가치있게 여기는 것 (금, 피, 뼈 등)을 선택하십시오. 의식에 따라 그 물건을 희생하면 <strong>+지혜</strong>로 판정합니다.</p>",
 			"failure": "<p>Vous vous attirez la col&egrave;re des esprits capricieux.</p>",
-			"partial": "<p>Vos dieux vous accordent une vision ou une b&eacute;n&eacute;diction mais le sacrifice n&rsquo;&eacute;tait pas suffisant : ils ont pris aussi de votre chair.</p>",
-			"success": "<p>Lae MJ vous accorde une vision &agrave; propos de vos probl&egrave;mes actuels ou une b&eacute;n&eacute;diction qui vous viendra en aide.</p>"
+			"partial": "<p>당신의 신은 지혜나 축복을 하사하지만, 제물이 충분하지 않아 당신의 살을 취할 것입니다.</p>",
+			"success": "<p>마스터는 현재 직면한 문제에 대한 유용한 지혜나 당신을 돕기 위한 축복을 제공할 것입니다.</p>"
 		},
 		{
 			"id": "Full Plate and Packing Steel",
@@ -45,8 +45,8 @@
 		},
 		{
 			"id": "Herculean Appetites",
-			"name": "Appétits herculéens",
-			"description": "<p>Les autres peuvent se contenter d&rsquo;une gorg&eacute;e de vin ou d&rsquo;un ou deux esclaves &agrave; leur service, mais il vous en faut plus !</p><p>Choisissez deux ambitions ci-dessous. Lorsque vous poursuivez l&rsquo;une de vos ambitions, si vous deviez lancer <strong>2d6</strong> pour une action, lancez un <strong>d6</strong> et un <strong>d8</strong> &agrave; la place. Si le r&eacute;sultat du d6 est sup&eacute;rieur &agrave; celui du d8, lae MJ peut introduire une complication ou un danger provoqu&eacute; par votre avidit&eacute;.</p><ul><li>Destruction pure</li><li>Pouvoir sur autrui</li><li>Plaisirs terrestres</li><li>Conqu&ecirc;te</li><li>Richesses et possessions</li><li>Gloire et renomm&eacute;e</li></ul>"
+			"name": "헤라클레스의 욕망",
+			"description": "<p>다른 사람들은 단지 포도주를 맛보거나, 하인 한 두 명을 거느리는 것으로 만족할 수도 있겠지만, 당신은 그 이상을 원합니다. 욕망을 두 가지 고르십시오:</p><ul><li>갈등과 파괴</li><li>잔혹한 복수</li><li>지배하는 권력</li><li>육신의 쾌락</li><li>정복</li><li>잃어버린 지식의 발견</li><li>부와 재산</li><li>명성과 영광</li></ul><p>선택한 욕망을 추구하기 위한 액션에서 주사위를 하나 다시 판정할 수 있지만, 판정에는 두 번째로 굴린 결과를 적용해야만 합니다. 만약 다시 굴린 주사위가 1이라면 마스터는 당신의 부주의한 욕망으로 인해 발생하는 곤란한 상황이나 위험을 말해줍니다.</p><p>레벨을 올릴 때, 욕망을 만족시켰거나 그 욕망이 더 이상 pc에게 들어맞지 않는다고 생각하면 욕망 중 하나를 지울 수 있습니다. 그렇게 한 뒤 새 욕망을 고르십시오. 욕망은 한 번만 교체할 수 있습니다.</p>"
 		},
 		{
 			"id": "Indestructible Hunger",
@@ -55,8 +55,8 @@
 		},
 		{
 			"id": "Khan Of Khans",
-			"name": "Khan des Khans",
-			"description": "<p>Vos recrues acceptent toujours l&rsquo;accomplissement de l&rsquo;une de vos ambitions comme paiement.</p>"
+			"name": "위대한 칸",
+			"description": "<p>전사들을 당신의 깃발 아래 구인할 때 <strong>+체력</strong>으로 판정하면 추종자들은 당신이 이끄는 동안 <em>전사</em> 태그를 받습니다.</p>"
 
 		},
 		{
@@ -66,8 +66,8 @@
 		},
 		{
 			"id": "Mark Of Might",
-			"name": "Symbole du pouvoir",
-			"description": "<p>Lorsque vous choisissez cette action et que vous m&eacute;ditez sans interruption votre gloire pass&eacute;e, vous pouvez arborer un symbole de votre pouvoir (une longue natte tress&eacute;e de clochettes, des cicatrices rituelles, des tatouages, etc.). &Agrave; sa simple vue, toute cr&eacute;ature mortelle dou&eacute;e d&rsquo;intelligence sait instinctivement qu&rsquo;elle a affaire &agrave; une puissance non n&eacute;gligeable et vous traite en cons&eacute;quence.</p>"
+			"name": "힘의 증표",
+			"description": "<p>이 액션을 고른 후 방해받지 않고 과거의 영광을 돌아보는 시간을 가지면 힘의 증표(긴 머리띠, 의식의 흉터 또는 문신 등)로 당신 자신을 표시할 수 있습니다. 이 상징을 본 지성이 있는 생명체는 본능적으로 당신이 무시할 수 없는 존재라는 것을 느끼고 당신을 그에 맞게 대우합니다.</p>"
 		},
 		{
 			"id": "More! Always More!",
@@ -76,8 +76,8 @@
 		},
 		{
 			"id": "Musclebound",
-			"name": "Costaud",
-			"description": "<p>Lorsque vous portez une arme, celle-ci gagne les marqueurs <em>puissant</em> et <em>d&eacute;vastateur</em>.</p>"
+			"name": "터질 듯한 근육",
+			"description": "<p>당신이 사용하는 근접 무기는 <em>괴력</em>과 <em>파괴적</em> 태그를 얻습니다.</p>"
 		},
 		{
 			"id": "My Love For You Is Like A Truck",
@@ -91,8 +91,8 @@
 		},
 		{
 			"id": "Samson",
-			"name": "Samson",
-			"description": "<p>Vous pouvez cocher un <em>handicap</em> pour vous lib&eacute;rer instantan&eacute;ment d&rsquo;une entrave physique ou mentale.</p>"
+			"name": "불복, 불요, 불굴",
+			"description": "<p>야영을 할 때 가장 최근의 싸움에서 얻은 상처를 서술할 수 있습니다. 그렇게 한다면 추가로 <strong>1d6 HP</strong>를 더 회복하거나 약화를 지웁니다.</p><p>또한 신체적, 정신적으로 무력화되었을 때 약화를 하나 받는 대신 즉시 구속에서 벗어날 수 있습니다.</p>"
 		},
 		{
 			"id": "Smash!",
@@ -111,13 +111,13 @@
 		},
 		{
 			"id": "The Upper Hand",
-			"name": "Garder la main",
-			"description": "<p>Vous avez <strong>+1 continu</strong> sur votre <em>dernier soupir</em>. Lorsque vous rendez votre dernier soupir, sur un 7-9 faites une offre &agrave; la Mort en &eacute;change de votre vie. Si la Mort accepte, elle vous rend la vie, sinon vous tr&eacute;passez.</p>"
+			"name": "주도권",
+			"description": "<p>황천길 판정을 할 때, <strong>7~9</strong>이면 당신의 목숨을 위해 사신에게 무언가를 바칠 수 있습니다. 만약 사신이 받아들인다면 그는 당신의 목숨을 돌려줄 것입니다. 그렇지 않다면, 죽습니다.</p>"
 		},
 		{
 			"id": "Unencumbered, Unharmed",
-			"name": "À poil et indemne",
-			"description": "<p>Tant que vous transportez moins que votre poids maximum et que vous ne portez ni armure ni bouclier, gagnez <strong>+1 armure</strong>.</p>"
+			"name": "표범의 우아함",
+			"description": "<p>현재 하중이 한계 하중 미만이고, 갑옷을 입지 않았다면 장갑에 <strong>+1</strong>을 받습니다. 방패는 갑옷에 포함되지 않습니다.</p>"
 		},
 		{
 			"id": "Usurper",
@@ -126,12 +126,12 @@
 		},
 		{
 			"id": "War Cry",
-			"name": "Cri de guerre",
-			"description": "<p>Lorsque vous vous invitez dans la bataille par une d&eacute;monstration de force (un hurlement, un cri de ralliement, une danse de guerre), lancez <strong>2d6+CHA</strong>.</p>",
+			"name": "전쟁의 사자",
+			"description": "<p>전투 중 뿔나팔을 불거나 목청껏 포효하면 <strong>+체력</strong>으로 판정하십시오.</p><p>이 액션을 사용한 이후 적을 한 명 죽일 때까지, 혹은 전투가 끝날 때까지 판정에 불리를 받습니다.</p>",
 			"failure": "<p>Votre d&eacute;monstration n'a pas l'effet escompt&eacute;.</p>",
-			"partial": "<p>L'un des effets suivants s&rsquo;appliquent.</p>",
-			"success": "<p>Les deux effets suivants s&rsquo;appliquent.</p>",
-			"choices": "<ul><li>Vos alli&eacute;s se rallient et ont +1 &agrave; suivre.</li><li>Vos ennemis prennent peur et agissent en fonction (ils vous &eacute;vitent, se cachent, attaquent sous l&rsquo;effet de la terreur).</li></ul>"
+			"partial": "<p>하나만 고릅니다.</p>",
+			"success": "<p>둘을 고릅니다.</p>",
+			"choices": "<ul><li>아군이 두려움을 떨쳐버리고 다음 피해에 유리를 받습니다.</li><li>적의 의지를 꺾고, 주의를 분산시키고, 집중을 잃게 합니다.</li><li>가치 있는 적 하나를 선택합니다. 대상은 당신을 이 전장에서 가장 큰 위협으로 간주합니다.</li><li>적이 두려움에 사로잡힙니다. 당신이 압박한다면 패주할 수도 있습니다.</li></ul>"
 		},
 		{
 			"id": "What Are You Waiting For?",
