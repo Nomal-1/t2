@@ -2,8 +2,7 @@
   "label": "장비 (직업)",
   "mapping": {
     "name": "name",
-    "description": "system.description",
-    "tags": "system.tags"
+    "description": "system.description"
   },
   "entries": [
     {
