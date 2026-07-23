@@ -42,7 +42,8 @@
     },
     {
       "id": "Elven Arrows",
-      "name": "엘프 화살"
+      "name": "엘프 화살",
+      "description": "<p>정교하게 만들어진 엘프 화살입니다.</p>"
     },
     {
       "id": "Fine Bow",
@@ -51,11 +52,13 @@
     },
     {
       "id": "Flail",
-      "name": "도리깨"
+      "name": "도리깨",
+      "description": "<p>쇠사슬로 손잡이에 연결된 타격용 머리로 이루어진 무기입니다.</p>"
     },
     {
       "id": "Halberd",
-      "name": "할버드"
+      "name": "할버드",
+      "description": "<p>양손으로 쓰는 장병기입니다.</p>"
     },
     {
       "id": "Hunter's Bow",
@@ -64,7 +67,8 @@
     },
     {
       "id": "Knife",
-      "name": "단도"
+      "name": "단도",
+      "description": "<p>날이 있는 도구입니다.</p>"
     },
     {
       "id": "Long Sword",
@@ -73,23 +77,28 @@
     },
     {
       "id": "Mace",
-      "name": "철퇴"
+      "name": "철퇴",
+      "description": "<p>단단한 자루에 무거운 머리가 달려 상대를 내려치는 무기입니다.</p>"
     },
     {
       "id": "Ragged Bow",
-      "name": "낡은 활"
+      "name": "낡은 활",
+      "description": "<p>많이 낡은 활입니다.</p>"
     },
     {
       "id": "Rapier",
-      "name": "레이피어"
+      "name": "레이피어",
+      "description": "<p>가늘고 끝이 날카로운 양날 한손검입니다.</p>"
     },
     {
       "id": "Shillelagh",
-      "name": "혹몽둥이"
+      "name": "혹몽둥이",
+      "description": "<p>두꺼운 참나무 몽둥이입니다.</p>"
     },
     {
       "id": "Shiv",
-      "name": "비수"
+      "name": "비수",
+      "description": "<p>날카로운 날이 있는 급조된 무기입니다.</p>"
     },
     {
       "id": "Short Sword",
@@ -108,7 +117,8 @@
     },
     {
       "id": "Throwing Dagger",
-      "name": "투척용 단검"
+      "name": "투척용 단검",
+      "description": "<p>정확도를 위해 균형 잡힌 가벼운 단검입니다.</p>"
     },
     {
       "id": "Two-handed sword",
@@ -117,7 +127,8 @@
     },
     {
       "id": "War hammer",
-      "name": "전투망치"
+      "name": "전투망치",
+      "description": "<p>두개골을 함몰시키기 좋은 커다란 금속 망치입니다.</p>"
     }
   ]
 }

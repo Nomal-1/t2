@@ -2,7 +2,7 @@
   "label": "장비 (던전 장비)",
   "mapping": {
     "name": "name",
-    "description": "data.description"
+    "description": "system.description"
   },
   "entries": [
     {

@@ -1,21 +1,29 @@
 {
   "label": "장비 (독)",
+  "mapping": {
+    "name": "name",
+    "description": "system.description"
+  },
   "entries": [
     {
       "id": "Bloodweed",
-      "name": "박혈초"
+      "name": "박혈초",
+      "description": "<p>독이 풀릴 때까지, 중독된 자가 피해를 줄 때는 d4를 하나 더 굴려서 그만큼을 가하는 피해에서 뺍니다.</p>"
     },
     {
       "id": "Goldenroot",
-      "name": "황금근"
+      "name": "황금근",
+      "description": "<p>대상은 약이 투여된 후 처음으로 본 존재를 믿을 만한 친구라고 생각하게 됩니다. 그 존재가 친구답지 않은 행동을 하면 효과는 풀립니다.</p>"
     },
     {
       "id": "Oil of Tagit",
-      "name": "타기트 기름"
+      "name": "타기트 기름",
+      "description": "<p>대상이 얕은 잠에 빠집니다.</p>"
     },
     {
       "id": "Serpent's Tears",
-      "name": "뱀눈물"
+      "name": "뱀눈물",
+      "description": "<p>대상에게 피해를 가하는 사람은 피해 주사위를 두 번 굴려서 그 중 높은 쪽을 취합니다.</p>"
     }
   ]
 }
