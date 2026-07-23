@@ -8,51 +8,6 @@ Hooks.on('babele.init', () => {
   }
 });
 
-Hooks.on("renderSettings", (app, html) => {
-  const links = {
-    shop: {
-      title: "500 Nuances de Geek",
-      url: "https://www.500nuancesdegeek.fr/boutique/7-dungeon-world",
-      iconClass: "fa-solid fa-cart-shopping"
-    },
-    git: {
-      title: "Dépôt du module",
-      url: "https://github.com/YanKlInnomme/FoundryVTT-dungeonworld-fr",
-      iconClass: "fab fa-github"
-    },
-    donation: {
-      title: "Offre-moi un café",
-      url: "https://www.buymeacoffee.com/yank",
-      iconClass: "fa-regular fa-mug-hot fa-bounce"
-    }
-  };
-
-  const createButton = (text, iconClass, url) => {
-    const button = $(`<button><i class="${iconClass}"></i> ${text}</button>`);
-    button.on("click", ev => {
-      ev.preventDefault();
-      window.open(url, "_blank");
-    });
-    return button;
-  };
-  
-  const addLinkButton = (container, link) => {
-    const button = createButton(link.title, link.iconClass, link.url);
-    container.append(button);
-  };
-
-  const title = "Dungeonworld-fr · Liens";
-  const lotdSection = $(`<h2>${title} <i class="fa-light fa-up-right-from-square"></i></h2>`);
-  html.find("#settings-game").after(lotdSection);
-
-  const lotdDiv = $(`<div></div>`);
-  lotdSection.after(lotdDiv);
-
-  Object.values(links).forEach(link => {
-    addLinkButton(lotdDiv, link);
-  });
-});
-
 function generateTokenImageFilenames(name, ext) {
   const variants = [
     '-token', '_token', 'token', '(token)', '[token]', 

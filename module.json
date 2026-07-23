@@ -39,9 +39,6 @@
   "esmodules": [
     "dungeonworld-ko.js"
   ],
-  "styles": [
-    "css/dungeonworld.css"
-  ],
   "languages": [
     {
       "lang": "ko",
