@@ -4253,6 +4253,350 @@
           "moveClass": "워록"
         }
       ]
+    },
+    {
+      "id": "10+ Treasures II: More Magic Items",
+      "name": "",
+      "description": "",
+      "items": [
+        {
+          "id": "R1f2Lu6Gaek03sPD",
+          "_en": "Barkskin Potion",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "ZjrsGFr2LNDkP3nY",
+          "_en": "Blade of the Frozen Jarl",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "gLPyBsLGyzURQ6JQ",
+          "_en": "Blasting Rod",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "5Atbdx16JU9EzFpZ",
+          "_en": "Bloom",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "SHpTc7032VsJ0mzN",
+          "_en": "Bottled Fireball",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "h4iVbIKGRDdAltBM",
+          "_en": "Chameleon’s Tail",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "eHxRJQwI4LAbpGs2",
+          "_en": "Clockwork Heart",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "e5zNk07xB5qXL4Bp",
+          "_en": "Darkwood Armor",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "2ty4h4dYjVhjRngH",
+          "_en": "Dragonscale Shield",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "aiCQIg2mrluW4FRp",
+          "_en": "Earthshakers",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "fEu4UjQX6FXsQht1",
+          "_en": "Fireshield Oil",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "FqvX74a7Yg3aSfYW",
+          "_en": "Floating Flask",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "0OySw47kyTV36XCk",
+          "_en": "Giant’s Blood",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "dC5quQUq9oNfTTFe",
+          "_en": "Goblincutter",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "tdMIFpmjbgCgxYuh",
+          "_en": "Kaja’s Soldier",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "fS4vMluplRrJITgU",
+          "_en": "Landshark Claws",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "n4km2cIpIva0xl5B",
+          "_en": "Lion’s Crest",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "gdAz0PQFqEz8JMCb",
+          "_en": "Mend And Sunder",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "asgj8gt8399WbTJM",
+          "_en": "Sexton’s Shovel",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "xAAhe2HSMDrhjMsZ",
+          "_en": "Sharktooth",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "yZoYAqgQJ47flYN7",
+          "_en": "Shield Band",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "flM6MGOZdsMyzVVB",
+          "_en": "Shield of the First King",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "hFQZNIx3PICdQaW7",
+          "_en": "Singing Sword",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "nsYyOCrXHLgOXDS1",
+          "_en": "Skeleton Key",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "UqGcywKtn7hHil8l",
+          "_en": "Snakeskin Oil",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "jTpjQbzjE93hhxwv",
+          "_en": "Soul Cage",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "G6SiZntrlYYDd332",
+          "_en": "Spellwarding Scales",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "EYnh4CwINfyz99lC",
+          "_en": "Stoneskin Potion",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "okY1jWRcOao4QCpx",
+          "_en": "Sundered Path",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "IkbVDylxWeGwcEnx",
+          "_en": "Sunray",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "X5bV3SlbVHe4puQz",
+          "_en": "Troll's Eye",
+          "name": "",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "Take on Magic Items",
+      "name": "",
+      "description": "",
+      "items": [
+        {
+          "id": "IBYMnHkruYKTyQDE",
+          "_en": "Bearded Shield",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "xGllNsMkNzhIGGnO",
+          "_en": "Bell of Freedom",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "n1nJ5fAv5FxyfmYJ",
+          "_en": "Belt of the Brawler",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "5coXuuC369GxLBoP",
+          "_en": "Bladed Gloves",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "cnZHzxp6bfD5fvsI",
+          "_en": "Boots of the Trailblazer",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "empgn0kfjZ8DBv38",
+          "_en": "Chains of the Drowned",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "wsPRT5adqNDizOJF",
+          "_en": "Chalice of Fealty",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "Sej3YGGGSwAI38EV",
+          "_en": "Crimson Scimitar",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "N4v0a3Xmcyyp3IQE",
+          "_en": "Gloves of the Pickpocket",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "TcNirU3BHnmjqH1F",
+          "_en": "Hairbrush of Fallen Locks",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "DfJNApECOM1t3mlV",
+          "_en": "Jellied Eyes",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "RDJukMzUutgOsg9a",
+          "_en": "Jug of Liquid Metal",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "j9hLojhRymVteDvt",
+          "_en": "Miser’s Amulet",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "kBHVnqz7X4zPktaG",
+          "_en": "Occum's Razor",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "ExxjNlip6imiEpFR",
+          "_en": "Phylactery of Remembrance",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "eg4rtbKJvBvQ7Hnu",
+          "_en": "Porcelain Pig of Prosperity",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "YZxhEoPuOtjaKMyM",
+          "_en": "Ring of Regeneration",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "VprUgHQqeA17S6zp",
+          "_en": "Ring of Spell Turning",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "vz75LU1iNr2jMLIL",
+          "_en": "Rosary of Contemplation",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "bEv9QR1cdZo7lIHK",
+          "_en": "Sanguine Mask",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "IC0ENZAsCCJ931px",
+          "_en": "Spear of Spiritbinding",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "niB1g70TCyVoqvHX",
+          "_en": "Tattered Dice Pouch",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "JCkGwXYVxldHwVfN",
+          "_en": "Traveller’s Fork",
+          "name": "",
+          "description": ""
+        },
+        {
+          "id": "HGcTkzdsOOtdnbLf",
+          "_en": "Writ of Demeter",
+          "name": "",
+          "description": ""
+        }
+      ]
     }
   ]
 }
