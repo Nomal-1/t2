@@ -8,6 +8,22 @@ Hooks.on('babele.init', () => {
   }
 });
 
+// DwUtility.cleanClass()는 클래스 이름에서 a-z/0-9를 제외한 모든 문자를 제거한다.
+// 한글 클래스 이름(써드파티 확장 클래스 등)은 이 과정에서 전부 빈 문자열("")로 뭉개져,
+// 서로 다른 클래스의 주문(system.class 매칭)이 전부 뒤섞이는 문제가 생긴다.
+// 한글(가-힣) 범위를 허용 문자에 추가해 클래스별로 다시 구분되게 한다.
+Hooks.once('ready', () => {
+  const DwUtility = game.dungeonworld?.DwUtility;
+  if (!DwUtility) return;
+  DwUtility.cleanClass = function(string) {
+    string = string.toLowerCase();
+    string = string.replace(/[^a-z0-9가-힣\s]/g, "");
+    string = string.replace(/[\s_]/g, "-");
+    string = string.replace(/[\s-]+/g, "-");
+    return string;
+  };
+});
+
 // 태그 칩(예: Close, Precise) 표시 전용 한글화.
 // system.tags 데이터 자체는 건드리지 않고(관통/피해/장갑무시 계산은 항상 원본 영어 기준),
 // 렌더링된 화면의 텍스트만 바꿔치기한다.
