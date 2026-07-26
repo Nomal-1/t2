@@ -35,13 +35,14 @@
       "alignments5": "system.alignments.4.label",
       "alignments-description5": "system.alignments.4.description",
       "moveClass": "system.class"
-    }
+    },
+    "caption": "caption"
   },
   "entries": [
     {
       "id": "Incomplete Adventurer for Dungeon World",
-      "name": "",
-      "description": "",
+      "name": "던전월드를 위한 불완전한 모험가",
+      "description": "<h2>던전월드를 위한 불완전한 모험가</h2><p>불완전한 모험가는 Trevor Murray와 Ben Rosenbloom이 디자인한 던전월드용 추가 플레이북 모음입니다.</p><p>이 문서에는 18개의 플레이북이 수록되어 있으며, 아래 링크에서 PDF를 다운로드할 수 있습니다: <a href=\"https://benkrosenbloom.itch.io/incomplete-adventurer\">https://benkrosenbloom.itch.io/incomplete-adventurer</a></p>",
       "items": [
         {
           "id": "ENr5dZ6kFNIVXlNs",
@@ -4252,12 +4253,13 @@
           "description": "<p>(필요: 사역마) — 당신의 사역마는 나중에 시전할 주문 하나를 담아둘 수 있습니다. 주인에게 청원할 때, 3레벨 이하의 주문 하나를 고른 후 자신의 레벨과 같은 수의 단어로 발동 조건을 서술하십시오. 선택한 주문은 그 발동 조건이 충족되거나 사역마가 죽을 때까지 사역마에게 담겨 있으며, 조건이 충족되면 판정 없이 주문이 시전됩니다.</p>",
           "moveClass": "워록"
         }
-      ]
+      ],
+      "caption": "불완전한 모험가는 Trevor Murray와 Ben Rosenbloom이 디자인한 던전월드용 추가 플레이북 모음입니다."
     },
     {
       "id": "10+ Treasures II: More Magic Items",
-      "name": "",
-      "description": "",
+      "name": "10+ 보물, 2권: 추가 마법 아이템",
+      "description": "<h2>10+ 보물, 2권: 추가 마법 아이템 (비공식)</h2><p>던전월드를 위한 새로운 마법 아이템입니다.</p><p>이 아이템들은 Awful Good Games의 <strong>10+ 보물, 2권: 추가 마법 아이템</strong>에서 가져온 것입니다. 아래 링크에서 PDF를 구매할 수 있습니다: <a href=\"https://www.drivethrurpg.com/product/138230/10-Treasures-Volume-II-More-Magic-Items\">https://www.drivethrurpg.com/product/138230/10-Treasures-Volume-II-More-Magic-Items</a></p>",
       "items": [
         {
           "id": "R1f2Lu6Gaek03sPD",
@@ -4445,12 +4447,13 @@
           "name": "트롤의 반지",
           "description": "<p>착용, 무게 0</p><p>이 살로 된 고리는 만지면 따뜻하며, 때때로 꿈틀거립니다.</p><p>이것을 착용한 채 밤새 쉬면, 1d8 HP를 추가로 회복하거나 원하는 결함 하나를 제거합니다. 이것을 착용한 채로 신체의 일부를 — 심지어 머리조차도 — 잃더라도, 계속 착용하고 있는 한 그 부위는 결국 다시 자라납니다.</p><p>TWEAKS 아이템 이름은 “눈”이라고 되어 있지만, 사실은 반지입니다(“눈”은 “재생의 반지”, “트롤의 반지”, 혹은 묘하게 야한 느낌이 드는 “트롤의 손가락”보다 더 흥미로운 이름을 찾다가 나온 단어였습니다). 하지만, 만약 정말로 눈이라면 어떨까요? 그리고 작동시키는 유일한 방법이 자신의 눈을 빼내고 그 자리에 이것을 끼워넣는 것이라면?</p>"
         }
-      ]
+      ],
+      "caption": "던전월드를 위한 새로운 마법 아이템입니다."
     },
     {
       "id": "Take on Magic Items",
-      "name": "",
-      "description": "",
+      "name": "마법 아이템에 도전하기",
+      "description": "<h2>마법 아이템에 도전하기</h2><p>&ldquo;마법 아이템에 도전하기(Take On Magic Items)&rdquo;는 던전월드를 위한 마법 아이템 모음집입니다. 다만 영리한 마스터라면 규칙보다 재정을 중시하는 다른 판타지 시스템으로도 손쉽게 옮겨 쓸 수 있을 것입니다.</p><p>아래 링크에서 PDF를 구매할 수 있습니다: <a href=\"https://www.drivethrurpg.com/product/106849/Take-on-Magic-Items\">https://www.drivethrurpg.com/product/106849/Take-on-Magic-Items</a></p>",
       "items": [
         {
           "id": "IBYMnHkruYKTyQDE",
@@ -4596,7 +4599,8 @@
           "name": "데메테르의 칙령",
           "description": "<p>이 양피지 두루마리의 겉면은 흔히 고대의 추상적인 상징들로 장식되어 있습니다.</p><p>이 두루마리를 읽으며 어떤 사람의 이름을 읊으면, 다음 일출까지 그 지목된 사람의 목소리는 당신 그리고/또는 그 사람과 인연이 있는 사람들에게만 들립니다.</p>"
         }
-      ]
+      ],
+      "caption": "던전월드를 위한 마법 아이템 모음집입니다."
     }
   ]
 }
