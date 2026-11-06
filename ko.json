@@ -50,6 +50,7 @@
   "DW.Bonds": "인연",
   "DW.Tags": "태그",
   "DW.AddBond": "인연 추가",
+  "DW.Add": "추가",
   "DW.BondDefault": "_____ 는 나와 인연이 있다.",
   "DW.BondHelp": "________ 이곳에 인연을 입력하십시오.",
   "DW.Dialog.Bond1": "판정에 붙을 협조 또는 방해 보너스를 입력하십시오. 판정: ",
