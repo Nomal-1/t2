@@ -101,6 +101,9 @@ Hooks.on('renderDwActorSheet', (app, html) => applyTagDisplayTranslation(html));
 Hooks.on('renderDwActorNpcSheet', (app, html) => applyTagDisplayTranslation(html));
 Hooks.on('renderDialog', (app, html) => applyTagDisplayTranslation(html));
 Hooks.on('renderChatMessage', (app, html) => applyTagDisplayTranslation(html));
+// V13+에서는 renderChatMessage가 deprecated이고 renderChatMessageHTML(HTMLElement)이 대신 불린다.
+// 번역은 이미 바뀐 문구에는 다시 적용되지 않으므로 두 훅이 모두 불려도 결과는 같다.
+Hooks.on('renderChatMessageHTML', (app, html) => applyTagDisplayTranslation($(html)));
 
 function generateTokenImageFilenames(name, ext) {
   const variants = [
@@ -116,7 +119,9 @@ function generateTokenImageFilenames(name, ext) {
 async function fileExists(filePath) {
   const basePath = filePath.split('/').slice(0, -1).join('/');
   try {
-    const result = await FilePicker.browse('data', basePath);
+    // V13+에서는 전역 FilePicker가 deprecated라 새 위치를 우선 쓴다.
+    const FilePickerClass = foundry.applications?.apps?.FilePicker?.implementation ?? FilePicker;
+    const result = await FilePickerClass.browse('data', basePath);
     return result.files.includes(filePath);
   } catch (error) {
     return false;
