@@ -8,24 +8,20 @@
 		"success": "system.moveResults.success.value",
 		"choices": "system.choices"
 	},
-	"entries": [
-		{
-			"id": "Armor Mastery",
+	"entries": {
+		"Armor Mastery": {
 			"name": "방어의 요령",
 			"description": "<p>보호구를 앞세워서 닥쳐 오는 피해를 막으면, 피해는 무시되지만 갑옷이나 방패의 장갑이 영구적으로 1 낮아집니다 (플레이어가 선택). 장갑이 0이 되면 그 갑옷이나 방패는 파괴됩니다.</p>"
 		},
-		{
-			"id": "Armored",
+		"Armored": {
 			"name": "갑옷을 옷처럼",
 			"description": "<p>갑옷의 불편 태그를 무시합니다.</p>"
 		},
-		{
-			"id": "Armored Perfection",
+		"Armored Perfection": {
 			"name": "방어의 비법",
 			"description": "<p><em>필요: 방어의 요령</em></p><p>보호구를 앞세워서 닥쳐 오는 피해를 막으면, 피해는 무시되고 공격자에 대한 다음 판정에 +1을 받습니다. 그러나 갑옷이나 방패의 장갑은 영구적으로 1 낮아집니다 (플레이어가 선택). 장갑이 0이 되면 그 갑옷이나 방패는 파괴됩니다.</p>"
 		},
-		{
-			"id": "Bend Bars, Lift Gates",
+		"Bend Bars, Lift Gates": {
 			"name": "창살을 굽히고 문을 들어올린다",
 			"description": "<p>순전히 힘으로 물건을 부술 때 +근 판정을 합니다.</p>",
 			"failure": "<p>뭔가 일이 잘못되었습니다.</p>",
@@ -33,18 +29,15 @@
 			"success": "<p>다음 중 셋을 고릅니다.</p>",
 			"choices": "<ul>\n<li>별로 시간이 걸리지 않는다.</li>\n<li>주변의 값진 물건이 손상되지 않는다.</li>\n<li>너무 큰 소리가 나지 않는다.</li>\n<li>별로 어렵지 않게 다시 고칠 수 있다.</li>\n</ul>"
 		},
-		{
-			"id": "Blacksmith",
+		"Blacksmith": {
 			"name": "대장장이",
 			"description": "<p>대장간을 사용하여, 마법 무기의 마법적 성질을 자신의 고유병기에 이전할 수 있습니다. 이렇게 하면 원래의 마법 무기는 파괴되고, 고유병기에는 그 무기의 마법적인 힘이 추가됩니다.</p>"
 		},
-		{
-			"id": "Bloodthirsty",
+		"Bloodthirsty": {
 			"name": "살기등등",
 			"description": "<p><em>대체: 무자비</em></p><p>피해를 줄 때 +1d8이 더해집니다.</p>"
 		},
-		{
-			"id": "Evil Eye",
+		"Evil Eye": {
 			"name": "압도적인 시선",
 			"description": "<p><em>필요: 전사의 눈</em></p><p>전투에 들어갈 때 +매 판정을 합니다.</p>",
 			"failure": "<p>적들이 이쪽을 가장 위험한 존재로 인식합니다.</p>",
@@ -52,81 +45,66 @@
 			"success": "<p>예비 2점을 받습니다.</p>",
 			"choices": "<p>예비를 1점 소비하면 NPC 하나를 골라 시선을 접촉할 수 있습니다. 그 NPC는 얼어 붙거나 움츠러들어 전사가 시선을 뗄 때까지 움직이지 못합니다.</p>"
 		},
-		{
-			"id": "Eye For Weaponry",
+		"Eye For Weaponry": {
 			"name": "무기 감정",
 			"description": "<p>상대의 무기를 한 번 보면, 피해를 얼마나 주는지 마스터에게 물을 수 있습니다.</p>"
 		},
-		{
-			"id": "Heirloom",
+		"Heirloom": {
 			"name": "병기의 영",
 			"description": "<p>자기의 고유병기에 깃든 영에게 말을 걸면, 현 상황에 관한 정보나 관점을 제시해 줄 수 있습니다. 이때 무기가 전사에게 질문을 할 수도 있습니다. +매 판정을 합니다.</p>",
 			"failure": "<p>영의 말을 대부분 이해하지 못합니다.</p>",
 			"partial": "<p>대략적인 인상만 얻습니다.</p>",
 			"success": "<p>마스터가 꽤 상세한 정보를 줄 것입니다.</p>"
 		},
-		{
-			"id": "Improved Weapon",
+		"Improved Weapon": {
 			"name": "무기 강화",
 			"description": "<p>고유병기에 특징을 하나 추가합니다.</p>"
 		},
-		{
-			"id": "Interrogator",
+		"Interrogator": {
 			"name": "협박",
 			"description": "<p>폭력을 행사하겠다는 협박을 조건으로 협상을 할 때, +매 대신 +근을 쓸 수 있습니다.</p>"
 		},
-		{
-			"id": "Iron Hide",
+		"Iron Hide": {
 			"name": "무쇠의 몸",
 			"description": "<p>장갑 +1을 받습니다.</p>"
 		},
-		{
-			"id": "Merciless",
+		"Merciless": {
 			"name": "무자비",
 			"description": "<p>피해를 줄 때 +1d4가 더해집니다.</p>"
 		},
-		{
-			"id": "Multiclass Dabbler",
+		"Multiclass Dabbler": {
 			"name": "다중직업 (초급)",
 			"description": "<p>다른 직업의 액션을 하나 택합니다. 이때는 마치 자기 레벨이 하나 낮은 것처럼 따집니다.</p>"
 		},
-		{
-			"id": "Multiclass Initiate",
+		"Multiclass Initiate": {
 			"name": "다중직업 (중급)",
 			"description": "<p><em>필요: 다중직업 (초급)</em></p><p>다른 직업의 액션을 하나 택합니다. 이때는 마치 자기 레벨이 하나 낮은 것처럼 따집니다.</p>"
 		},
-		{
-			"id": "Scent Of Blood",
+		"Scent Of Blood": {
 			"name": "피의 향기",
 			"description": "<p>접근전을 하면, 같은 상대에 대한 다음 번 공격은 +1d4의 피해를 더 줍니다.</p>"
 		},
-		{
-			"id": "Seeing Red",
+		"Seeing Red": {
 			"name": "전사의 눈",
 			"description": "<p>전투 중에 상황 파악을 하면 +1을 받습니다.</p>"
 		},
-		{
-			"id": "Signature Weapon",
+		"Signature Weapon": {
 			"name": "고유병기",
 			"description": "<p>자기의 이름이나 다름 없는 무기입니다. 잃어버리면 쉽게는 되찾을 수 없을 테니 주의하십시오!</p>\n<h3>우선 기본 형태를 정합니다. 모두 무게는 2입니다:</h3>\n<ul>\n<li>도검</li>\n<li>도끼</li>\n<li>망치</li>\n<li>창</li>\n<li>도리깨</li>\n<li>주먹</li>\n</ul>\n<h3>이 무기의 거리를 정합니다:</h3>\n<ul>\n<li>반걸음</li>\n<li>한걸음</li>\n<li>몇걸음</li>\n</ul>\n<h3>특징을 두 가지 고릅니다:</h3>\n<ul>\n<li>갈퀴와 못. 피해와 무게에 각각 +1.</li>\n<li>예리. 관통 +2.</li>\n<li>균형 발군. 정밀 태그 추가.</li>\n<li>톱날. 피해 +1.</li>\n<li>특정 종류의 생물이나 괴물이 근처에 있으면 빛남. 종류는 플레이어가 선택합니다.</li>\n<li>거대. 파괴적 및 괴력 태그 추가.</li>\n<li>다목적. 거리를 하나 더 고릅니다.</li>\n<li>명장의 작품. 무게에 -1.</li>\n</ul>\n<h3>생김새를 정합니다:</h3>\n<ul>\n<li>고풍스럽다.</li>\n<li>흠이 없다.</li>\n<li>화려하다.</li>\n<li>피에 물들었다.</li>\n<li>음험해 보인다.</li>\n</ul>"
 		},
-		{
-			"id": "Steel Hide",
+		"Steel Hide": {
 			"name": "강철의 몸",
 			"description": "<p><em>대체: 무쇠의 몸</em></p><p>장갑 +2를 받습니다.</p>"
 		},
-		{
-			"id": "Superior Warrior",
+		"Superior Warrior": {
 			"name": "전쟁의 화신",
 			"description": "<p>접근전 판정이 12+이면 피해를 주고 상대의 공격을 모면함과 더불어, 적에게 감격, 공포, 절망 중 한 가지 감정을 심습니다.</p>"
 		},
-		{
-			"id": "Taste Of Blood",
+		"Taste Of Blood": {
 			"name": "피의 맛",
 			"description": "<p><em>대체: 피의 향기</em></p><p>접근전을 하면, 같은 상대에 대한 다음 번 공격은 피해에 +1d8이 붙습니다.</p>"
 		},
-		{
-			"id": "Through Death’s Eyes",
+		"Through Death’s Eyes": {
 			"name": "죽음의 예감",
 			"description": "<p>전투에 들어갈 때 +혜 판정을 합니다.</p>",
 			"failure": "<p>자기 자신의 죽음을 예감하고, 전투 동안 판정에 계속 -1을 받습니다.</p>",
@@ -134,5 +112,5 @@
 			"success": "<p>이 전투가 끝났을 때 누가 살고 누가 죽는지 하나씩 지명합니다.</p>",
 			"choices": "<p> 플레이어 캐릭터가 아닌 NPC를 고르십시오. 일말의 가능성이라도 있으면 마스터가 이를 실현할 것입니다.</p>"
 		}
-	]
+	}
 }

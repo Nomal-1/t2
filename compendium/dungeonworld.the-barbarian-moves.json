@@ -8,124 +8,99 @@
 		"success": "system.moveResults.success.value",
 		"choices": "system.choices"
 	},
-	"entries": [
-		{
-			"id": "A Good Day To Die",
+	"entries": {
+		"A Good Day To Die": {
 			"name": "죽기 좋은 날",
 			"description": "<p>현재 HP가 당신의 <strong>체력</strong>보다 낮은 동안(또는 <strong>1</strong>, 더 높은 쪽으로) 판정에 <strong>+1</strong>을 받습니다.</p>"
-
 		},
-		{
-			"id": "Appetite For Destruction",
+		"Appetite For Destruction": {
 			"name": "파괴에 대한 갈망",
 			"description": "<p>전사, 음유시인 또는 도적의 액션을 하나 택합니다. 다중 직업 액션은 가져올 수 없습니다.</p>"
 		},
-		{
-			"id": "Eye for Weakness",
+		"Eye for Weakness": {
 			"name": "약점을 보는 눈",
 			"description": "<p><em>상황 파악</em>을 할 때, “<strong>여기서 약하거나 취약한 곳은 어디입니까?</strong>”라는 질문을 물을 수 있는 목록에 추가할 수 있습니다.</p>"
 		},
-		{
-			"id": "For The Blood God",
+		"For The Blood God": {
 			"name": "피의 신을 위해",
 			"description": "<p>당신은 옛 방식, 희생의 길을 알고 있습니다. 당신의 신(또는 조상의 영혼이나 당신의 토템 등)들이 가치있게 여기는 것 (금, 피, 뼈 등)을 선택하십시오. 의식에 따라 그 물건을 희생하면 <strong>+지혜</strong>로 판정합니다.</p>",
 			"failure": "<p>당신은 변덕스러운 정령들의 분노를 삽니다.</p>",
 			"partial": "<p>당신의 신은 지혜나 축복을 하사하지만, 제물이 충분하지 않아 당신의 살을 취할 것입니다.</p>",
 			"success": "<p>마스터는 현재 직면한 문제에 대한 유용한 지혜나 당신을 돕기 위한 축복을 제공할 것입니다.</p>"
 		},
-		{
-			"id": "Full Plate and Packing Steel",
+		"Full Plate and Packing Steel": {
 			"name": "완전무장",
 			"description": "<p>갑옷의 <em>불편함</em> 태그를 무시합니다.</p>"
 		},
-		{
-			"id": "Healthy Distrust",
+		"Healthy Distrust": {
 			"name": "건강한 불신",
 			"description": "<p>인간들의 불건전한 마법이 당신에게 <em>위험 돌파</em>를 강요할 때마다, <strong>6-</strong> 결과를 <strong>7-9</strong>로 취급합니다.</p>"
 		},
-		{
-			"id": "Herculean Appetites",
+		"Herculean Appetites": {
 			"name": "헤라클레스의 욕망",
 			"description": "<p>다른 이들은 와인 한 모금을 맛보거나, 하인 한두 명을 부리는 것에 만족하겠지만, 당신은 더 많은 것을 원합니다. 욕망을 두 가지 고르십시오. 당신이 욕망을 쫓아 액션을 할 때, <strong>2d6</strong> 대신 <strong>1d6+1d8</strong>로 판정합니다. 만약 두 주사위 중 <strong>1d6</strong>이 더 높을 경우, 마스터는 당신의 경솔한 행동으로 인한 곤란한 상황이나 위험에 대해 얘기해 줄 것입니다.</p><ul><li>순수한 파괴</li><li>다른 이들보다 뛰어난 힘</li><li>엄청난 쾌락</li><li>정복</li><li>부와 재산</li><li>명성과 영광</li></ul>"
 		},
-		{
-			"id": "Indestructible Hunger",
+		"Indestructible Hunger": {
 			"name": "불멸의 굶주림",
 			"description": "<p>피해를 입을 때, 피해를 입는 대신 욕망이 충족될 때까지 판정에 <strong>-1</strong>을 받을 수 있습니다. 이미 이 페널티를 받고 있을 때는 이 옵션을 선택할 수 없습니다.</p>"
 		},
-		{
-			"id": "Khan Of Khans",
+		"Khan Of Khans": {
 			"name": "위대한 칸",
 			"description": "<p>고용인들은 언제나 당신의 욕망을 위한 무보수 노동을 받아들일 것입니다.</p>"
-
 		},
-		{
-			"id": "Kill 'Em All",
+		"Kill 'Em All": {
 			"name": "모조리 죽여라",
 			"description": "<p><em>필요: 파괴에 대한 갈망</em></p><p>전사, 음유시인 또는 도적의 액션을 하나 택합니다. 다중 직업 액션은 가져올 수 없습니다.</p>"
 		},
-		{
-			"id": "Mark Of Might",
+		"Mark Of Might": {
 			"name": "힘의 증표",
 			"description": "<p>이 액션을 고른 후 방해받지 않고 과거의 영광을 돌아보는 시간을 가지면 힘의 증표(긴 머리띠, 의식의 흉터 또는 문신 등)로 당신 자신을 표시할 수 있습니다. 이 상징을 본 지성이 있는 생명체는 본능적으로 당신이 무시할 수 없는 존재라는 것을 느끼고 당신을 그에 맞게 대우합니다.</p>"
 		},
-		{
-			"id": "More! Always More!",
+		"More! Always More!": {
 			"name": "더! 더 많이!",
 			"description": "<p>욕망을 최고로 충족할 때(유일하고 중요한 것을 파괴함, 엄청난 명성·부·힘을 얻음 등) 그 욕망을 해소할 수 있습니다. 목록에서 그 욕망을 지우고 경험치를 얻습니다. 다시 그 욕망을 추구하더라도, 더 이상 예전만큼 강렬한 욕망을 느끼지 못합니다. 그 대신, 목록에서 새로 고르거나 당신이 새로 지어낸 욕망을 추가합니다.</p>"
 		},
-		{
-			"id": "Musclebound",
+		"Musclebound": {
 			"name": "터질 듯한 근육",
 			"description": "<p>당신이 사용하는 근접 무기는 <em>괴력</em>과 <em>파괴적</em> 태그를 얻습니다.</p>"
 		},
-		{
-			"id": "My Love For You Is Like A Truck",
+		"My Love For You Is Like A Truck": {
 			"name": "너에 대한 내 사랑은 트럭 같아",
 			"description": "<p>힘으로 엄청난 일을 했을 경우, 당신에게 감명받은 사람 하나를 골라, 대상과의 <em>협상</em> 판정에 계속 <strong>+1</strong>을 받습니다.</p>"
 		},
-		{
-			"id": "On The Move",
+		"On The Move": {
 			"name": "재빠른 몸놀림",
 			"description": "<p>이동과 관련하여 <em>위험 돌파</em>를 할 때 <strong>+1</strong>을 받습니다(좁은 다리에서 떨어지거나 경비대의 저지선을 뚫고 달리는 등).</p>"
 		},
-		{
-			"id": "Samson",
+		"Samson": {
 			"name": "불복, 불요, 불굴",
 			"description": "<p>육체적 또는 정신적 방해에서 벗어나기 위해 약화 효과를 선택할 수 있습니다.</p>"
 		},
-		{
-			"id": "Smash!",
+		"Smash!": {
 			"name": "박살내기!",
 			"description": "<p>근접전을 할 때, <strong>12+</strong>가 나오면 피해를 주고 목표물이 가지고 있는 물리적인 것을 하나 고릅니다(무기, 위치, 팔다리 등). 목표물은 그것을 잃어버립니다.</p>"
 		},
-		{
-			"id": "Still Hungry",
+		"Still Hungry": {
 			"name": "여전히 굶주린",
 			"description": "<p>욕망을 하나 더 고릅니다.</p>"
 		},
-		{
-			"id": "The One Who Knocks",
+		"The One Who Knocks": {
 			"name": "위협은 나다",
 			"description": "<p><em>위험 돌파</em>를 할 때, <strong>12+</strong>가 나오면 위험을 다시 돌려줍니다. 어떻게 될지는 마스터가 정합니다.</p>"
 		},
-		{
-			"id": "The Upper Hand",
+		"The Upper Hand": {
 			"name": "주도권",
 			"description": "<p>황천길 판정에 <strong>+1 상시</strong> 보너스를 받습니다. 황천길 판정을 할 때, <strong>7~9</strong>가 나오면 당신의 목숨을 위해 사신에게 무언가를 바칠 수 있습니다. 만약 사신이 받아들인다면 그는 당신의 목숨을 돌려줄 것입니다. 그렇지 않다면, 죽습니다.</p>"
 		},
-		{
-			"id": "Unencumbered, Unharmed",
+		"Unencumbered, Unharmed": {
 			"name": "표범의 우아함",
 			"description": "<p>현재 하중이 한계 하중 미만이고, 갑옷을 입지 않았다면 장갑에 <strong>+1</strong>을 받습니다. 방패는 갑옷에 포함되지 않습니다.</p>"
 		},
-		{
-			"id": "Usurper",
+		"Usurper": {
 			"name": "찬탈자",
 			"description": "<p>스스로 누군가보다 힘이 강함을 입증할 때, 그의 부하, 하인들에 대한 판정에 <strong>+1</strong>을 받습니다.</p>"
 		},
-		{
-			"id": "War Cry",
+		"War Cry": {
 			"name": "전쟁의 사자",
 			"description": "<p>전투를 시작하면서 힘을 과시할 때(소리치기, 함성 지르기, 전투의 춤 등) <strong>+체력</strong>으로 판정합니다.</p>",
 			"failure": "<p>당신의 과시는 기대한 효과를 얻지 못합니다.</p>",
@@ -133,23 +108,20 @@
 			"success": "<p>10+이 나오면 둘 다 받습니다.</p>",
 			"choices": "<ul><li>동료들이 단결되어 판정에 +1을 받습니다.</li><li>적들이 공포를 느끼고 그에 따라 행동합니다(당신을 피함, 숨음, 공포에 질려 공격함 등).</li></ul>"
 		},
-		{
-			"id": "What Are You Waiting For?",
+		"What Are You Waiting For?": {
 			"name": "뭘 기다리는 거야?",
 			"description": "<p>적들에게 도전적으로 몰아붙일 때 <strong>+체력</strong>으로 판정합니다.</p>",
 			"failure": "<p>당신의 도발은 원하는 효과를 얻지 못합니다.</p>",
 			"partial": "<p>7~9가 나오면 매우 적은 이들만이(그중 가장 약하거나 가장 무모한 이) 당신의 도발에 걸려듭니다.</p>",
 			"success": "<p>10+이 나오면 적들은 당신의 동료를 무시하고 당신에게 달려듭니다. 그들과 싸울 때 <strong>+2 추가 피해</strong>를 입힙니다.</p>"
 		},
-		{
-			"id": "What Is Best In Life",
+		"What Is Best In Life": {
 			"name": "삶에서 가장 좋은 것",
 			"description": "<p>세션이 끝날 때, 세션 동안 당신이 짓밟은 적이 당신 앞을 지나가는 것을 보거나, 그의 친척들의 비탄을 들을 경우, 경험치를 얻습니다.</p>"
 		},
-		{
-			"id": "Wide-Wanderer",
+		"Wide-Wanderer": {
 			"name": "방랑자",
 			"description": "<p>당신은 세상의 이곳저곳을 돌아다녔습니다. 당신이 마스터에게 어딘가의 중요한 전통, 관습 등을 물어봤을 때, 마스터는 당신이 알아야 하는 것을 말해 줄 것입니다.</p>"
 		}
-	]
+	}
 }

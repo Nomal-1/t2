@@ -14,6 +14,14 @@ Hooks.on('babele.init', () => {
 // 이름을 원래 영어 이름으로 되돌린다. 배열이 없으면 `reading 'find'` TypeError로
 // 레벨업과 직업 보기가 막히므로, 같은 모양({collection, entries:[{id,name,...}]})의
 // 항목을 번역 파일에서 직접 읽어 호환용으로 채워 둔다.
+function normalizeEntries(entries) {
+  if (Array.isArray(entries)) return entries;
+  if (entries && typeof entries === 'object') {
+    return Object.entries(entries).map(([id, value]) => ({ id, ...value }));
+  }
+  return [];
+}
+
 Hooks.once('ready', async () => {
   const babele = game.babele;
   if (!babele || babele.translations !== undefined) return;
@@ -22,7 +30,7 @@ Hooks.once('ready', async () => {
     const url = foundry.utils.getRoute('modules/dungeonworld-ko/compendium/dungeonworld.classes.json');
     const data = await (await fetch(url)).json();
     Object.defineProperty(babele, 'translations', {
-      value: [{ collection: 'dungeonworld.classes', entries: data.entries ?? [] }],
+      value: [{ collection: 'dungeonworld.classes', entries: normalizeEntries(data.entries) }],
       configurable: true
     });
   } catch (error) {
