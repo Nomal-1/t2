@@ -8,6 +8,28 @@ Hooks.on('babele.init', () => {
   }
 });
 
+// Babele 2.9는 예전 Babele가 노출하던 game.babele.translations(배열)가 없다.
+// 던전월드 시스템 1.9 이상의 레벨업과 직업 보기(actor-sheet.js의 _onLevelUp,
+// _onClassView)는 이 배열에서 'dungeonworld.classes' 항목을 찾아 한글 직업
+// 이름을 원래 영어 이름으로 되돌린다. 배열이 없으면 `reading 'find'` TypeError로
+// 레벨업과 직업 보기가 막히므로, 같은 모양({collection, entries:[{id,name,...}]})의
+// 항목을 번역 파일에서 직접 읽어 호환용으로 채워 둔다.
+Hooks.once('ready', async () => {
+  const babele = game.babele;
+  if (!babele || babele.translations !== undefined) return;
+
+  try {
+    const url = foundry.utils.getRoute('modules/dungeonworld-ko/compendium/dungeonworld.classes.json');
+    const data = await (await fetch(url)).json();
+    Object.defineProperty(babele, 'translations', {
+      value: [{ collection: 'dungeonworld.classes', entries: data.entries ?? [] }],
+      configurable: true
+    });
+  } catch (error) {
+    console.warn('dungeonworld-ko | Babele 호환용 translations를 채우지 못했습니다.', error);
+  }
+});
+
 // DwUtility.cleanClass()는 클래스 이름에서 a-z/0-9를 제외한 모든 문자를 제거한다.
 // 한글 클래스 이름(써드파티 확장 클래스 등)은 이 과정에서 전부 빈 문자열("")로 뭉개져,
 // 서로 다른 클래스의 주문(system.class 매칭)이 전부 뒤섞이는 문제가 생긴다.
