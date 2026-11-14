@@ -119,21 +119,28 @@ function translateTagDisplay(value) {
   return null;
 }
 
+// html: jQuery 객체(옛 훅·AppV1 시트) 또는 HTMLElement(renderChatMessageHTML) 모두 받는다.
 function applyTagDisplayTranslation(html) {
-  html.find('.tags > .tag').each((i, el) => {
-    const $el = $(el);
-    const translated = translateTagDisplay($el.text());
-    if (translated) $el.text(translated);
-  });
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (!root?.querySelectorAll) return;
+  for (const el of root.querySelectorAll('.tags > .tag')) {
+    const translated = translateTagDisplay(el.textContent);
+    if (translated) el.textContent = translated;
+  }
 }
 
 Hooks.on('renderDwActorSheet', (app, html) => applyTagDisplayTranslation(html));
 Hooks.on('renderDwActorNpcSheet', (app, html) => applyTagDisplayTranslation(html));
 Hooks.on('renderDialog', (app, html) => applyTagDisplayTranslation(html));
-Hooks.on('renderChatMessage', (app, html) => applyTagDisplayTranslation(html));
-// V13+에서는 renderChatMessage가 deprecated이고 renderChatMessageHTML(HTMLElement)이 대신 불린다.
-// 번역은 이미 바뀐 문구에는 다시 적용되지 않으므로 두 훅이 모두 불려도 결과는 같다.
-Hooks.on('renderChatMessageHTML', (app, html) => applyTagDisplayTranslation($(html)));
+// 채팅 카드: V13+는 renderChatMessageHTML(HTMLElement)을 쓴다. renderChatMessage는 13에서
+// deprecated(15에서 제거)라 등록만 해도 메시지마다 경고가 나므로 V12 이하에서만 등록한다.
+Hooks.once('init', () => {
+  if ((game.release?.generation ?? 12) >= 13) {
+    Hooks.on('renderChatMessageHTML', (app, html) => applyTagDisplayTranslation(html));
+  } else {
+    Hooks.on('renderChatMessage', (app, html) => applyTagDisplayTranslation(html));
+  }
+});
 
 function generateTokenImageFilenames(name, ext) {
   const variants = [
