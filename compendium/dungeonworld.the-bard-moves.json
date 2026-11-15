@@ -6,7 +6,8 @@
 		"failure": "system.moveResults.failure.value",
 		"partial": "system.moveResults.partial.value",
 		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
+		"choices": "system.choices",
+		"requiresMove": "system.requiresMove"
 	},
 	"entries": {
 		"A Little Help From My Friends": {
@@ -43,7 +44,8 @@
 		},
 		"Con": {
 			"name": "청산유수",
-			"description": "<p><em>대체: 현란한 말솜씨</em></p><p>협상을 할 때, 7+가 나오면 상대에 대한 다음 판정에 +1을 받습니다. 더불어 상대는 이쪽이 묻는 질문 하나에 사실대로 대답해야 합니다.</p>"
+			"description": "<p><em>대체: 현란한 말솜씨</em></p><p>협상을 할 때, 7+가 나오면 상대에 대한 다음 판정에 +1을 받습니다. 더불어 상대는 이쪽이 묻는 질문 하나에 사실대로 대답해야 합니다.</p>",
+			"requiresMove": "현란한 말솜씨"
 		},
 		"Devious": {
 			"name": "교활",
@@ -51,7 +53,8 @@
 		},
 		"Duelist’s Block": {
 			"name": "결투사의 호신비결",
-			"description": "<p><em>대체: 결투사의 호신술/em></p><p>접근전을 하면, 다음 번 피해를 입을 때 장갑에 +2를 받습니다.</p>"
+			"description": "<p><em>대체: 결투사의 호신술/em></p><p>접근전을 하면, 다음 번 피해를 입을 때 장갑에 +2를 받습니다.</p>",
+			"requiresMove": "결투사의 호신술"
 		},
 		"Duelist’s Parry": {
 			"name": "결투사의 호신술",
@@ -59,7 +62,8 @@
 		},
 		"Eldritch Chord": {
 			"name": "이계의 화음",
-			"description": "<p><em>대체: 이계의 음률</em></p><p>마법의 곡조를 사용할 때 한 번에 두 개의 효과를 낼 수 있으며, 그 중 하나를 골라 두 배로 강하게 할 수 있습니다.</p>"
+			"description": "<p><em>대체: 이계의 음률</em></p><p>마법의 곡조를 사용할 때 한 번에 두 개의 효과를 낼 수 있으며, 그 중 하나를 골라 두 배로 강하게 할 수 있습니다.</p>",
+			"requiresMove": "이계의 음률"
 		},
 		"Eldritch Tones": {
 			"name": "이계의 음률",
@@ -67,7 +71,8 @@
 		},
 		"Healing Chorus": {
 			"name": "치유의 합창",
-			"description": "<p><em>대체: 치유의 노래</em></p><p>마법의 곡조로 치유를 할 때 2d8만큼 더 치유합니다.</p>"
+			"description": "<p><em>대체: 치유의 노래</em></p><p>마법의 곡조로 치유를 할 때 2d8만큼 더 치유합니다.</p>",
+			"requiresMove": "치유의 노래"
 		},
 		"Healing Song": {
 			"name": "치유의 노래",
@@ -112,7 +117,8 @@
 		},
 		"Vicious Blast": {
 			"name": "날카로운 폭발음",
-			"description": "<p><em>대체: 날카로운 불협화음</em></p><p>마법의 곡조로 피해 보너스를 줄 때, +2d4만큼을 더 줍니다.</p>"
+			"description": "<p><em>대체: 날카로운 불협화음</em></p><p>마법의 곡조로 피해 보너스를 줄 때, +2d4만큼을 더 줍니다.</p>",
+			"requiresMove": "날카로운 불협화음"
 		},
 		"Vicious Cacophony": {
 			"name": "날카로운 불협화음",

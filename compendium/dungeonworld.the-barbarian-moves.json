@@ -6,7 +6,8 @@
 		"failure": "system.moveResults.failure.value",
 		"partial": "system.moveResults.partial.value",
 		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
+		"choices": "system.choices",
+		"requiresMove": "system.requiresMove"
 	},
 	"entries": {
 		"A Good Day To Die": {
@@ -50,7 +51,8 @@
 		},
 		"Kill 'Em All": {
 			"name": "모조리 죽여라",
-			"description": "<p><em>필요: 파괴에 대한 갈망</em></p><p>전사, 음유시인 또는 도적의 액션을 하나 택합니다. 다중 직업 액션은 가져올 수 없습니다.</p>"
+			"description": "<p><em>필요: 파괴에 대한 갈망</em></p><p>전사, 음유시인 또는 도적의 액션을 하나 택합니다. 다중 직업 액션은 가져올 수 없습니다.</p>",
+			"requiresMove": "파괴에 대한 갈망"
 		},
 		"Mark Of Might": {
 			"name": "힘의 증표",

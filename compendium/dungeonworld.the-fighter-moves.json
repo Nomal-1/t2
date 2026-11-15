@@ -6,7 +6,8 @@
 		"failure": "system.moveResults.failure.value",
 		"partial": "system.moveResults.partial.value",
 		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
+		"choices": "system.choices",
+		"requiresMove": "system.requiresMove"
 	},
 	"entries": {
 		"Armor Mastery": {
@@ -19,7 +20,8 @@
 		},
 		"Armored Perfection": {
 			"name": "방어의 비법",
-			"description": "<p><em>필요: 방어의 요령</em></p><p>보호구를 앞세워서 닥쳐 오는 피해를 막으면, 피해는 무시되고 공격자에 대한 다음 판정에 +1을 받습니다. 그러나 갑옷이나 방패의 장갑은 영구적으로 1 낮아집니다 (플레이어가 선택). 장갑이 0이 되면 그 갑옷이나 방패는 파괴됩니다.</p>"
+			"description": "<p><em>필요: 방어의 요령</em></p><p>보호구를 앞세워서 닥쳐 오는 피해를 막으면, 피해는 무시되고 공격자에 대한 다음 판정에 +1을 받습니다. 그러나 갑옷이나 방패의 장갑은 영구적으로 1 낮아집니다 (플레이어가 선택). 장갑이 0이 되면 그 갑옷이나 방패는 파괴됩니다.</p>",
+			"requiresMove": "방어의 요령"
 		},
 		"Bend Bars, Lift Gates": {
 			"name": "창살을 굽히고 문을 들어올린다",
@@ -35,7 +37,8 @@
 		},
 		"Bloodthirsty": {
 			"name": "살기등등",
-			"description": "<p><em>대체: 무자비</em></p><p>피해를 줄 때 +1d8이 더해집니다.</p>"
+			"description": "<p><em>대체: 무자비</em></p><p>피해를 줄 때 +1d8이 더해집니다.</p>",
+			"requiresMove": "무자비"
 		},
 		"Evil Eye": {
 			"name": "압도적인 시선",
@@ -43,7 +46,8 @@
 			"failure": "<p>적들이 이쪽을 가장 위험한 존재로 인식합니다.</p>",
 			"partial": "<p>예비 1점을 받습니다.</p>",
 			"success": "<p>예비 2점을 받습니다.</p>",
-			"choices": "<p>예비를 1점 소비하면 NPC 하나를 골라 시선을 접촉할 수 있습니다. 그 NPC는 얼어 붙거나 움츠러들어 전사가 시선을 뗄 때까지 움직이지 못합니다.</p>"
+			"choices": "<p>예비를 1점 소비하면 NPC 하나를 골라 시선을 접촉할 수 있습니다. 그 NPC는 얼어 붙거나 움츠러들어 전사가 시선을 뗄 때까지 움직이지 못합니다.</p>",
+			"requiresMove": "전사의 눈"
 		},
 		"Eye For Weaponry": {
 			"name": "무기 감정",
@@ -94,7 +98,8 @@
 		},
 		"Steel Hide": {
 			"name": "강철의 몸",
-			"description": "<p><em>대체: 무쇠의 몸</em></p><p>장갑 +2를 받습니다.</p>"
+			"description": "<p><em>대체: 무쇠의 몸</em></p><p>장갑 +2를 받습니다.</p>",
+			"requiresMove": "무쇠의 몸"
 		},
 		"Superior Warrior": {
 			"name": "전쟁의 화신",
@@ -102,7 +107,8 @@
 		},
 		"Taste Of Blood": {
 			"name": "피의 맛",
-			"description": "<p><em>대체: 피의 향기</em></p><p>접근전을 하면, 같은 상대에 대한 다음 번 공격은 피해에 +1d8이 붙습니다.</p>"
+			"description": "<p><em>대체: 피의 향기</em></p><p>접근전을 하면, 같은 상대에 대한 다음 번 공격은 피해에 +1d8이 붙습니다.</p>",
+			"requiresMove": "피의 향기"
 		},
 		"Through Death’s Eyes": {
 			"name": "죽음의 예감",

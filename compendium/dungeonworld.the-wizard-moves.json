@@ -6,12 +6,14 @@
 		"failure": "system.moveResults.failure.value",
 		"partial": "system.moveResults.partial.value",
 		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
+		"choices": "system.choices",
+		"requiresMove": "system.requiresMove"
 	},
 	"entries": {
 		"Arcane Armor": {
 			"name": "마력의 갑옷",
-			"description": "<p><em>대체: 마력의 방패</em></p><p>1레벨 이상의 주문을 하나 이상 준비한 상태이면 장갑에 +4를 받습니다.</p>"
+			"description": "<p><em>대체: 마력의 방패</em></p><p>1레벨 이상의 주문을 하나 이상 준비한 상태이면 장갑에 +4를 받습니다.</p>",
+			"requiresMove": "마력의 방패"
 		},
 		"Arcane Ward": {
 			"name": "마력의 방패",
@@ -43,7 +45,8 @@
 		},
 		"Enchanter's Soul": {
 			"name": "물품 강화",
-			"description": "<p><em>필요: 물품 분석</em></p><p>힘이 서린 장소에 있을 때, 안전한 상황에서 시간을 들여 마법 물품에 힘을 불어 넣으면 다음 번에 사용할 때 효과가 증폭됩니다. 어떻게 증폭될지는 마스터가 설명할 것입니다.</p>"
+			"description": "<p><em>필요: 물품 분석</em></p><p>힘이 서린 장소에 있을 때, 안전한 상황에서 시간을 들여 마법 물품에 힘을 불어 넣으면 다음 번에 사용할 때 효과가 증폭됩니다. 어떻게 증폭될지는 마스터가 설명할 것입니다.</p>",
+			"requiresMove": "물품 분석"
 		},
 		"Ethereal Tether": {
 			"name": "에테르의 끈",
@@ -59,11 +62,13 @@
 		},
 		"Greater Empowered Magic": {
 			"name": "상급 주문 강화",
-			"description": "<p><em>필요: 주문 강화</em></p><p>주문을 시전할 때, 12가 나오면 부작용을 고르지 않고 주문 강화의 효과를 하나 선택합니다.</p>"
+			"description": "<p><em>필요: 주문 강화</em></p><p>주문을 시전할 때, 12가 나오면 부작용을 고르지 않고 주문 강화의 효과를 하나 선택합니다.</p>",
+			"requiresMove": "주문 강화"
 		},
 		"Highly Logical": {
 			"name": "매우 논리적",
-			"description": "<p><em>대체: 논리적</em></p><p>엄정한 추리를 통해 주변을 분석하면, 상황 파악을 +혜 대신 +지로 할 수 있습니다. 12+이면 목록에 구애 받지 않고 아무 질문이나 세 가지를 할 수 있습니다.</p>"
+			"description": "<p><em>대체: 논리적</em></p><p>엄정한 추리를 통해 주변을 분석하면, 상황 파악을 +혜 대신 +지로 할 수 있습니다. 12+이면 목록에 구애 받지 않고 아무 질문이나 세 가지를 할 수 있습니다.</p>",
+			"requiresMove": "논리적"
 		},
 		"Know-It-All": {
 			"name": "만물박사",
@@ -75,7 +80,8 @@
 		},
 		"Master": {
 			"name": "대가",
-			"description": "<p><em>필요: 천재</em></p><p>천재로 고르지 않은 주문을 하나 고르십시오. 그 주문은 마치 1레벨 낮은 것처럼 다룹니다. 이로써 0레벨이 된 주문은 간편주문으로 간주합니다.</p>"
+			"description": "<p><em>필요: 천재</em></p><p>천재로 고르지 않은 주문을 하나 고르십시오. 그 주문은 마치 1레벨 낮은 것처럼 다룹니다. 이로써 0레벨이 된 주문은 간편주문으로 간주합니다.</p>",
+			"requiresMove": "천재"
 		},
 		"Mystical Puppet Strings": {
 			"name": "꼭두각시",
@@ -91,7 +97,8 @@
 		},
 		"Protective Counter": {
 			"name": "마법 차폐",
-			"description": "<p><em>필요: 주문 차단</em></p><p>자기 시야 내에 있는 우리 편이 주문에 영향을 받으려 할 때, 마치 자기에게 그 주문이 닥친 것처럼 주문을 차단할 수 있습니다. 절차는 주문 차단과 같습니다. 주문이 둘 이상에 대해 영향을 주는 경우 대상마다 따로 차단을 해야 합니다. 마법사나 음유시인의 세속적인 마법에 대해서만 사용할 수 있으며, 신성 마법 계통의 주문에는 통하지 않습니다.</p>"
+			"description": "<p><em>필요: 주문 차단</em></p><p>자기 시야 내에 있는 우리 편이 주문에 영향을 받으려 할 때, 마치 자기에게 그 주문이 닥친 것처럼 주문을 차단할 수 있습니다. 절차는 주문 차단과 같습니다. 주문이 둘 이상에 대해 영향을 주는 경우 대상마다 따로 차단을 해야 합니다. 마법사나 음유시인의 세속적인 마법에 대해서만 사용할 수 있으며, 신성 마법 계통의 주문에는 통하지 않습니다.</p>",
+			"requiresMove": "주문 차단"
 		},
 		"Quick Study": {
 			"name": "주문 추리",

@@ -6,7 +6,8 @@
 		"failure": "system.moveResults.failure.value",
 		"partial": "system.moveResults.partial.value",
 		"success": "system.moveResults.success.value",
-		"choices": "system.choices"
+		"choices": "system.choices",
+		"requiresMove": "system.requiresMove"
 	},
 	"entries": {
 		"Balance": {
@@ -19,7 +20,8 @@
 		},
 		"Blood and Thunder": {
 			"name": "피와 천둥",
-			"description": "<p><em>대체: 피 묻은 이빨과 발톱</em></p><p>위험한 동물로 변신한 상태에서 가하는 피해가 d10이 됩니다.</p>"
+			"description": "<p><em>대체: 피 묻은 이빨과 발톱</em></p><p>위험한 동물로 변신한 상태에서 가하는 피해가 d10이 됩니다.</p>",
+			"requiresMove": "피 묻은 이빨과 발톱"
 		},
 		"Born of the Soil": {
 			"name": "대지의 아들/딸",
@@ -66,7 +68,8 @@
 		},
 		"Formshaper": {
 			"name": "변신의 달인",
-			"description": "<p><em>필요: 변신의 명수</em></p><p>동물 형태일 때 장갑을 1 높이거나 +1d4의 피해를 더 줄 수 있습니다. 어느 쪽인지는 변신을 할 때 선택하십시오.</p>"
+			"description": "<p><em>필요: 변신의 명수</em></p><p>동물 형태일 때 장갑을 1 높이거나 +1d4의 피해를 더 줄 수 있습니다. 어느 쪽인지는 변신을 할 때 선택하십시오.</p>",
+			"requiresMove": "변신의 명수"
 		},
 		"Hunter's Brother": {
 			"name": "사냥꾼의 형제",
@@ -113,7 +116,8 @@
 		},
 		"World-talker": {
 			"name": "만물과의 대화",
-			"description": "<p><em>필요: 목석과의 대화</em></p><p>세계라는 직물을 이루는 실들의 조화를 볼 수 있게 됩니다. 이제 신령어, 변신, 본질의 연구를 불, 물, 바람, 흙과 같은 순수한 원소에 대해서도 쓸 수 있습니다.</p>"
+			"description": "<p><em>필요: 목석과의 대화</em></p><p>세계라는 직물을 이루는 실들의 조화를 볼 수 있게 됩니다. 이제 신령어, 변신, 본질의 연구를 불, 물, 바람, 흙과 같은 순수한 원소에 대해서도 쓸 수 있습니다.</p>",
+			"requiresMove": "목석과의 대화"
 		}
 	}
 }
