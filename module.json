@@ -4,7 +4,6 @@
   "description": "던전월드(Dungeon World) 한글화 모듈",
   "version": "#{VERSION}#",
   "library": "false",
-  "manifestPlusVersion": "1.2.0",
   "compatibility": {
     "minimum": 12,
     "verified": 14,
